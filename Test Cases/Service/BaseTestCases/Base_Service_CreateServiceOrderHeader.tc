@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Service_CreateServiceOrderHeader</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85247ad9-2f3b-4b10-af5a-51a32a724a79</testCaseGuid>
+</TestCaseEntity>

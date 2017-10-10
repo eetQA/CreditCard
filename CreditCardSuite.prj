@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>This suite executes Automation Test cases for Credit Card Functionality.</description>
+   <name>CreditCardSuite</name>
+   <tag></tag>
+   <UUID>efc405ef-ae92-4768-a717-81c873202a5f</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
