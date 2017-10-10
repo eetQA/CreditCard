@@ -19,7 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_CreateHeader_WithBP'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithBP'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 

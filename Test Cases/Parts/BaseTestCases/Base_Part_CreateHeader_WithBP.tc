@@ -12,7 +12,7 @@ Steps:
 4. Save
 5. Get Sale Order Number and save to G_PSO
 </description>
-   <name>PSO_CreateHeader_WithBP</name>
+   <name>Base_Part_CreateHeader_WithBP</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1d3fc001-bb3a-46fd-8a4c-02c27746ebe4</testCaseGuid>

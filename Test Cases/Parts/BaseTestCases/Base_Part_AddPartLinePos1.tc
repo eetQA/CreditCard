@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>PSO_AddPartLinePos1</name>
+   <name>Base_Part_AddPartLinePos1</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>06ffa329-82ed-4d7b-b2ee-58a0cc2e7ae1</testCaseGuid>

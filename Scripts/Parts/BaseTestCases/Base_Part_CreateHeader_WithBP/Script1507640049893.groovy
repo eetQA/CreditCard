@@ -20,21 +20,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('CommonTestCase/OpenSession'), [('SessionID') : 'tdsls4500m002'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdsls4500m002'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage2/Page_Infor LN UI (1)/btn_tdsls4500m001_new'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton'))
 
-WebUI.setText(findTestObject('tdtre4101m002/btn_tdtre4101m002_Customer'), BP)
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), BP)
 
-WebUI.sendKeys(findTestObject('tdtre4101m002/btn_tdtre4101m002_Customer'), Keys.chord(Keys.TAB))
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(Keys.TAB))
 
-WebUI.click(findTestObject('tdtre4101m002/btn_tdtre4101m002_save1'))
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 
-WebUI.dragAndDropByOffset(findTestObject('tdtre4101m002/scroll_tdtre4101m002'), 0, -100)
+WebUI.dragAndDropByOffset(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller'), 0, -100)
 
 WebUI.delay(5)
 
-GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('tdtre4101m002/field_tdtre4101m002_OrderNumber'), 'value')
+GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo'), 
+    'value')
 
 println('sale order number' + GlobalVariable.G_Part_PSO)
 

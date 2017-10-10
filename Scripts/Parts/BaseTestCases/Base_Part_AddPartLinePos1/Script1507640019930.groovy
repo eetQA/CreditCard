@@ -22,17 +22,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart'))
 
-WebUI.setText(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
+WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'), 10)
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
 
-WebUI.click(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'))
+WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'), 10)
 
-WebUI.setText(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'), Qty)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'))
+
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'), Qty)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_firmPrice'), 10)
 
