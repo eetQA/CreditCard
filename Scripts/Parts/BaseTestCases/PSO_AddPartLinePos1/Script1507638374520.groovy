@@ -18,8 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_CreateHeader_WithBP'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart'))
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
+
+WebUI.scrollToElement(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'), 10)
+
+WebUI.click(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'))
+
+WebUI.setText(findTestObject('Parts/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'), Qty)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
+
+WebUI.delay(10)
+
+WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_firmPrice'), 10)
+
+not_run: GlobalVariable.G_Part_FirmPrice = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/firmPrice'))) as float)
+
+not_run: Qty1 = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/input_tdtre4101s002-Qty'))) as float)
+
+not_run: GlobalVariable.G_OrderLineAmt = (GlobalVariable.G_FirmPrice * Qty1)
+
+not_run: println('GlobalVariable.G_FirmPrice' + GlobalVariable.G_FirmPrice)
+
+not_run: println('GlobalVariable.G_OrderLineAmt' + GlobalVariable.G_OrderLineAmt)
 

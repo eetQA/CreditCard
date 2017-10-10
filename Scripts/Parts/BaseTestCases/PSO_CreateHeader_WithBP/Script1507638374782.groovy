@@ -18,8 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_CreateHeader_WithBP'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CommonTestCase/OpenSession'), [('SessionID') : 'tdsls4500m002'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('HomePage2/Page_Infor LN UI (1)/btn_tdsls4500m001_new'))
+
+WebUI.setText(findTestObject('tdtre4101m002/btn_tdtre4101m002_Customer'), BP)
+
+WebUI.sendKeys(findTestObject('tdtre4101m002/btn_tdtre4101m002_Customer'), Keys.chord(Keys.TAB))
+
+WebUI.click(findTestObject('tdtre4101m002/btn_tdtre4101m002_save1'))
+
+WebUI.dragAndDropByOffset(findTestObject('tdtre4101m002/scroll_tdtre4101m002'), 0, -100)
+
+WebUI.delay(5)
+
+GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('tdtre4101m002/field_tdtre4101m002_OrderNumber'), 'value')
+
+println('sale order number' + GlobalVariable.G_Part_PSO)
 

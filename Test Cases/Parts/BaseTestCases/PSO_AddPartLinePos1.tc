@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PSO_AddPartLinePos1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06ffa329-82ed-4d7b-b2ee-58a0cc2e7ae1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4a876f9c-7fa9-4b2f-90e6-86dcdef19b7f</id>
+      <masked>false</masked>
+      <name>PartName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fea7fa4c-b1cf-4ec6-b827-eb0e997c1a46</id>
+      <masked>false</masked>
+      <name>Qty</name>
+   </variable>
+</TestCaseEntity>

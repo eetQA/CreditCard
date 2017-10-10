@@ -18,8 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_CreateHeader_WithBP'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.openBrowser('https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login')
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/PSO_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForPageLoad(20)
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Common/HomePage/HomePage_more'))
+
+WebUI.click(findTestObject('Common/HomePage/HomePage_Option'))
+
+WebUI.click(findTestObject('Common/HomePage/HomePage_RunProgram_'))
+
+WebUI.sendKeys(findTestObject('Common/HomePage/HomePage_Session_ID'), SessionID)
+
+WebUI.click(findTestObject('Common/HomePage/HomePage_OkButton'))
 

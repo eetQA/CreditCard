@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create Part Sales Order Header
+
+Input: Business Partner (BP)
+Output: Part Sales Order (G_ PSO)
+
+Steps:
+1. open Browser
+2. Open PSO session
+3. Add BP
+4. Save
+5. Get Sale Order Number and save to G_PSO
+</description>
+   <name>PSO_CreateHeader_WithBP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d3fc001-bb3a-46fd-8a4c-02c27746ebe4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>33969afb-069d-4d6e-aa97-781a8524539e</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+</TestCaseEntity>
