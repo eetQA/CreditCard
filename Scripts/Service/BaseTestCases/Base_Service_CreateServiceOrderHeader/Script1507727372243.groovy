@@ -52,7 +52,5 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments'))
 
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments'), Keys.chord(Keys.TAB))
-
 WebUI.delay(3)
 

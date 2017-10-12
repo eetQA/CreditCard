@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tssoc2110m002-1-tssoc210.cstp-38-lookup-trigger-button</value>
+      <value>tssoc2110m002-1-tssoc210.cstp-38-lookup-widget</value>
    </webElementProperties>
 </WebElementEntity>
