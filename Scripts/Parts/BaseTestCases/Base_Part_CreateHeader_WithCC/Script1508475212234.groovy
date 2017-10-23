@@ -18,11 +18,34 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : 'BP0002292'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdsls4500m002'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], 
-    FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton'))
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPack'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), BP)
+
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(Keys.TAB))
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
+
+WebUI.dragAndDropByOffset(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller'), 0, -100)
+
+WebUI.delay(5)
+
+GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo'), 
+    'value')
+
+println('sale order number' + GlobalVariable.G_Part_PSO)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment'))
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption'))
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 
