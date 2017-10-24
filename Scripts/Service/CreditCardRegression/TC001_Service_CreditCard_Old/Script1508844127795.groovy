@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateServiceOrderSegment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment_Old'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(5)
 

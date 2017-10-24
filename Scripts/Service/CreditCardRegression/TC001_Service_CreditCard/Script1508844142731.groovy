@@ -18,37 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tfacr2520m000'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateHeader'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), 'ARI')
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('null'), '10000424')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), 'M00000010 (ARI/10000424)')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

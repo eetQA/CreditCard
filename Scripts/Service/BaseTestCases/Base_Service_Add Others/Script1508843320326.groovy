@@ -19,17 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Service/CreditCardRegression/TC001_Service_CreditCard'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession'))
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew'))
 
-WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton'))
+WebUI.delay(5)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'))
 
-InvoiceTnxType = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1'))
+WebUI.delay(2)
 
-InvoiceTnxNo = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2'))
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'), 'APP')
+
+WebUI.delay(5)
+
+WebUI.scrollToElement(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'), 5)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'))
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'), '2')
+
+WebUI.delay(5)
+
+not_run: WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersSave '))
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose'))
 

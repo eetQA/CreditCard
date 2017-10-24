@@ -28,7 +28,8 @@ WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrder
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), BP)
 
-WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(Keys.TAB))
+not_run: WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(
+        Keys.TAB))
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 

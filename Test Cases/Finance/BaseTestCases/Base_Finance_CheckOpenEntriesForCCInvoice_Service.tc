@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001_Service_CreditCard</name>
+   <name>Base_Finance_CheckOpenEntriesForCCInvoice_Service</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>10ad1793-0efd-4fc6-9142-7c4036f9a990</testCaseGuid>
+   <testCaseGuid>e530b6de-a11a-4b15-92de-950eb96d34d8</testCaseGuid>
 </TestCaseEntity>

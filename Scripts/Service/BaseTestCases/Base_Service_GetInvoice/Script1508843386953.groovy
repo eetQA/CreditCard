@@ -18,37 +18,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tfacr2520m000'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton'))
 
-WebUI.setText(findTestObject('null'), 'ARI')
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('null'), '10000424')
+InvoiceTnxType = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1'))
 
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), 'M00000010 (ARI/10000424)')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
+InvoiceTnxNo = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2'))
 

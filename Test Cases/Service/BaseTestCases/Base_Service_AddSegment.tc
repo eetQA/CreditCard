@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC001_Service_CreditCard</name>
+   <name>Base_Service_AddSegment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>10ad1793-0efd-4fc6-9142-7c4036f9a990</testCaseGuid>
+   <testCaseGuid>c62082ee-d095-49fa-9ac9-10d46837ddd0</testCaseGuid>
 </TestCaseEntity>

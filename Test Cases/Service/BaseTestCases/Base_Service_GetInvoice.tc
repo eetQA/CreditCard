@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC002_Service_CreditCard_Verify Invoice</name>
+   <name>Base_Service_GetInvoice</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6762b66b-cf31-49ae-8cf2-3ffabc03d2d4</testCaseGuid>
+   <testCaseGuid>d76440de-65ec-4320-9f43-04945a99f68d</testCaseGuid>
 </TestCaseEntity>
