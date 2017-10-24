@@ -26,17 +26,29 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrder
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), 'A00000210')
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), 'M00000182')
 
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), Keys.chord(Keys.TAB))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), 'MD0013826')
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), 'MD0007993')
 
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save'))
 
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode'))
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
+
+not_run: WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CCNo'), '6035180003002215')
+
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save'))
 
 WebUI.delay(5)
 

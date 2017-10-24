@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ServiceOrderSegment.Save</name>
+   <name>ServiceOrderSegment.OthersNew</name>
    <tag></tag>
-   <elementGuidId>6b049605-b509-4278-9437-75c19fb98194</elementGuidId>
+   <elementGuidId>ea7a9ddf-81cd-416a-9794-e9bbd9d5a5fe</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tssoc2110m002-1-button-std-file.save</value>
+      <value>tssoc2140m001-2-button-std-file.new</value>
    </webElementProperties>
 </WebElementEntity>

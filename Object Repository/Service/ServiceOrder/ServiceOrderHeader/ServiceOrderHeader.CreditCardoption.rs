@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ServiceOrderSegment.Save</name>
+   <name>ServiceOrderHeader.CreditCardoption</name>
    <tag></tag>
-   <elementGuidId>6b049605-b509-4278-9437-75c19fb98194</elementGuidId>
+   <elementGuidId>c384f1df-48b0-4cac-a1ab-707c34eec1e5</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tssoc2110m002-1-button-std-file.save</value>
+      <value>item_1</value>
    </webElementProperties>
 </WebElementEntity>
