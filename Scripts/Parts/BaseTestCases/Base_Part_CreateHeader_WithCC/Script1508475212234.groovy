@@ -20,32 +20,34 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart'))
+WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdsls4500m002'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton'))
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'), PartName)
+WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), 30)
 
-WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'), 10)
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), BP)
 
-WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity'))
-
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'), Qty)
+WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(Keys.TAB))
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 
-WebUI.delay(10)
+WebUI.dragAndDropByOffset(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller'), 0, -100)
 
-not_run: WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_firmPrice'), 
-    10)
+WebUI.delay(5)
 
-not_run: GlobalVariable.G_Part_FirmPrice = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/firmPrice'))) as float)
+GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo'), 
+    'value')
 
-not_run: Qty1 = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/input_tdtre4101s002-Qty'))) as float)
+println('sale order number' + GlobalVariable.G_Part_PSO)
 
-not_run: GlobalVariable.G_OrderLineAmt = (GlobalVariable.G_FirmPrice * Qty1)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab'))
 
-not_run: println('GlobalVariable.G_FirmPrice' + GlobalVariable.G_FirmPrice)
+WebUI.delay(2)
 
-not_run: println('GlobalVariable.G_OrderLineAmt' + GlobalVariable.G_OrderLineAmt)
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment'))
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption'))
+
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 

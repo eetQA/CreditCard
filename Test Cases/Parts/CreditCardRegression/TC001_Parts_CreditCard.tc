@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e608d015-4525-41f4-a9c2-65bc59cda840</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cccad6d6-27c1-4047-a5dd-caf04050cdb5</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>da466519-bf52-4e4c-982e-9c5a8d397b69</id>
+      <masked>false</masked>
+      <name>PartName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25ae324a-02a3-4f71-aa81-7e2ceeb66a41</id>
+      <masked>false</masked>
+      <name>variable_0</name>
+   </variable>
 </TestCaseEntity>
