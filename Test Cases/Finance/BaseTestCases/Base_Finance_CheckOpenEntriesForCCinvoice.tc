@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Base_OpenEntries</name>
+   <name>Base_Finance_CheckOpenEntriesForCCinvoice</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>bdebfbbf-02b0-4ec8-a6ae-a8e1ea2086ca</testCaseGuid>
+   <testCaseGuid>af9f758f-b1b2-41f6-808f-cda7bc1b4272</testCaseGuid>
 </TestCaseEntity>

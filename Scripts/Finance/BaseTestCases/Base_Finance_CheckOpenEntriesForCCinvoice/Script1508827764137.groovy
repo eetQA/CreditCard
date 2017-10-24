@@ -18,4 +18,37 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tfacr2520m000'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Finance/BaseTestCases/Finance_OpenEntriesAction'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_FullyPaidOption'))
+
+WebUI.setText(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_InvoiceNumber1'), 'ARI')
+
+WebUI.setText(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_InvoiceNumber2'), '10000424')
+
+WebUI.click(findTestObject('Finance/BaseTestCases/div'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_Balance'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/div'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/label_0.00'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/div'))
+
+WebUI.setText(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_InvoiceNumber1'), '')
+
+WebUI.setText(findTestObject('Finance/BaseTestCases/Finance_OpenEntries_InvoiceNumber2'), '')
+
+WebUI.setText(findTestObject('Finance/BaseTestCases/input_tfacr2520m000-0-grid-1-t (2)'), 'M00000010 (ARI/10000424)')
+
+WebUI.click(findTestObject('Finance/BaseTestCases/div'))
+
+WebUI.click(findTestObject('Finance/BaseTestCases/label_80.00'))
+
+WebUI.closeBrowser()
 
