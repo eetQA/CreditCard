@@ -10,4 +10,37 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>dd630476-1e14-46b9-aa46-7d929eb3bb05</testSuiteGuid>
+   <testCaseLink>
+      <guid>0ee9528d-e40f-41e8-9b5d-d7c4905b1647</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>f23a2ac9-a05f-4614-9589-1f68d94910e7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PartsData/CCData</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f23a2ac9-a05f-4614-9589-1f68d94910e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>cccad6d6-27c1-4047-a5dd-caf04050cdb5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f23a2ac9-a05f-4614-9589-1f68d94910e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Part</value>
+         <variableId>da466519-bf52-4e4c-982e-9c5a8d397b69</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f23a2ac9-a05f-4614-9589-1f68d94910e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qty</value>
+         <variableId>25ae324a-02a3-4f71-aa81-7e2ceeb66a41</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

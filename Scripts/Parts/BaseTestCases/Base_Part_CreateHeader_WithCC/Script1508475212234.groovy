@@ -24,6 +24,8 @@ WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID'
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton'))
 
+WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), 30)
+
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), BP)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(Keys.TAB))
