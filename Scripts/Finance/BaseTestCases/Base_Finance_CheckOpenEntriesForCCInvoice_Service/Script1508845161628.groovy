@@ -26,19 +26,33 @@ WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntrie
 
 WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'))
 
-WebUI.setText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'), 'SSI')
+WebUI.setText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'), GlobalVariable.G_InvoiceTnxType)
 
-WebUI.setText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'), '10006720')
+not_run: WebUI.sendKeys(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'), Keys.chord(
+        Keys.TAB))
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
+
+WebUI.setText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'), GlobalVariable.G_InvoiceTnxNo)
+
+not_run: WebUI.delay(3)
+
+not_run: WebUI.sendKeys(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'), Keys.chord(Keys.TAB))
 
 WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_Action'))
 
 WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.FullyPaid'))
 
-WebUI.scrollToElement(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt'), 0)
+WebUI.delay(5)
 
-InvoiceAmount = WebUI.getText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt'))
+WebUI.scrollToElement(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt'), 5)
+
+WebUI.delay(5)
+
+BalanceAmount = WebUI.getText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt'))
+
+'First Condition>ZERO Amount'
+WebUI.verifyEqual(BalanceAmount, '0.00')
 
 WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'))
 
@@ -52,13 +66,17 @@ WebUI.sendKeys(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEnt
 
 WebUI.setText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'), 'M00000182 (SIS/10006720)')
 
+WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'), FailureHandling.CONTINUE_ON_FAILURE)
+
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt'), 0)
+WebUI.scrollToElement(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt'), 5)
 
 BalanceAmount = WebUI.getText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt'))
 
-WebUI.verifyEqual(0, 0)
+InvoiceAmount = WebUI.getText(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt'))
 
-WebUI.closeBrowser()
+WebUI.verifyEqual(BalanceAmount, InvoiceAmount)
+
+not_run: WebUI.closeBrowser()
 

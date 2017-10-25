@@ -12,4 +12,14 @@
       <initValue>''</initValue>
       <name>G_Part_FirmPrice</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_InvoiceTnxType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_InvoiceTnxNo</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

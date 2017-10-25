@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5cc80843-e5ce-46d6-973b-17e0c4407ac8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a6ce029-eb73-4c6b-bdec-15124ccc20d4</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>564c9783-b9ec-4feb-9f66-8d5274b8bd0f</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
 </TestCaseEntity>

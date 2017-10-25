@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>75313fad-f71a-4759-8c6e-59a8db2aef6b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6553563e-1a8b-4ea6-a86c-84e6e1aaeef6</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>82495eae-d474-4619-9615-1a6ec85a9ab9</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b339c04f-c616-4f13-b898-a6b17ea9a67c</id>
+      <masked>false</masked>
+      <name>PaymentGate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88f69b42-6508-468f-815e-f1a735f2ebda</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
 </TestCaseEntity>

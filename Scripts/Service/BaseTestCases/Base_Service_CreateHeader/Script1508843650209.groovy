@@ -26,13 +26,13 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrder
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), 'M00000182')
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), BP)
 
 WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'), Keys.chord(Keys.TAB))
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), 'MD0007993')
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'), Unit)
 
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save'))
 
