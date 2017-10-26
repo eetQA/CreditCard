@@ -30,5 +30,5 @@ WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoic
 
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice_Service'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 

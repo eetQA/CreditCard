@@ -10,26 +10,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
-      <name>G_Part_InvoiceAmt</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>G_Part_Invoice1</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>G_Part_Invoice2</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>G_InvoiceTnxType</name>
+      <name>G_InvoiceAmt</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
       <name>G_InvoiceTnxNo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_InvoiceTnxType</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

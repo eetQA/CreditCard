@@ -29,3 +29,5 @@ WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoice'
 
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_GetInvoiceDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
+

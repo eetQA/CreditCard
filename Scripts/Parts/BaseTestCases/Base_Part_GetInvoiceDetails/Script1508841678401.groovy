@@ -47,9 +47,9 @@ WebUI.delay(3)
 
 WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_OrderNo'), 'value')
 
-GlobalVariable.G_Part_Invoice1 = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_invoice1'), 'value')
+GlobalVariable.G_InvoiceTnxType = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_invoice1'), 'value')
 
-GlobalVariable.G_Part_Invoice1 = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_invoice2'), 'value')
+GlobalVariable.G_InvoiceTnxNo = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_invoice2'), 'value')
 
-GlobalVariable.G_Part_InvoiceAmt = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_amount'), 'value')
+GlobalVariable.G_InvoiceAmt = WebUI.getAttribute(findTestObject('Parts/cisli245/cisli245_amount'), 'value')
 
