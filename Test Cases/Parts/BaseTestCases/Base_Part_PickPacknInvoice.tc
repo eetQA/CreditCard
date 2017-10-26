@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Part_PickPacknInvoice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf32453a-830b-4d88-b593-c3d350c66221</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8686fc7e-b383-41e8-91d4-c0c4a85fbd32</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f837710-d211-48d0-b6e4-8ac213c87bb6</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4e93f07b-7ef0-47c8-999b-9566560051ac</id>
+      <masked>false</masked>
+      <name>CardNumber</name>
+   </variable>
+</TestCaseEntity>

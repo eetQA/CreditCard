@@ -24,6 +24,27 @@
       <description></description>
       <id>25ae324a-02a3-4f71-aa81-7e2ceeb66a41</id>
       <masked>false</masked>
-      <name>variable_0</name>
+      <name>Qty</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a29c821b-8279-407a-bc3e-e90cc654ce18</id>
+      <masked>false</masked>
+      <name>GateWay</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8379e6fc-c03a-4487-bcf8-298712c28187</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1486215b-7464-4983-af35-1eaf066bf27e</id>
+      <masked>false</masked>
+      <name>CardNumber</name>
    </variable>
 </TestCaseEntity>

@@ -39,7 +39,7 @@ WebUI.delay(10)
 not_run: WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_firmPrice'), 
     10)
 
-not_run: GlobalVariable.G_Part_FirmPrice = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/firmPrice'))) as float)
+not_run: GlobalVariable.G_Part_InvoiceAmt = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/firmPrice'))) as float)
 
 not_run: Qty1 = ((WebUI.getText(findTestObject('tdtre4101m002/Line1/input_tdtre4101s002-Qty'))) as float)
 

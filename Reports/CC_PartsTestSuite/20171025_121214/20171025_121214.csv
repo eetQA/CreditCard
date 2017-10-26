@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_PartsTestSuite,Firefox 43.0,,2017-10-25 12:12:21,2017-10-25 12:19:58,7m - 37.272s,FAILED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1,Firefox 43.0,,2017-10-25 12:12:22,2017-10-25 12:14:40,2m - 18.782s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:12:22,2017-10-25 12:13:01,38.652s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:13:01,2017-10-25 12:13:29,27.635s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:13:29,2017-10-25 12:14:05,36.732s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:14:05,2017-10-25 12:14:40,34.943s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 2,Firefox 43.0,,2017-10-25 12:14:40,2017-10-25 12:16:43,2m - 2.837s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:14:40,2017-10-25 12:15:17,36.588s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:15:17,2017-10-25 12:15:44,27.291s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:15:44,2017-10-25 12:16:21,36.852s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:16:21,2017-10-25 12:16:43,22.062s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 3,Firefox 43.0,,2017-10-25 12:16:43,2017-10-25 12:19:58,3m - 14.481s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:16:43,2017-10-25 12:17:21,37.885s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:17:21,2017-10-25 12:17:49,27.402s,PASSED
+callTestCase,Firefox 43.0,,2017-10-25 12:17:49,2017-10-25 12:19:35,1m - 46.210s,FAILED
+callTestCase,Firefox 43.0,,2017-10-25 12:19:35,2017-10-25 12:19:58,22.956s,PASSED
