@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Finance_CheckOpenEntriesForCCInvoice_Service</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e530b6de-a11a-4b15-92de-950eb96d34d8</testCaseGuid>
+</TestCaseEntity>

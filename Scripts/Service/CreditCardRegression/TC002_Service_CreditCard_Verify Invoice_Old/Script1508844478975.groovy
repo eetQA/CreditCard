@@ -18,40 +18,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-=======
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tfacr2520m000'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/CreditCardRegression/TC001_Service_CreditCard_Old'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession'))
 
-WebUI.setText(findTestObject('null'), 'ARI')
+WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton'))
 
-WebUI.setText(findTestObject('null'), '10000424')
+WebUI.delay(3)
 
-WebUI.click(findTestObject('null'))
+InvoiceTnxType = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1'))
 
-WebUI.click(findTestObject('null'))
+InvoiceTnxNo = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2'))
 
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), '')
-
-WebUI.setText(findTestObject('null'), 'M00000010 (ARI/10000424)')
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.closeBrowser()
-
->>>>>>> branch 'master' of https://github.com/eetQA/CreditCard.git

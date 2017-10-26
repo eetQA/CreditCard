@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001_Service_CreditCard_Old</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83277b13-f0e4-440b-becf-fa9390c9fd7b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>647a3f44-0f87-492b-b525-2e1724954ea8</id>
+      <masked>false</masked>
+      <name>PAYMENTGATE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29c447c3-2b6b-46e5-b5ec-2b45cd66a360</id>
+      <masked>false</masked>
+      <name>CARDTYPE</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c240fd7-c744-4ba9-8ec8-ab643b77549f</id>
+      <masked>false</masked>
+      <name>CARDNO</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a52dbf7-5877-4d07-aec7-60dafb70098c</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+</TestCaseEntity>

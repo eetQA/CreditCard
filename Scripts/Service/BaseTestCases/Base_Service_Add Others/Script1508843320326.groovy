@@ -18,40 +18,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-<<<<<<< HEAD
-=======
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tfacr2520m000'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others'))
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(10)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew'))
 
-WebUI.setText(findTestObject('null'), 'ARI')
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('null'), '10000424')
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'))
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'), 'APP')
 
-WebUI.click(findTestObject('null'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('null'))
+WebUI.scrollToElement(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'), 5)
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'))
 
-WebUI.setText(findTestObject('null'), '')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('null'), '')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'), '2')
 
-WebUI.setText(findTestObject('null'), 'M00000010 (ARI/10000424)')
+WebUI.delay(5)
 
-WebUI.click(findTestObject('null'))
+not_run: WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersSave '))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose'))
 
-WebUI.closeBrowser()
+WebUI.delay(5)
 
->>>>>>> branch 'master' of https://github.com/eetQA/CreditCard.git
+WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose'))
+

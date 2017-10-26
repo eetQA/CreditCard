@@ -4,5 +4,47 @@
    <name>TC001_Service_CreditCard</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>83277b13-f0e4-440b-becf-fa9390c9fd7b</testCaseGuid>
+   <testCaseGuid>10ad1793-0efd-4fc6-9142-7c4036f9a990</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f8d7ce7-90c6-4ebe-bde7-b1b8f59b2c4a</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>decd382a-d108-490e-9830-96381d249f1a</id>
+      <masked>false</masked>
+      <name>Unit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d20d147d-7d78-435e-afbe-652b87c739eb</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e80f74d-b7ae-4819-8e00-3630ea539496</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6cabeb7e-8be9-4288-bc1c-1ee6813062ec</id>
+      <masked>false</masked>
+      <name>CardType_TC1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>56010302-e404-4a0d-8e5e-d9d047c99665</id>
+      <masked>false</masked>
+      <name>PaymentGate_TC1</name>
+   </variable>
 </TestCaseEntity>
