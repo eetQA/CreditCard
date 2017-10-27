@@ -4,7 +4,7 @@
    <name>CC_PartsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-26T14:11:06</lastRun>
+   <lastRun>2017-10-27T17:49:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,7 +21,7 @@
          <id>dd529ca9-804e-496b-b345-a6d1440a552d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>2</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/PartsData/PartCCData</testDataId>
       </testDataLink>

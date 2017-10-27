@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_PartsTestSuite" time="162" tests="0" failures="0" errors="0">
+   <testsuite name="CC_PartsTestSuite" tests="0" failures="0" errors="0" time="162" timestamp="2017-10-27 11:57:34" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/CC_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\Katalon Studio\\CreditCardSuite\\Reports\\CC_PartsTestSuite\\20171027_115722"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\Katalon Studio\\CreditCardSuite\\Reports\\CC_PartsTestSuite\\20171027_115722\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" classname="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" status="INCOMPLETE">
+         <system-out><![CDATA[2017-10-27 11:57:35 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: null
+
+2017-10-27 11:57:38 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' failed)
+
+2017-10-27 11:57:39 - [TEST_CASE][FAILED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+"3.0","maxVersion":"47.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1509085740121	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1509085740138	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"SVfaP9V-de8B","location":"app-global","version":"43.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1504760073975,"updateDate":1504760073975,"applyBackgroundUpdates":1,"skinnable":true,"size":24172,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"43.0.1","maxVersion":"43.0.1"}],"targetPlatforms":[]}
+1509085740138	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1509085740140	addons.xpi	DEBUG	Updating XPIState for {"id":"fiddlerhook@fiddler2.com","syncGUID":"tq-6sqTTFDWh","location":"winreg-app-global","version":"2.6.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":"chrome://fiddlerhook/content/about.xul","iconURL":"chrome://fiddlerhook/content/fiddlerhook.png","icon64URL":null,"defaultLocale":{"name":"FiddlerHook","description":"Integrate Fiddler into Firefox","creator":"Telerik","homepageURL":"http://fiddler2.com/r/?FIDDLERHOOKHELP"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Fiddler2\\FiddlerHook","installDate":1445862964358,"updateDate":1445862964358,"applyBackgroundUpdates":1,"bootstrap":false,"size":33900,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"42.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1509085740141	DeferredSave.extensions.json	DEBUG	Save changes
+1509085740141	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1509085740141	addons.xpi-utils	DEBUG	Updating add-on states
+1509085740149	addons.xpi-utils	DEBUG	Writing add-ons list
+1509085740167	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1509085740168	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1509085740168	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1509085740169	addons.manager	DEBUG	Starting provider: GMPProvider
+1509085740233	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1509085740233	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1509085740233	addons.manager	DEBUG	Starting provider: PluginProvider
+1509085740234	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1509085740234	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1509085740234	addons.manager	DEBUG	Completed startup sequence
+1509085746862	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1509085746862	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1509085746863	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-10-27 11:57:40 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-10-27 11:57:40 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+"3.0","maxVersion":"47.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1509085740121	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1509085740138	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"SVfaP9V-de8B","location":"app-global","version":"43.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1504760073975,"updateDate":1504760073975,"applyBackgroundUpdates":1,"skinnable":true,"size":24172,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"43.0.1","maxVersion":"43.0.1"}],"targetPlatforms":[]}
+1509085740138	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1509085740140	addons.xpi	DEBUG	Updating XPIState for {"id":"fiddlerhook@fiddler2.com","syncGUID":"tq-6sqTTFDWh","location":"winreg-app-global","version":"2.6.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":"chrome://fiddlerhook/content/about.xul","iconURL":"chrome://fiddlerhook/content/fiddlerhook.png","icon64URL":null,"defaultLocale":{"name":"FiddlerHook","description":"Integrate Fiddler into Firefox","creator":"Telerik","homepageURL":"http://fiddler2.com/r/?FIDDLERHOOKHELP"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Fiddler2\\FiddlerHook","installDate":1445862964358,"updateDate":1445862964358,"applyBackgroundUpdates":1,"bootstrap":false,"size":33900,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"42.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1509085740141	DeferredSave.extensions.json	DEBUG	Save changes
+1509085740141	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1509085740141	addons.xpi-utils	DEBUG	Updating add-on states
+1509085740149	addons.xpi-utils	DEBUG	Writing add-ons list
+1509085740167	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1509085740168	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1509085740168	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1509085740169	addons.manager	DEBUG	Starting provider: GMPProvider
+1509085740233	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1509085740233	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1509085740233	addons.manager	DEBUG	Starting provider: PluginProvider
+1509085740234	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1509085740234	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1509085740234	addons.manager	DEBUG	Completed startup sequence
+1509085746862	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1509085746862	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1509085746863	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-10-27 11:57:41 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+"3.0","maxVersion":"47.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1509085740121	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1509085740138	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"SVfaP9V-de8B","location":"app-global","version":"43.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1504760073975,"updateDate":1504760073975,"applyBackgroundUpdates":1,"skinnable":true,"size":24172,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"43.0.1","maxVersion":"43.0.1"}],"targetPlatforms":[]}
+1509085740138	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1509085740140	addons.xpi	DEBUG	Updating XPIState for {"id":"fiddlerhook@fiddler2.com","syncGUID":"tq-6sqTTFDWh","location":"winreg-app-global","version":"2.6.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":"chrome://fiddlerhook/content/about.xul","iconURL":"chrome://fiddlerhook/content/fiddlerhook.png","icon64URL":null,"defaultLocale":{"name":"FiddlerHook","description":"Integrate Fiddler into Firefox","creator":"Telerik","homepageURL":"http://fiddler2.com/r/?FIDDLERHOOKHELP"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Fiddler2\\FiddlerHook","installDate":1445862964358,"updateDate":1445862964358,"applyBackgroundUpdates":1,"bootstrap":false,"size":33900,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"42.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1509085740141	DeferredSave.extensions.json	DEBUG	Save changes
+1509085740141	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1509085740141	addons.xpi-utils	DEBUG	Updating add-on states
+1509085740149	addons.xpi-utils	DEBUG	Writing add-ons list
+1509085740167	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1509085740168	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1509085740168	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1509085740169	addons.manager	DEBUG	Starting provider: GMPProvider
+1509085740233	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1509085740233	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1509085740233	addons.manager	DEBUG	Starting provider: PluginProvider
+1509085740234	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1509085740234	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1509085740234	addons.manager	DEBUG	Completed startup sequence
+1509085746862	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1509085746862	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1509085746863	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-10-27 11:59:37 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files (x86)\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+"3.0","maxVersion":"47.0"}],"targetPlatforms":[{"os":"Darwin","abi":null},{"os":"SunOS","abi":null},{"os":"FreeBSD","abi":null},{"os":"OpenBSD","abi":null},{"os":"WINNT","abi":null},{"os":"Linux","abi":null}],"multiprocessCompatible":false,"signedState":0}
+1509085740121	addons.xpi	DEBUG	getModTime: Recursive scan of fxdriver@googlecode.com
+1509085740138	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"SVfaP9V-de8B","location":"app-global","version":"43.0.1","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Mozilla Firefox\\browser\\extensions\\{972ce4c6-7e08-4474-a285-3208198ce6fd}","installDate":1504760073975,"updateDate":1504760073975,"applyBackgroundUpdates":1,"skinnable":true,"size":24172,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"43.0.1","maxVersion":"43.0.1"}],"targetPlatforms":[]}
+1509085740138	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+1509085740140	addons.xpi	DEBUG	Updating XPIState for {"id":"fiddlerhook@fiddler2.com","syncGUID":"tq-6sqTTFDWh","location":"winreg-app-global","version":"2.6.0.4","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":"chrome://fiddlerhook/content/about.xul","iconURL":"chrome://fiddlerhook/content/fiddlerhook.png","icon64URL":null,"defaultLocale":{"name":"FiddlerHook","description":"Integrate Fiddler into Firefox","creator":"Telerik","homepageURL":"http://fiddler2.com/r/?FIDDLERHOOKHELP"},"visible":true,"active":false,"userDisabled":true,"appDisabled":false,"descriptor":"C:\\Program Files (x86)\\Fiddler2\\FiddlerHook","installDate":1445862964358,"updateDate":1445862964358,"applyBackgroundUpdates":1,"bootstrap":false,"size":33900,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"4.0","maxVersion":"42.*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0}
+1509085740141	DeferredSave.extensions.json	DEBUG	Save changes
+1509085740141	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1509085740141	addons.xpi-utils	DEBUG	Updating add-on states
+1509085740149	addons.xpi-utils	DEBUG	Writing add-ons list
+1509085740167	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1509085740168	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1509085740168	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1509085740168	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1509085740169	addons.manager	DEBUG	Starting provider: GMPProvider
+1509085740233	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1509085740233	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1509085740233	addons.manager	DEBUG	Starting provider: PluginProvider
+1509085740234	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1509085740234	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1509085740234	addons.manager	DEBUG	Completed startup sequence
+1509085746862	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1509085746862	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1509085746863	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-10-27 11:59:37 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:37 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:37 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:37 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'tdsls4500m002' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:38 - [MESSAGE][FAILED] - Unable to send keys 'tdsls4500m002' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:38 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:38 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-10-27 11:59:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [TEST_STEP][FAILED] - waitForElementPresent: Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' to be present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' to be present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [TEST_STEP][FAILED] - setText: Unable to set text 'M00000010' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to set text 'M00000010' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-10-27 11:59:40 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-10-27 11:59:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [TEST_STEP][FAILED] - dragAndDropByOffset: Unable to drag and drop by offset distance (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:40 - [MESSAGE][FAILED] - Unable to drag and drop by offset distance (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-27 11:59:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-27 11:59:45 - [TEST_STEP][FAILED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Unable to get attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:45 - [MESSAGE][FAILED] - Unable to get attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:45 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-10-27 11:59:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-10-27 11:59:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-10-27 11:59:47 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:47 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:47 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:48 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' failed)
+
+2017-10-27 11:59:48 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' failed)
+
+2017-10-27 11:59:48 - [TEST_CASE][FAILED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1 FAILED because (of) Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-27 11:59:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-27 11:59:52 - [TEST_STEP][FAILED] - setText: Unable to set text 'KP3' of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:53 - [MESSAGE][FAILED] - Unable to set text 'KP3' of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:53 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [TEST_STEP][FAILED] - setText: Unable to set text '2' of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:53 - [MESSAGE][FAILED] - Unable to set text '2' of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 11:59:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 11:59:53 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-10-27 12:00:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-10-27 12:00:03 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-10-27 12:00:03 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-10-27 12:00:03 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' failed)
+
+2017-10-27 12:00:03 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-10-27 12:00:03 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoice: null
+
+2017-10-27 12:00:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 12:00:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-27 12:00:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-27 12:00:07 - [TEST_STEP][FAILED] - waitForElementClickable: Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' to be clickable (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 12:00:08 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' to be clickable (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 12:00:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-10-27 12:00:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-10-27 12:00:13 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-10-27 12:00:13 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-10-27 12:00:13 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true): Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 12:00:13 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is visible (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-10-27 12:00:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-10-27 12:00:16 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-10-27 12:00:16 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-10-27 12:00:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-10-27 12:00:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-10-27 12:00:16 - [TEST_STEP][INCOMPLETE] - delay: Delaying browser in 3 second(s)]]></system-out>
+         <system-err><![CDATA[2017-10-27 11:57:35 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-10-27 11:57:34 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-10-27 11:57:34 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

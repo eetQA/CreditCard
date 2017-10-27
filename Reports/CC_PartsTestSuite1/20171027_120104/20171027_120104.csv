@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_PartsTestSuite1,,,2017-10-27 12:01:25,2017-10-27 12:03:44,2m - 18.858s,INCOMPLETE
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard,,,2017-10-27 12:01:27,2017-10-27 12:03:44,2m - 16.748s,INCOMPLETE
+callTestCase,,,2017-10-27 12:01:30,2017-10-27 12:03:29,1m - 58.753s,FAILED
+callTestCase,,,2017-10-27 12:03:29,2017-10-27 12:03:43,14.699s,FAILED
+callTestCase,,,2017-10-27 12:03:43,2017-10-27 12:03:44,0.207s,INCOMPLETE

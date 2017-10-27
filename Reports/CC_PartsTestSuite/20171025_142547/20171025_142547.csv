@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-CC_PartsTestSuite,Chrome 61.0.3163.100,,2017-10-25 14:26:01,2017-10-25 14:28:12,2m - 11.399s,INCOMPLETE
-,,,,,,
-Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1,Chrome 61.0.3163.100,,2017-10-25 14:26:10,2017-10-25 14:28:12,2m - 2.168s,INCOMPLETE
-callTestCase,Chrome 61.0.3163.100,,2017-10-25 14:26:14,2017-10-25 14:27:51,1m - 37.474s,FAILED
-callTestCase,Chrome 61.0.3163.100,,2017-10-25 14:27:51,2017-10-25 14:28:12,21.186s,INCOMPLETE

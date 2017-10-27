@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-CC_ServiceTestSuite,Firefox 56.0,,2017-10-25 11:29:53,2017-10-25 11:35:48,5m - 55.662s,INCOMPLETE
-,,,,,,
-Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 1,Firefox 56.0,,2017-10-25 11:29:54,2017-10-25 11:35:48,5m - 54.787s,INCOMPLETE
-callTestCase,Firefox 56.0,,2017-10-25 11:29:55,2017-10-25 11:31:36,1m - 41.359s,PASSED
-callTestCase,Firefox 56.0,,2017-10-25 11:31:36,2017-10-25 11:32:04,28.025s,PASSED
-callTestCase,Firefox 56.0,,2017-10-25 11:32:04,2017-10-25 11:32:51,46.613s,PASSED
-callTestCase,Firefox 56.0,,2017-10-25 11:32:51,2017-10-25 11:35:08,2m - 17.600s,FAILED
-callTestCase,Firefox 56.0,,2017-10-25 11:35:08,2017-10-25 11:35:48,40.130s,INCOMPLETE

@@ -67,6 +67,7 @@ WebUI.sendKeys(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEnt
 WebUI.sendKeys(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'), ((((BP + ' (') + GlobalVariable.G_InvoiceTnxType) + 
     '/') + GlobalVariable.G_InvoiceTnxNo) + ')')
 
+
 WebUI.click(findTestObject('Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'), FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(3)

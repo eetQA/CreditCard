@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-CC_PartsTestSuite,Firefox 43.0,,2017-10-26 11:44:13,2017-10-26 11:47:35,3m - 21.685s,PASSED
-,,,,,,
-Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard,Firefox 43.0,,2017-10-26 11:44:14,2017-10-26 11:47:34,3m - 20.327s,PASSED
-callTestCase,Firefox 43.0,,2017-10-26 11:44:15,2017-10-26 11:45:11,56.060s,PASSED
-callTestCase,Firefox 43.0,,2017-10-26 11:45:11,2017-10-26 11:45:42,31.509s,PASSED
-callTestCase,Firefox 43.0,,2017-10-26 11:45:42,2017-10-26 11:46:25,42.619s,PASSED
-callTestCase,Firefox 43.0,,2017-10-26 11:46:25,2017-10-26 11:46:56,31.259s,PASSED
-callTestCase,Firefox 43.0,,2017-10-26 11:46:56,2017-10-26 11:47:34,37.467s,PASSED
