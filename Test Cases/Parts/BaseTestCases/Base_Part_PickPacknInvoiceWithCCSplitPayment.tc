@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Part_PickPacknInvoiceWithCCSplitPayment</name>
+   <tag></tag>
+   <comment>*********Line 1: Credit Card Started***********************
+*********Line 2: Credit Card Started***********************
+*********Line 3: Cash Started***********************</comment>
+   <testCaseGuid>8919d852-4784-4815-a77b-72f50b89e702</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62b3c613-6680-4a87-8adc-fc4b9e501db9</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96217fe5-65ab-4509-bc15-408d4da2ed1d</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3edc194-5ad4-4065-bc1b-09c09d3d2528</id>
+      <masked>false</masked>
+      <name>CardNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0732a856-1c0f-464b-ad1b-2ce769895a10</id>
+      <masked>false</masked>
+      <name>OrderTotal</name>
+   </variable>
+</TestCaseEntity>

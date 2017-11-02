@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>OpenEntries_BalanceAmtLine2</name>
+   <tag></tag>
+   <elementGuidId>5276bf9d-e215-4a23-bc8d-648c5e6590a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tfacr2520m000-0-grid-1-balc.ninv-20-1</value>
+   </webElementProperties>
+</WebElementEntity>

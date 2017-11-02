@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Finance_CheckOpenEntriesForCCSplitPayments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>940d8e74-2ed0-42cf-ae65-162e15543472</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27c700af-7be4-462c-964d-dcc348948bf7</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+</TestCaseEntity>

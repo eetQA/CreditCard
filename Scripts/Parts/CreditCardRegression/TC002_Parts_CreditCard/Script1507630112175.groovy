@@ -19,3 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment'), [('Gateway') : 'PUBL'
+        , ('CardType') : 'Visa Card', ('CardNumber') : 4012000033330020], FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_GetInvoiceDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCSplitPayments'), [('BP') : 'M00000182'], 
+    FailureHandling.STOP_ON_FAILURE)
+

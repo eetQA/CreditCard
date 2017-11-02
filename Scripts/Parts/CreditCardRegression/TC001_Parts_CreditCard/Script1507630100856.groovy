@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1')
     FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ship line, Invoice the Order using Credit card\r\n'
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoice'), [('Gateway') : GateWay, ('CardType') : CardType
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCC'), [('Gateway') : GateWay, ('CardType') : CardType
         , ('CardNumber') : CardNumber], FailureHandling.STOP_ON_FAILURE)
 
 'Get the invoice details like Invoice No. Invoice Amount'
