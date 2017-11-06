@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_Service_HeaderInvoice_SplitTender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d04933e0-9427-48de-8567-6a886547f53b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d2ce7502-f0a5-4c96-807e-286f1f68a266</id>
+      <masked>false</masked>
+      <name>CCNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d05e7c8d-ee40-4c1b-a8a9-e88dcd7c9b66</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b616b96c-858c-4e79-9cc4-00bfbc40c35f</id>
+      <masked>false</masked>
+      <name>PaymentGate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fa723b0-4aeb-4696-b940-d3e0d5056e55</id>
+      <masked>false</masked>
+      <name>CardType</name>
+   </variable>
+</TestCaseEntity>

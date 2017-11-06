@@ -19,17 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Service/CreditCardRegression/TC001_Service_CreditCard_Old'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateHeader'), [('BP') : 'M00000182', ('Unit') : 'MD0007993'], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession'))
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.click(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton'))
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender'), [('CCNo') : '4012000033330026'
+        , ('CVV') : '865', ('PaymentGate') : 'PUBL', ('CardType') : 'Visa Card'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(3)
-
-InvoiceTnxType = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1'))
-
-InvoiceTnxNo = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2'))
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCSplitPayments'), [('BP') : ''], 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
