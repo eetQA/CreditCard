@@ -24,17 +24,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>0</initValue>
       <name>G_OrderAmt</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'1.0'</initValue>
       <name>G_SplitOrderAmt1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>0</initValue>
       <name>G_SplitOrderAmt2</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

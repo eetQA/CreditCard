@@ -31,6 +31,8 @@ WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsal
 not_run: WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'), Keys.chord(
         Keys.TAB))
 
+WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax'))
+
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save'))
 
 WebUI.dragAndDropByOffset(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller'), 0, -100)

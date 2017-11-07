@@ -35,4 +35,11 @@
       <masked>false</masked>
       <name>OrderTotal</name>
    </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>4c8127d4-b592-4ba2-bb24-6a9b36199022</id>
+      <masked>false</masked>
+      <name>OrderT</name>
+   </variable>
 </TestCaseEntity>

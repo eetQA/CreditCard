@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.apache.commons.validator.Var as Var
 import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action'))
@@ -84,13 +85,18 @@ not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeade
 
 not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinue'))
 
+
 GlobalVariable.G_OrderAmt = ((WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal'))) as float)
 
-GlobalVariable.G_SplitOrderAmt2 = ((GlobalVariable.G_OrderAmt * 0.2) as String)
 
-GlobalVariable.G_SplitOrderAmt1 = ((GlobalVariable.G_OrderAmt * 0.4) as String)
 
-WebUI.delay(5)
+GlobalVariable.G_SplitOrderAmt2 = (GlobalVariable.G_OrderAmt -2) as String
+
+println(GlobalVariable.G_SplitOrderAmt1)
+
+println(GlobalVariable.G_SplitOrderAmt2)
+
+WebUI.delay(2)
 
 WebUI.comment('*********Line 1: Credit Card Started***********************')
 
@@ -216,7 +222,7 @@ WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInt
 
 GlobalVariable.G_SplitInvoiceAmt2 = WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2'))
 
-WebUI.delay(100)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_SaveNclose'), FailureHandling.STOP_ON_FAILURE)
 
