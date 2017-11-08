@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EquipSaleOrder_SavenClose</name>
+   <name>EPO_Print_Close</name>
    <tag></tag>
-   <elementGuidId>b474b6c2-d836-4ff8-8209-3a9bfd32ee88</elementGuidId>
+   <elementGuidId>401b1da9-d5e4-46bf-bfe5-37a092f7fece</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tdext8171s000-3-button-std-file.save_and_close']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8171s000-3-button-std-file.save_and_close</value>
+      <value>tdext8450m000-8-button-std-file.close</value>
    </webElementProperties>
 </WebElementEntity>

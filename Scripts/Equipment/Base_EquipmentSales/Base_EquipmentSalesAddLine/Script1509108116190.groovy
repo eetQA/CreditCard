@@ -33,7 +33,7 @@ WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model
 
 WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), '1032')
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'))
+WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'))
 
 WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'), 'M00000182')
 
@@ -49,7 +49,11 @@ WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok
 
 WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrder_SavenClose'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'))
 

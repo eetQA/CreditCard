@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EquipSaleOrder_SavenClose</name>
+   <name>ESO_LineMMT_SelectFirstRecord</name>
    <tag></tag>
-   <elementGuidId>b474b6c2-d836-4ff8-8209-3a9bfd32ee88</elementGuidId>
+   <elementGuidId>7deab387-9ab5-4e86-9df1-6e677173d1fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'tdext8171s000-3-button-std-file.save_and_close']</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8171s000-3-button-std-file.save_and_close</value>
+      <value>tdext8571m000-5-grid-1-select-0</value>
    </webElementProperties>
 </WebElementEntity>

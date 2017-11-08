@@ -23,3 +23,5 @@ WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_Equipement_C
 
 WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing'), [:], FailureHandling.STOP_ON_FAILURE)
+
