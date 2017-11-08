@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.PrintDevice</name>
    <tag></tag>
-   <elementGuidId>4826aecc-feeb-455b-9523-7ecc358a2337</elementGuidId>
+   <elementGuidId>87b30c9b-7960-4d52-bee1-029b0db560cc</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

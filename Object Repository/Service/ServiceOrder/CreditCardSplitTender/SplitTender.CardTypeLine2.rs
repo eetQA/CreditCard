@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.CardTypeLine2</name>
    <tag></tag>
-   <elementGuidId>5d5684cb-6174-4450-8785-9ebf6320d84c</elementGuidId>
+   <elementGuidId>5ddcdbf0-10f4-47db-a829-40e92ef5e1a2</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

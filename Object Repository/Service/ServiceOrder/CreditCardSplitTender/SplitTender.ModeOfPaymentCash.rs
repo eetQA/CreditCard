@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.ModeOfPaymentCash</name>
    <tag></tag>
-   <elementGuidId>b67d7295-616b-4e10-8dcf-c550e71231c7</elementGuidId>
+   <elementGuidId>a222292c-756c-4d78-a81f-801c9c0320e7</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

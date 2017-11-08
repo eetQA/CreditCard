@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.NewButton</name>
    <tag></tag>
-   <elementGuidId>47613d40-9ac2-422a-890e-1eecae941ebb</elementGuidId>
+   <elementGuidId>5f564de0-801b-4466-b214-e679e6d02874</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

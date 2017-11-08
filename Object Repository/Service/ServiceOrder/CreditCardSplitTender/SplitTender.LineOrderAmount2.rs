@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.LineOrderAmount2</name>
    <tag></tag>
-   <elementGuidId>76f33640-c2c2-4b98-a623-c91aee7a4df9</elementGuidId>
+   <elementGuidId>057e00b7-fa15-459e-a70a-574f2b99c6d0</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

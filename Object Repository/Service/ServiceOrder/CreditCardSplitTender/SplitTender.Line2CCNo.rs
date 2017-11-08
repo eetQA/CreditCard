@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.Line2CCNo</name>
    <tag></tag>
-   <elementGuidId>06328982-9b4a-4f6a-a5f7-5e961e2f927e</elementGuidId>
+   <elementGuidId>49ab3a50-bf3e-4d88-b20f-abaa8dc90e0d</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

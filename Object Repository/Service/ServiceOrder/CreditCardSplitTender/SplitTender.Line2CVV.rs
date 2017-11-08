@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.Line2CVV</name>
    <tag></tag>
-   <elementGuidId>bf91354c-0b74-438e-92cd-702dd973142c</elementGuidId>
+   <elementGuidId>da1b4564-ac86-4d82-9cf7-eb582b0400ae</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

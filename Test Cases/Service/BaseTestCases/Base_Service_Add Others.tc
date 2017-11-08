@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>36c840d6-6cf9-4ba5-bf47-587d73b3c01d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a61ac9ab-5134-471e-a3b0-96772a79547f</id>
+      <masked>false</masked>
+      <name>CostComp</name>
+   </variable>
 </TestCaseEntity>

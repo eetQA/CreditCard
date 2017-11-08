@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.LineSession</name>
    <tag></tag>
-   <elementGuidId>e9c54431-607c-4efa-a45d-f243664ac6dd</elementGuidId>
+   <elementGuidId>3381a6a8-0dd4-4873-b87c-d176eda8b538</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

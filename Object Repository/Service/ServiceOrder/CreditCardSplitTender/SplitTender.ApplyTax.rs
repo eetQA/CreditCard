@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.ApplyTax</name>
    <tag></tag>
-   <elementGuidId>ba38edf9-3b35-4a55-acf7-0396dcb84308</elementGuidId>
+   <elementGuidId>7807e968-418e-4cfd-a64c-00d69526ba60</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

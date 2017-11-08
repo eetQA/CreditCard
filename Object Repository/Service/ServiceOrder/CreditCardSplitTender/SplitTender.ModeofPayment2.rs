@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.ModeofPayment2</name>
    <tag></tag>
-   <elementGuidId>1787ed2f-fd86-44a2-bf0d-57a705f0e4b8</elementGuidId>
+   <elementGuidId>7248cad3-6a1f-4f48-8302-a83f2951c1bb</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

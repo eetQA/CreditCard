@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.ExpiryYearLine2</name>
    <tag></tag>
-   <elementGuidId>f71a7ab7-b226-4bd5-9d22-68758d83d9e5</elementGuidId>
+   <elementGuidId>a9ea4ade-e0fb-41ba-9157-8d34f044d61f</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

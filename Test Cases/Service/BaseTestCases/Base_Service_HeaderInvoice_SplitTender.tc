@@ -3,33 +3,35 @@
    <description></description>
    <name>Base_Service_HeaderInvoice_SplitTender</name>
    <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d04933e0-9427-48de-8567-6a886547f53b</testCaseGuid>
+   <comment>***********************Line1 started***********************
+***********************Line2 started***********************
+***********************Line3 started***********************</comment>
+   <testCaseGuid>2052402a-ae28-448d-a18a-a58d4c33f734</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d2ce7502-f0a5-4c96-807e-286f1f68a266</id>
+      <id>e668cdc4-afd4-4ee7-968b-51a34038ac0f</id>
       <masked>false</masked>
       <name>CCNo</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d05e7c8d-ee40-4c1b-a8a9-e88dcd7c9b66</id>
+      <id>199ca871-ff33-4f4e-8123-4635a5a8730f</id>
       <masked>false</masked>
       <name>CVV</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b616b96c-858c-4e79-9cc4-00bfbc40c35f</id>
+      <id>0e677c3f-0488-4bc5-ad5c-076563366d9c</id>
       <masked>false</masked>
       <name>PaymentGate</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5fa723b0-4aeb-4696-b940-d3e0d5056e55</id>
+      <id>23e0b8c5-de94-4c16-b9a9-5d8c1f464ab0</id>
       <masked>false</masked>
       <name>CardType</name>
    </variable>

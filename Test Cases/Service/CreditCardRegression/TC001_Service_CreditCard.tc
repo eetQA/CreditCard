@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Objective:
+To Test Credit Card Service Order with two different Gateways (PUBLIC AND GLOBAL)
+
+Pre-requisites:
+
+&quot;Credit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.
+In the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.&quot;
+
+Steps_Service Credit Card Invoicing :
+
+&quot;Book a Service Order with Mode of Payment - 'Credit Card'.
+Add Parts/Labor/Others lines.
+Release the Service Order.
+Book Actual Cost.
+Cost and Invoice the Order.
+Enter Credit Card details for GlobalOnePay card 5100270000000007 and CVV 214.
+Click 'Process' in the Credit Card Interface session.&quot;
+
+Expected Result:
+Two invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.
+
+
+</description>
    <name>TC001_Service_CreditCard</name>
    <tag></tag>
    <comment></comment>
@@ -18,6 +40,13 @@
       <id>decd382a-d108-490e-9830-96381d249f1a</id>
       <masked>false</masked>
       <name>Unit</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3044ae49-f623-49cb-9db5-7e1d06ecb908</id>
+      <masked>false</masked>
+      <name>CostComp</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

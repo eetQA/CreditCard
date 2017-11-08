@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTenderDetails</name>
    <tag></tag>
-   <elementGuidId>d4ab8ec0-9771-4782-86e2-59d2b643e2bd</elementGuidId>
+   <elementGuidId>a21ebf42-69f6-47be-add0-a13c2b963aed</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

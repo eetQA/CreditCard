@@ -3,7 +3,7 @@
    <description></description>
    <name>SplitTender.Save</name>
    <tag></tag>
-   <elementGuidId>db84da55-0256-4fbe-a4ae-fe9e2b5ed00a</elementGuidId>
+   <elementGuidId>2ace31cc-d0ad-41de-ad3d-9a9cc22e7c23</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
