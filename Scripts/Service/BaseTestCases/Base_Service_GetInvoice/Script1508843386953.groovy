@@ -31,3 +31,5 @@ GlobalVariable.G_InvoiceTnxType = WebUI.getText(findTestObject('Service/ServiceO
 
 GlobalVariable.G_InvoiceTnxNo = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2'))
 
+GlobalVariable.G_InvoiceAmt = WebUI.getText(findTestObject('Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD'))
+

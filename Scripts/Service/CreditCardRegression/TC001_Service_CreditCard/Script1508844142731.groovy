@@ -23,12 +23,12 @@ WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateHeader
 
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [('CostComp') : CostComp], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice'), [('CCNo') : CCNo, ('CVV') : CVV, ('PaymentGate') : PaymentGate_TC1
         , ('CardType') : CardType_TC1], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 

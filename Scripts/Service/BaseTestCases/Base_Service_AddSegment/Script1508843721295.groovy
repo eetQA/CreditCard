@@ -19,8 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Select Service Type'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'))
 
+'Select Service Type of "ABC"'
 WebUI.setText(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'), 'ABC')
 
 not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'), Keys.chord(
@@ -28,6 +30,7 @@ not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceOrderSegment
 
 WebUI.delay(3)
 
+'Save Segment'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save'))
 
 WebUI.delay(10)
@@ -36,6 +39,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrde
 
 WebUI.delay(2, FailureHandling.CONTINUE_ON_FAILURE)
 
+'Release Segment'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release'))
 
 WebUI.delay(5)
@@ -58,6 +62,7 @@ not_run: WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/Se
 
 not_run: WebUI.delay(3)
 
+'Click on Action to Open Others session'
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action'))
 
 WebUI.delay(3)
