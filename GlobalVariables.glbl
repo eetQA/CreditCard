@@ -29,7 +29,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1.0'</initValue>
+      <initValue>'1.00'</initValue>
       <name>G_SplitOrderAmt1</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

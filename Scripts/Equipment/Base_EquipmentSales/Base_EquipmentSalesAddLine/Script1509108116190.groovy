@@ -19,3 +19,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+
+WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine'))
+
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrderLine_New'), 20)
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrderLine_New'))
+
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), 20)
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'))
+
+WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), '1032')
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'))
+
+WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'), 'M00000182')
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'))
+
+WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'), '10')
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrder_Save'))
+
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok'), 20)
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok'))
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
+
+WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrder_SavenClose'))
+
+WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'))
+

@@ -18,33 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdext8570m000'], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'), 15)
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'))
-
-WebUI.setText(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'), 'M00000010')
-
-WebUI.doubleClick(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'))
-
-WebUI.setText(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'), '+10')
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_PaymentMethod'))
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquimentSalesOrder_CreditCardOption'))
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save'))
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DetailsTab'))
-
-WebUI.delay(5)
-
-OrderNo = WebUI.getAttribute(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo'), 'value')
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine'), [:], FailureHandling.STOP_ON_FAILURE)
 
