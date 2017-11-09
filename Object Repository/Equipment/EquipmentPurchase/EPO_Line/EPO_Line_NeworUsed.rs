@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EPO_Reciept_Action</name>
+   <name>EPO_Line_NeworUsed</name>
    <tag></tag>
-   <elementGuidId>7dcd686e-670b-4278-8f8d-ea2017e4b58d</elementGuidId>
+   <elementGuidId>5d91630e-c2c0-4d6e-ad70-bed201b90eb5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8155m000-12-button-std:action</value>
+      <value>tdext8151s000-2-used.equipment-18-control-trigger-button</value>
    </webElementProperties>
 </WebElementEntity>

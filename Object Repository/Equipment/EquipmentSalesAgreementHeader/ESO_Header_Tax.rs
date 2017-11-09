@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EPO_Reciept_Action</name>
+   <name>ESO_Header_Tax</name>
    <tag></tag>
-   <elementGuidId>7dcd686e-670b-4278-8f8d-ea2017e4b58d</elementGuidId>
+   <elementGuidId>3da49ac2-ff3f-49a2-8fb4-76a5b488800c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8155m000-12-button-std:action</value>
+      <value>tdext8170s000-1-tdext870.otax-51</value>
    </webElementProperties>
 </WebElementEntity>

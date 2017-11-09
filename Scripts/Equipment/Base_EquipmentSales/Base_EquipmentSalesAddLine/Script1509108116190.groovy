@@ -33,11 +33,15 @@ WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model
 
 WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), '1032')
 
-WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'))
+WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/ESO_Line_Unit'))
 
-WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrderLine_Supplier'), 'M00000182')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'))
+WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/ESO_Line_Unit'), GlobalVariable.G_Unit)
+
+WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'))
+
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'), '10')
 
@@ -47,7 +51,7 @@ WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/Equip
 
 WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok'))
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
+not_run: WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
 
 WebUI.delay(2)
 

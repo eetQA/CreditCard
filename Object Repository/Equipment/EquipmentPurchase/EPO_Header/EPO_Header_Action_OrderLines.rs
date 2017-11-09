@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EPO_Reciept_Action</name>
+   <name>EPO_Header_Action_OrderLines</name>
    <tag></tag>
-   <elementGuidId>7dcd686e-670b-4278-8f8d-ea2017e4b58d</elementGuidId>
+   <elementGuidId>6833d552-82eb-45a7-887b-3a8cd65eaf7c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8155m000-12-button-std:action</value>
+      <value>tdext8150s000-0-menu-std:action-form-display.lines</value>
    </webElementProperties>
 </WebElementEntity>

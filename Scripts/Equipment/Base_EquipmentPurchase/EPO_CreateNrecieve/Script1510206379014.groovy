@@ -19,29 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Equipment/EquipSalesOrder_Process/EquipSalesOrder_SendForApproval'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('Equipment/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Pending for Approval')
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Equipment/EquipSalesOrder_Process/EquipSalesOrder_Action_Approve'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementText(findTestObject('Equipment/EquipSalesOrder_Process/EquipSalesOrder_Status'), 'Approved')
-
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/Base_EPO_Reciept'), [:], FailureHandling.STOP_ON_FAILURE)
 

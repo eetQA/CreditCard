@@ -47,4 +47,9 @@
       <initValue>''</initValue>
       <name>G_SplitInvoiceAmt1</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>G_Unit</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
