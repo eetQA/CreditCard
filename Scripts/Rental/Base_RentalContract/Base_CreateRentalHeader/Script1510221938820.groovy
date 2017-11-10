@@ -45,15 +45,23 @@ WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Unit'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 'MD0018210')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 'MD0018228')
 
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'), 5)
 
+WebUI.delay(5)
+
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'))
+
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
 
-WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline'), 10)
 
@@ -72,4 +80,40 @@ WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.GrossRateline')
 WebUI.delay(4)
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SaveHeader'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Action'))
+
+WebUI.delay(8)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Release'))
+
+WebUI.delay(12)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'))
+
+WebUI.delay(6)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.ConfirmDelivery'))
+
+WebUI.delay(8)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'), 20)
+
+not_run: WebUI.delay(2)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.DeliveryProceed'))
+
+WebUI.delay(12)
+
+not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'), 20)
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SelectDeviceD'))
+
+WebUI.delay(8)
+
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspetionReportClose'))
 

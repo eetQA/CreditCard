@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4501m001-1-grid-1-erext401.muin-29-filter-value-control-widget</value>
+      <value>erext4501m001-1-grid-1-erext401.muin-29-0-widget</value>
    </webElementProperties>
 </WebElementEntity>

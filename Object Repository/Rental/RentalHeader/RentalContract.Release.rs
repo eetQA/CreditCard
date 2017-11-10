@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.SaveHeader</name>
+   <name>RentalContract.Release</name>
    <tag></tag>
-   <elementGuidId>639f4a20-2dd5-4b53-9c75-c8ad21b7c8e0</elementGuidId>
+   <elementGuidId>4e9c0b3b-8a47-4256-be2d-5b2dd92b0227</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>erext4100s004-0-button-std-file.save</value>
+      <value>erext4501m001-1-menu-std:action-form-to.erext4201m001</value>
    </webElementProperties>
 </WebElementEntity>
