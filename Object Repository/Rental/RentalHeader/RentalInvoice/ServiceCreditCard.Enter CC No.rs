@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.InspetionReportClose</name>
+   <name>ServiceCreditCard.Enter CC No</name>
    <tag></tag>
-   <elementGuidId>d1d9b815-6675-4c09-9a1c-0e8b6874bd01</elementGuidId>
+   <elementGuidId>7bd44324-76d1-4db1-9273-b63cd75a2f56</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ttstpsplopen-5-button-std-file.close-label</value>
+      <value>xiext6102m000-3-cardno-7-lookup-widget</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.InspetionReportClose</name>
+   <name>RentalInvoice.Action</name>
    <tag></tag>
-   <elementGuidId>d1d9b815-6675-4c09-9a1c-0e8b6874bd01</elementGuidId>
+   <elementGuidId>497df405-6b25-47bb-9816-6212b3eed38e</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ttstpsplopen-5-button-std-file.close-label</value>
+      <value>erext4505m002-9-button-std:action</value>
    </webElementProperties>
 </WebElementEntity>

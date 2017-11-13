@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.InspetionReportClose</name>
+   <name>RentalContract.OtherDetailsTab</name>
    <tag></tag>
-   <elementGuidId>d1d9b815-6675-4c09-9a1c-0e8b6874bd01</elementGuidId>
+   <elementGuidId>95d38c98-fb47-4879-95f9-b4c36f0ac2eb</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ttstpsplopen-5-button-std-file.close-label</value>
+      <value>erext4100s004-0-pages-bar-page-3</value>
    </webElementProperties>
 </WebElementEntity>

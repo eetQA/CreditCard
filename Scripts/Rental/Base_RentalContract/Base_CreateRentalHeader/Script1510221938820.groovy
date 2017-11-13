@@ -27,6 +27,26 @@ WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Customer'), 'M0
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CustPO'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.OtherDetailsTab'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/Rental Contract.ModeOfPayment'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.CreditCardoption'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.GeneralTab'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Newbuttonline'))
 
 WebUI.delay(5)
@@ -45,7 +65,7 @@ WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Unit'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 'MD0018228')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 'MD0018245')
 
 WebUI.delay(5)
 
@@ -109,11 +129,23 @@ WebUI.delay(12)
 
 not_run: WebUI.waitForElementPresent(findTestObject('Rental/RentalHeader/RentalContract.ActionDelivery'), 20)
 
-WebUI.delay(3)
+not_run: WebUI.delay(3)
 
-WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SelectDeviceD'))
+not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.SelectDeviceD'))
 
 WebUI.delay(8)
 
-not_run: WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspetionReportClose'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspetionReportClose'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.BillofLaddingClosed'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.EqipRentalMemoclosed'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.InspectionOrdergnerated'))
 
