@@ -19,7 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline'), [('BP') : BP, ('Model') : Model], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/Base_EPO_Reciept'), [:], FailureHandling.STOP_ON_FAILURE)
 

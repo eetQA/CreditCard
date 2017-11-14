@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ESO_Header_Print_Continue</name>
+   <tag></tag>
+   <elementGuidId>4672c8fb-8abc-4dc5-97ca-c70a1138b714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ttstpsplopen-5-button-form-exec.cont.process</value>
+   </webElementProperties>
+</WebElementEntity>

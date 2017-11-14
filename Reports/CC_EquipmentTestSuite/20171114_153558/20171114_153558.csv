@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-11-14 15:36:05,2017-11-14 15:40:40,4m - 35.837s,INCOMPLETE
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1,Firefox 43.0,,2017-11-14 15:36:05,2017-11-14 15:40:40,4m - 34.976s,FAILED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-14 15:36:06,2017-11-14 15:37:31,1m - 25.452s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-14 15:37:31,2017-11-14 15:38:14,42.982s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-14 15:38:14,2017-11-14 15:38:29,14.163s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-14 15:38:29,2017-11-14 15:40:40,2m - 11.462s,FAILED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 2,Firefox 43.0,,2017-11-14 15:40:40,2017-11-14 15:40:40,0.358s,INCOMPLETE
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-14 15:40:40,2017-11-14 15:40:40,0.327s,INCOMPLETE

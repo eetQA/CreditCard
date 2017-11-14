@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Ne
 
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'))
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'), 'M00000010')
+WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'), BP)
 
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save'))
 
@@ -47,7 +47,7 @@ WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), '1032')
+WebUI.setText(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'), Model)
 
 WebUI.click(findTestObject('Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed'))
 

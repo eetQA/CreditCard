@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-11-14 15:40:55,2017-11-14 15:50:33,9m - 37.801s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1,Firefox 43.0,,2017-11-14 15:40:55,2017-11-14 15:45:48,4m - 53.051s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-14 15:40:56,2017-11-14 15:42:22,1m - 25.950s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-14 15:42:22,2017-11-14 15:43:07,44.681s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-14 15:43:07,2017-11-14 15:43:21,14.202s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-14 15:43:21,2017-11-14 15:44:10,48.534s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-11-14 15:44:10,2017-11-14 15:44:54,44.739s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-11-14 15:44:54,2017-11-14 15:45:16,21.793s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-11-14 15:45:16,2017-11-14 15:45:48,32.228s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 2,Firefox 43.0,,2017-11-14 15:45:49,2017-11-14 15:50:32,4m - 43.579s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-14 15:45:49,2017-11-14 15:47:12,1m - 23.736s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-14 15:47:12,2017-11-14 15:47:54,41.504s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-14 15:47:54,2017-11-14 15:48:08,13.766s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-14 15:48:08,2017-11-14 15:48:57,49.852s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-11-14 15:48:57,2017-11-14 15:49:38,40.501s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-11-14 15:49:38,2017-11-14 15:50:00,21.921s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-11-14 15:50:00,2017-11-14 15:50:32,32.266s,PASSED

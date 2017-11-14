@@ -22,31 +22,34 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID') : 'tdext8570m000'], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'), 15)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'), 
+    15)
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New'))
 
-WebUI.setText(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'), 'M00000010')
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'), BP)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'))
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'))
 
-WebUI.setText(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'), '+10')
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'), 
+    '+10')
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/ESO_Header_Tax'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_PaymentMethod'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_PaymentMethod'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquimentSalesOrder_CreditCardOption'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquimentSalesOrder_CreditCardOption'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DetailsTab'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DetailsTab'))
 
 WebUI.delay(5)
 
-OrderNo = WebUI.getAttribute(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo'), 'value')
+GlobalVariable.G_Part_PSO = WebUI.getAttribute(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_OrderNo'), 
+    'value')
 

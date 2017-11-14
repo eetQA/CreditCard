@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EPO_PrintDevice_Ok</name>
+   <tag></tag>
+   <elementGuidId>1a3cf76b-c65a-4c8c-998e-97f773555b14</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ttstpsplopen-9-button-form-exec.cont.process</value>
+   </webElementProperties>
+</WebElementEntity>

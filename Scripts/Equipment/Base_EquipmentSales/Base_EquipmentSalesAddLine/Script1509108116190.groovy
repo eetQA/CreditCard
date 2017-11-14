@@ -19,45 +19,45 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_Action'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_SalesOrderLine'))
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrderLine_New'), 20)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'), 20)
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrderLine_New'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrderLine_New'))
 
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), 20)
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), 20)
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'))
 
-WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Model'), '1032')
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Model'), Model)
 
-WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/ESO_Line_Unit'))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/ESO_Line_Unit'), GlobalVariable.G_Unit)
-
-WebUI.doubleClick(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'))
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_Price'), '10')
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/ESO_Line_Unit'), GlobalVariable.G_Unit)
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrder_Save'))
-
-WebUI.waitForElementPresent(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok'), 20)
-
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_taxok'))
-
-not_run: WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
+WebUI.doubleClick(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Equipment/EquipSalesOrderLines/EquipSaleOrder_SavenClose'))
+WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_Price'), '10')
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_Save'))
+
+WebUI.waitForElementPresent(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'), 20)
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_taxok'))
+
+not_run: WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSalesOrder_ImportNOoption'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Equipment/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipSalesOrderLines/EquipSaleOrder_SavenClose'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipSalesOrder_MMTsavenClose'))
 

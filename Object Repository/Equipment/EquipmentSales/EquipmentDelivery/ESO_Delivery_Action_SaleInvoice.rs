@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ESO_Delivery_Action_SaleInvoice</name>
+   <tag></tag>
+   <elementGuidId>5a6b7a93-9d28-4f9f-a5cf-a74dfc930dbd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tdext8175m000-8-menu-std:action-form-sales.invoice</value>
+   </webElementProperties>
+</WebElementEntity>

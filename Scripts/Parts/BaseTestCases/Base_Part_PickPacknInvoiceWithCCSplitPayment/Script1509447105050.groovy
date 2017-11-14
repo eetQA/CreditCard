@@ -76,23 +76,9 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCI
 
 WebUI.delay(5)
 
-not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_Process'))
-
-not_run: WebUI.waitForElementPresent(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDevice'), 
-    20)
-
-not_run: WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDevice'), 'D')
-
-not_run: WebUI.click(findTestObject('Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinue'))
-
-
 GlobalVariable.G_OrderAmt = ((WebUI.getText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal'))) as double)
 
-
-
-GlobalVariable.G_SplitOrderAmt2 = ((GlobalVariable.G_OrderAmt - 2)) as String
-
-
+GlobalVariable.G_SplitOrderAmt2 = ((GlobalVariable.G_OrderAmt - 2) as String)
 
 println(GlobalVariable.G_SplitOrderAmt1)
 

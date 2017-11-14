@@ -5,4 +5,46 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>64849c0d-f93e-41a2-a20d-3546a9c958da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fda98ea-c9b2-426c-b4b8-832d04a78ced</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a4ce1595-0056-444c-a81d-0f1982e33353</id>
+      <masked>false</masked>
+      <name>Model</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e29a616-752a-43ed-8a92-522893c51409</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de58960a-43b6-4336-bfbb-f7668c12ea69</id>
+      <masked>false</masked>
+      <name>CCType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f8b91ab8-2e77-46cf-a73e-bc26c17a4ee4</id>
+      <masked>false</masked>
+      <name>CC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8d3cef7-7eaa-4535-a23f-0341812f3555</id>
+      <masked>false</masked>
+      <name>CVV</name>
+   </variable>
 </TestCaseEntity>

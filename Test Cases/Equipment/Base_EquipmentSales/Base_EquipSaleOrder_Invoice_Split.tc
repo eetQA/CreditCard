@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_EquipSaleOrder_Invoice_Split</name>
+   <tag></tag>
+   <comment>*********Line 1: Credit Card Started***********************
+*********Line 2: Credit Card Started***********************
+*********Line 3: Cash Started***********************</comment>
+   <testCaseGuid>69b51142-af14-4b32-a0b4-5a11518f966e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3da9f793-386e-4274-b536-d69b3f771eaa</id>
+      <masked>false</masked>
+      <name>Gateway</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c34452c-d769-4734-b65a-343f7e1eb39f</id>
+      <masked>false</masked>
+      <name>CardType1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf2fce7d-ed5c-4538-81a2-d89c0041ee4b</id>
+      <masked>false</masked>
+      <name>CCNo1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1be72b91-42d8-4d9e-9d30-87b5ed7e0303</id>
+      <masked>false</masked>
+      <name>CVV1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a20e0ceb-86af-44d0-ade6-4a8265bd6fa7</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc492ffa-5f8b-43e0-aff9-9683c86d1d23</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d60a01d5-dcd4-4c84-acb8-0652b6cdcc1c</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+</TestCaseEntity>

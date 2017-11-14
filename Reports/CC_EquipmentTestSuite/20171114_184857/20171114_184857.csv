@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-11-14 18:49:04,2017-11-14 19:01:38,12m - 33.734s,FAILED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway,Firefox 43.0,,2017-11-14 18:49:05,2017-11-14 18:54:28,5m - 22.700s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-14 18:49:06,2017-11-14 18:50:38,1m - 32.536s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-14 18:50:38,2017-11-14 18:51:29,50.247s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-14 18:51:29,2017-11-14 18:51:45,16.232s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-14 18:51:45,2017-11-14 18:52:37,52.406s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-11-14 18:52:37,2017-11-14 18:53:28,50.810s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-11-14 18:53:28,2017-11-14 18:53:52,24.003s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-11-14 18:53:52,2017-11-14 18:54:28,35.485s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC002_EquipmentSalesAgreement_Split,Firefox 43.0,,2017-11-14 18:54:28,2017-11-14 19:01:34,7m - 6.753s,FAILED
+callTestCase,Firefox 43.0,Create Unit through Purchase Order\r\n,2017-11-14 18:54:28,2017-11-14 18:56:00,1m - 31.688s,PASSED
+callTestCase,Firefox 43.0,Create Sales Agreement Header,2017-11-14 18:56:00,2017-11-14 18:56:49,49.048s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-14 18:56:49,2017-11-14 18:57:04,15.496s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit\r\n,2017-11-14 18:57:04,2017-11-14 18:57:56,52.003s,PASSED
+callTestCase,Firefox 43.0,Invoice th Agreement with Split Payment: 2 CC's and remaining Cash,2017-11-14 18:57:56,2017-11-14 19:01:34,3m - 38.067s,FAILED

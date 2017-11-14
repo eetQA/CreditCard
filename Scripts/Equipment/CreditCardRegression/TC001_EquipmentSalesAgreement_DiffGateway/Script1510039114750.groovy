@@ -19,11 +19,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve'), [:], FailureHandling.STOP_ON_FAILURE)
+'Create a Unit For Sale through Purchase Order'
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve'), [('BP') : BP, ('Model') : Model], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader'), [:], FailureHandling.STOP_ON_FAILURE)
+'Create Equipment Agreement Header\r\n'
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader'), [('BP') : BP], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine'), [:], FailureHandling.STOP_ON_FAILURE)
+'Add Line to Agreement'
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipmentSalesAddLine'), [('Model') : Model], FailureHandling.STOP_ON_FAILURE)
 
+'Deliver the Unit'
 WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipSaleOrderProcessing'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Invoice the Agreement through CC Interface'
+WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentSales/Base_EquipSaleOrder_Invoice_cc'), [('Gateway') : Gateway, ('CardType') : CCType
+        , ('CCNo') : CC, ('CVV') : CVV], FailureHandling.STOP_ON_FAILURE)
+
+'Get Invoice Details'
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_GetInvoiceDetails'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Check the invoices in Open Entries\r\n'
+WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], FailureHandling.STOP_ON_FAILURE)
 

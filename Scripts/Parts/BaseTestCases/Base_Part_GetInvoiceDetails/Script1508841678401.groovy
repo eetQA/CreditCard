@@ -29,6 +29,10 @@ WebUI.doubleClick(findTestObject('Parts/cisli245/cisli245_module'))
 
 WebUI.setText(findTestObject('Parts/cisli245/cisli245_module'), 'sli')
 
+WebUI.delay(2)
+
+WebUI.doubleClick(findTestObject('Parts/cisli245/cisli245_table'))
+
 WebUI.setText(findTestObject('Parts/cisli245/cisli245_table'), '245')
 
 WebUI.click(findTestObject('Parts/cisli245/cisli245_ok'))

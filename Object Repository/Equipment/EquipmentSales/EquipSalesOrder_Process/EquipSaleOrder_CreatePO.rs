@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EquipSaleOrder_CreatePO</name>
+   <tag></tag>
+   <elementGuidId>ac523ac4-7c89-4f97-bae0-eda4e59e1aaa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tdext8250m999-4-button-form-exec.cont.process</value>
+   </webElementProperties>
+</WebElementEntity>

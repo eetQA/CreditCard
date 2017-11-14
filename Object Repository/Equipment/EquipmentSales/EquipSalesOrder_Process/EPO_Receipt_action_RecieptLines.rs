@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>EPO_Receipt_action_RecieptLines</name>
+   <tag></tag>
+   <elementGuidId>f50e0850-f55b-45cd-bf2a-018e5778d64f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>tdext8155m000-12-menu-std:action-form-receipt.lines</value>
+   </webElementProperties>
+</WebElementEntity>

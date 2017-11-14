@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:00,201
+0. Check the invoices in Open Entries\r\n
+
+2
+00:00:00,201 --> 00:01:28,039
+1. Create Unit through Purchase Order\r\n
+
+3
+00:01:28,044 --> 00:02:17,384
+2. Create Sales Agreement Header
+
+4
+00:02:17,384 --> 00:02:32,875
+3. Add Line to Agreement
+
+5
+00:02:32,875 --> 00:03:24,528
+4. Deliver the Unit\r\n
+
+6
+00:03:24,530 --> 00:07:03,688
+5. Invoice th Agreement with Split Payment: 2 CC's and remaining Cash
+
