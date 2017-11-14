@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_RentalInvoice" time="443" tests="2" failures="0" errors="0">
+   <testsuite name="CC_RentalInvoice" tests="2" failures="0" errors="0" time="443" timestamp="2017-11-14 17:30:01" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/CC_RentalInvoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoice\\20171114_172953"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoice\\20171114_172953\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="601449a4-42c2-485d-921f-1d1358d94946"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 1" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="PASSED">
+         <system-out><![CDATA[2017-11-14 17:30:01 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 1: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC
+
+2017-11-14 17:30:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' successfully
+
+2017-11-14 17:30:02 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader
+
+2017-11-14 17:30:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-14 17:30:02 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-14 17:30:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-14 17:30:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-14 17:30:11 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-14 17:30:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-14 17:30:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-14 17:30:11 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-14 17:30:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-14 17:30:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-14 17:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-14 17:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-14 17:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-14 17:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-14 17:30:13 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-14 17:30:13 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-14 17:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-14 17:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-14 17:30:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-14 17:30:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-14 17:30:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-14 17:30:17 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-14 17:30:17 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-14 17:30:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:30:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:30:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-14 17:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-14 17:30:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:30:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:30:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-14 17:30:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-14 17:30:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:30:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:30:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-14 17:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-14 17:30:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:30:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:30:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-14 17:30:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-14 17:30:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:30:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:30:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-14 17:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-14 17:30:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:30:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:30:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-14 17:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-14 17:30:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:30:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:30:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-14 17:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-14 17:30:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:30:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:30:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-14 17:30:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-14 17:30:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:30:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:30:52 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-11-14 17:30:52 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-11-14 17:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-14 17:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-14 17:30:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:30:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:30:57 - [TEST_STEP][PASSED] - setText: Text 'MD0018259' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-14 17:30:58 - [MESSAGE][PASSED] - Text 'MD0018259' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-14 17:30:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:31:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:31:03 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-14 17:31:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-14 17:31:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:31:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:31:08 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-14 17:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-14 17:31:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:31:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:31:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-14 17:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-14 17:31:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-14 17:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-14 17:31:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:31:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:31:18 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-14 17:31:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-14 17:31:19 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:31:19 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:31:19 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-14 17:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-14 17:31:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:31:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:31:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-14 17:31:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-14 17:31:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:31:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:31:23 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-11-14 17:31:23 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-11-14 17:31:23 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:31:27 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-11-14 17:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-11-14 17:31:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:31:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Action' is clicked on
+
+2017-11-14 17:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Action' is clicked on
+
+2017-11-14 17:31:33 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:31:41 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Release' is clicked on
+
+2017-11-14 17:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Release' is clicked on
+
+2017-11-14 17:31:41 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-11-14 17:31:53 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-11-14 17:31:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' is clicked on
+
+2017-11-14 17:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' is clicked on
+
+2017-11-14 17:31:53 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-11-14 17:31:59 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-11-14 17:31:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' is clicked on
+
+2017-11-14 17:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' is clicked on
+
+2017-11-14 17:32:00 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:32:08 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:32:08 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-14 17:32:08 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-14 17:32:08 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:32:08 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:32:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' is clicked on
+
+2017-11-14 17:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' is clicked on
+
+2017-11-14 17:32:08 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-11-14 17:32:20 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-11-14 17:32:20 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-14 17:32:20 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-14 17:32:20 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:32:20 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:32:20 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-14 17:32:20 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-14 17:32:20 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:32:28 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:32:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' is clicked on
+
+2017-11-14 17:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' is clicked on
+
+2017-11-14 17:32:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:32:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:32:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' is clicked on
+
+2017-11-14 17:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' is clicked on
+
+2017-11-14 17:32:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:32:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:32:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' is clicked on
+
+2017-11-14 17:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' is clicked on
+
+2017-11-14 17:32:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:32:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:32:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' is clicked on
+
+2017-11-14 17:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' is clicked on
+
+2017-11-14 17:32:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' successfully
+
+2017-11-14 17:32:44 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' successfully
+
+2017-11-14 17:32:44 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC
+
+2017-11-14 17:32:44 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-14 17:32:44 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-11-14 17:32:44 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:32:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:32:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' is clicked on
+
+2017-11-14 17:32:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' is clicked on
+
+2017-11-14 17:32:48 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:32:52 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:32:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' is clicked on
+
+2017-11-14 17:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' is clicked on
+
+2017-11-14 17:32:53 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:32:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:32:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' is clicked on
+
+2017-11-14 17:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' is clicked on
+
+2017-11-14 17:32:57 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:33:01 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' is clicked on
+
+2017-11-14 17:33:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' is clicked on
+
+2017-11-14 17:33:01 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-11-14 17:33:01 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-11-14 17:33:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' is clicked on
+
+2017-11-14 17:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' is clicked on
+
+2017-11-14 17:33:02 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-11-14 17:33:02 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-11-14 17:33:02 - [TEST_STEP][PASSED] - setText: Text 'PUBL' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'
+
+2017-11-14 17:33:03 - [MESSAGE][PASSED] - Text 'PUBL' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'
+
+2017-11-14 17:33:03 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-14 17:33:03 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-14 17:33:03 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-14 17:33:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-14 17:33:03 - [TEST_STEP][PASSED] - setText: Text 'Visa Card' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'
+
+2017-11-14 17:33:04 - [MESSAGE][PASSED] - Text 'Visa Card' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'
+
+2017-11-14 17:33:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:33:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:33:06 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-14 17:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-14 17:33:06 - [TEST_STEP][PASSED] - sendKeys: Keys '4012000033330026' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'
+
+2017-11-14 17:33:06 - [MESSAGE][PASSED] - Keys '4012000033330026' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'
+
+2017-11-14 17:33:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:33:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:33:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-14 17:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-14 17:33:08 - [TEST_STEP][PASSED] - sendKeys: Keys '865' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'
+
+2017-11-14 17:33:08 - [MESSAGE][PASSED] - Keys '865' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'
+
+2017-11-14 17:33:08 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-14 17:33:08 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-14 17:33:08 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:33:08 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:33:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:33:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:33:11 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'
+
+2017-11-14 17:33:12 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'
+
+2017-11-14 17:33:12 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'
+
+2017-11-14 17:33:12 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'
+
+2017-11-14 17:33:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' is clicked on
+
+2017-11-14 17:33:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' is clicked on
+
+2017-11-14 17:33:12 - [TEST_STEP][PASSED] - delay: Delayed 13 second(s)
+
+2017-11-14 17:33:25 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2017-11-14 17:33:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-14 17:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-14 17:33:25 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-14 17:33:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-14 17:33:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-14 17:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-14 17:33:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:33:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:33:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' is clicked on
+
+2017-11-14 17:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' is clicked on
+
+2017-11-14 17:33:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:33:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:33:44 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-14 17:33:44 - [MESSAGE][PASSED] - Browser is closed
+
+2017-11-14 17:33:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 2" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="PASSED">
+         <system-out><![CDATA[2017-11-14 17:33:44 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 2: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC
+
+2017-11-14 17:33:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' successfully
+
+2017-11-14 17:33:45 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader
+
+2017-11-14 17:33:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-14 17:33:45 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-14 17:33:45 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-14 17:33:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-14 17:33:51 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-14 17:33:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-14 17:33:51 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-14 17:33:51 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-14 17:33:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-14 17:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-14 17:33:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-14 17:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-14 17:33:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-14 17:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-14 17:33:54 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-14 17:33:54 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-14 17:33:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-14 17:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-14 17:33:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-14 17:33:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-14 17:33:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-14 17:33:57 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-14 17:33:58 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-14 17:33:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:34:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:34:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-14 17:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-14 17:34:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:34:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:34:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-14 17:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-14 17:34:03 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-14 17:34:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-14 17:34:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:34:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:34:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-14 17:34:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-14 17:34:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:34:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:34:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-14 17:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-14 17:34:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-14 17:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-14 17:34:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-14 17:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-14 17:34:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:29 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-14 17:34:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-14 17:34:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:34:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:34:32 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-11-14 17:34:32 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-11-14 17:34:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-14 17:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-14 17:34:33 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:38 - [TEST_STEP][PASSED] - setText: Text 'MD0018260' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-14 17:34:38 - [MESSAGE][PASSED] - Text 'MD0018260' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-14 17:34:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:43 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-14 17:34:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-14 17:34:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:48 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-14 17:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-14 17:34:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-14 17:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-14 17:34:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-14 17:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-14 17:34:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:34:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:34:59 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-14 17:34:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-14 17:34:59 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:34:59 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:34:59 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-14 17:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-14 17:34:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:35:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:35:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-14 17:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-14 17:35:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:35:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:35:03 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-11-14 17:35:03 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline'
+
+2017-11-14 17:35:03 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:35:07 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:35:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-11-14 17:35:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' is clicked on
+
+2017-11-14 17:35:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:35:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:35:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Action' is clicked on
+
+2017-11-14 17:35:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Action' is clicked on
+
+2017-11-14 17:35:13 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:35:21 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:35:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Release' is clicked on
+
+2017-11-14 17:35:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Release' is clicked on
+
+2017-11-14 17:35:21 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-11-14 17:35:33 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-11-14 17:35:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' is clicked on
+
+2017-11-14 17:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' is clicked on
+
+2017-11-14 17:35:33 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-11-14 17:35:39 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-11-14 17:35:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' is clicked on
+
+2017-11-14 17:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' is clicked on
+
+2017-11-14 17:35:40 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:35:48 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:35:48 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-14 17:35:48 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-14 17:35:48 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:35:48 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:35:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' is clicked on
+
+2017-11-14 17:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' is clicked on
+
+2017-11-14 17:35:48 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-11-14 17:36:00 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-11-14 17:36:00 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-14 17:36:00 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-14 17:36:00 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:36:00 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:36:00 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-14 17:36:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-14 17:36:00 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-11-14 17:36:08 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-11-14 17:36:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' is clicked on
+
+2017-11-14 17:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' is clicked on
+
+2017-11-14 17:36:08 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:36:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' is clicked on
+
+2017-11-14 17:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' is clicked on
+
+2017-11-14 17:36:13 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:36:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:36:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' is clicked on
+
+2017-11-14 17:36:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' is clicked on
+
+2017-11-14 17:36:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:36:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:36:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' is clicked on
+
+2017-11-14 17:36:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' is clicked on
+
+2017-11-14 17:36:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' successfully
+
+2017-11-14 17:36:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' successfully
+
+2017-11-14 17:36:24 - [TEST_CASE][PASSED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC
+
+2017-11-14 17:36:24 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-11-14 17:36:24 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-11-14 17:36:24 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:36:28 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:36:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' is clicked on
+
+2017-11-14 17:36:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' is clicked on
+
+2017-11-14 17:36:28 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:36:32 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:36:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' is clicked on
+
+2017-11-14 17:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' is clicked on
+
+2017-11-14 17:36:32 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:36:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:36:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' is clicked on
+
+2017-11-14 17:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' is clicked on
+
+2017-11-14 17:36:37 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-11-14 17:36:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-11-14 17:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' is clicked on
+
+2017-11-14 17:36:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' is clicked on
+
+2017-11-14 17:36:41 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-11-14 17:36:41 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-11-14 17:36:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' is clicked on
+
+2017-11-14 17:36:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' is clicked on
+
+2017-11-14 17:36:42 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-11-14 17:36:42 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-11-14 17:36:42 - [TEST_STEP][PASSED] - setText: Text 'GLOBAL' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'
+
+2017-11-14 17:36:43 - [MESSAGE][PASSED] - Text 'GLOBAL' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'
+
+2017-11-14 17:36:43 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-14 17:36:43 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-14 17:36:43 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-14 17:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-14 17:36:43 - [TEST_STEP][PASSED] - setText: Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'
+
+2017-11-14 17:36:43 - [MESSAGE][PASSED] - Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'
+
+2017-11-14 17:36:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:36:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:36:45 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-14 17:36:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-14 17:36:46 - [TEST_STEP][PASSED] - sendKeys: Keys '5100270000000007' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'
+
+2017-11-14 17:36:46 - [MESSAGE][PASSED] - Keys '5100270000000007' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'
+
+2017-11-14 17:36:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 17:36:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 17:36:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-14 17:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-14 17:36:48 - [TEST_STEP][PASSED] - sendKeys: Keys '865' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'
+
+2017-11-14 17:36:48 - [MESSAGE][PASSED] - Keys '865' sent to object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'
+
+2017-11-14 17:36:48 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-14 17:36:48 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-14 17:36:48 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-14 17:36:48 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-14 17:36:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:36:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:36:51 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'
+
+2017-11-14 17:36:52 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'
+
+2017-11-14 17:36:52 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'
+
+2017-11-14 17:36:52 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'
+
+2017-11-14 17:36:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' is clicked on
+
+2017-11-14 17:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process' is clicked on
+
+2017-11-14 17:36:52 - [TEST_STEP][PASSED] - delay: Delayed 13 second(s)
+
+2017-11-14 17:37:05 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2017-11-14 17:37:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-14 17:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-14 17:37:05 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-14 17:37:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-14 17:37:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-14 17:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-14 17:37:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 17:37:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 17:37:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' is clicked on
+
+2017-11-14 17:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession' is clicked on
+
+2017-11-14 17:37:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 17:37:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 17:37:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2017-11-14 17:37:24 - [MESSAGE][PASSED] - Browser is closed
+
+2017-11-14 17:37:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_CC' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-14 17:30:01 - [TEST_SUITE][PASSED] - CC_RentalInvoice: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

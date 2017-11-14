@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tsext4100m300-4-button-std-file.save_and_close</value>
+      <value>dlg-erext4203m001-10-input-button-0</value>
    </webElementProperties>
 </WebElementEntity>

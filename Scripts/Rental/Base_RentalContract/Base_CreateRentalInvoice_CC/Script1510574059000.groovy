@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalHeader'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalHeader'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(4)
 
@@ -44,56 +44,64 @@ WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.Invo
 'CC Inteface_Please check IDs'
 WebUI.delay(0)
 
-not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway'), Keys.chord(
+'Pass Payment Gateway variable'
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), PaymentGatwayTC)
+
+not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway'), Keys.chord(
         Keys.TAB))
 
 'Click on Card Type'
-WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'))
 
 'Pass Card Type variable '
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'), CardType)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardTypeTC)
 
 WebUI.delay(2)
 
 'Select CC No.'
-WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'))
+WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'))
 
 'Pass CC No Variable'
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), CCNo)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNOTC)
 
 WebUI.delay(2)
 
 'Click on CVV '
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'))
 
 'Pass CVV variable'
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'), CVV)
+WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVVTC)
 
-not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), Keys.chord(
-        Keys.TAB))
+not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), Keys.chord(Keys.TAB))
 
 not_run: WebUI.delay(3)
 
 WebUI.delay(3)
 
 'Enter Expiry Month 09'
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'), '09')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth'), '09')
 
 'Enter Expiry Year 99'
-WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'), '99')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear'), '99')
 
 'Click on Process button of CC Interface'
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process'))
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process'))
 
 WebUI.delay(13)
 
-'Click Print Button'
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK'))
+'Click OK of Print Device'
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice'))
 
 WebUI.delay(10)
 
-'Click OK of Print Device'
-WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintDevice'))
+'Click Print Button'
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK'))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/RentalInvoice.CloseRentalInvoicesession'))
+
+WebUI.delay(3)
+
+WebUI.closeBrowser()
 

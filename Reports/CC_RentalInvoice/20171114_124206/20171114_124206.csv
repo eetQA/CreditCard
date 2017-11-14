@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoice,Firefox 56.0,,2017-11-14 12:42:14,2017-11-14 12:45:40,3m - 26.314s,INCOMPLETE
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC,Firefox 56.0,,2017-11-14 12:42:14,2017-11-14 12:45:40,3m - 25.834s,INCOMPLETE
+callTestCase,Firefox 56.0,,2017-11-14 12:42:15,2017-11-14 12:45:04,2m - 48.662s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 12:45:04,2017-11-14 12:45:40,36.131s,INCOMPLETE
