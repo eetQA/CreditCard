@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoice,Firefox 56.0,,2017-11-14 18:33:10,2017-11-14 18:43:12,10m - 1.814s,PASSED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 1,Firefox 56.0,,2017-11-14 18:33:11,2017-11-14 18:38:15,5m - 3.907s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:33:11,2017-11-14 18:34:35,1m - 23.131s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:34:35,2017-11-14 18:37:14,2m - 39.040s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:37:14,2017-11-14 18:38:15,1m - 0.908s,PASSED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 2,Firefox 56.0,,2017-11-14 18:38:15,2017-11-14 18:43:12,4m - 57.449s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:38:15,2017-11-14 18:39:34,1m - 19.708s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:39:34,2017-11-14 18:42:12,2m - 37.943s,PASSED
+callTestCase,Firefox 56.0,,2017-11-14 18:42:12,2017-11-14 18:43:12,59.773s,PASSED
