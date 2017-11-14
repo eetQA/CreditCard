@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoice,,,2017-11-14 14:43:28,2017-11-14 14:46:22,2m - 53.723s,INCOMPLETE
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC,,,2017-11-14 14:43:29,2017-11-14 14:46:22,2m - 52.925s,INCOMPLETE
+callTestCase,,,2017-11-14 14:43:30,2017-11-14 14:46:22,2m - 51.392s,INCOMPLETE

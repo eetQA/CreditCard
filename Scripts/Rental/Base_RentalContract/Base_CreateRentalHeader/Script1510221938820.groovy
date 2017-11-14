@@ -65,7 +65,7 @@ WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Unit'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), 'MD0018245')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Unit'), GlobalVariable.G_Unit)
 
 WebUI.delay(5)
 

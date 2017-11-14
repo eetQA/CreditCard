@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext6102m000-3-pay.gateway-1-lookup-widget</value>
+      <value>xiext6102m000-11-pay.gateway-1-lookup-widget</value>
    </webElementProperties>
 </WebElementEntity>

@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>536a688d-764b-4339-a979-7d481b072510</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f6632eb-a8a4-4d09-835a-77872fea20f6</id>
+      <masked>false</masked>
+      <name>PaymentGatwayTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb8286cb-578f-4880-a294-1141553fc8d9</id>
+      <masked>false</masked>
+      <name>CardTypeTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>639e5553-21d4-400d-a4cc-b54f1a77c196</id>
+      <masked>false</masked>
+      <name>CCNOTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c39fb03e-040a-48fb-9406-84760d4d7316</id>
+      <masked>false</masked>
+      <name>CVVTC</name>
+   </variable>
 </TestCaseEntity>

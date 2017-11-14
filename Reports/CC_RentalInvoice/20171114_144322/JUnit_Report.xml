@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_RentalInvoice" time="173" tests="0" failures="0" errors="0">
+   <testsuite name="CC_RentalInvoice" tests="0" failures="0" errors="0" time="173" timestamp="2017-11-14 14:43:28" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/CC_RentalInvoice">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoice\\20171114_144322"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoice\\20171114_144322\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC" status="INCOMPLETE">
+         <system-out><![CDATA[2017-11-14 14:43:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null
+
+2017-11-14 14:43:30 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-11-14 14:43:31 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: null
+
+2017-11-14 14:43:31 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-11-14 14:43:31 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-11-14 14:43:32 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-11-14 14:45:03 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-11-14 14:45:03 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:03 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:03 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:03 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:03 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'erext4100s004' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to send keys 'erext4100s004' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [TEST_STEP][FAILED] - setText: Unable to set text 'M00000010' of object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:04 - [MESSAGE][FAILED] - Unable to set text 'M00000010' of object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 14:45:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 14:45:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 14:45:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 14:45:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:12 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:45:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:45:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-14 14:45:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-14 14:45:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 14:45:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 14:45:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:45:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:45:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:45:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:45:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:45:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:45:48 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:48 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:48 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-14 14:45:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-14 14:45:53 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-11-14 14:45:53 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-11-14 14:45:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:45:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:45:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:46:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:46:00 - [TEST_STEP][FAILED] - setText: Unable to set text 'MD0018256' of object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:46:00 - [MESSAGE][FAILED] - Unable to set text 'MD0018256' of object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:46:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:46:07 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:07 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:46:07 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:46:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:46:14 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:46:14 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-14 14:46:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-14 14:46:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:46:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-14 14:46:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-14 14:46:22 - [TEST_STEP][INCOMPLETE] - delay: Delaying browser in 5 second(s)]]></system-out>
+         <system-err><![CDATA[2017-11-14 14:43:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-14 14:43:28 - [TEST_SUITE][INCOMPLETE] - CC_RentalInvoice: null]]></system-out>
+      <system-err><![CDATA[2017-11-14 14:43:28 - [TEST_SUITE][INCOMPLETE] - CC_RentalInvoice: null]]></system-err>
+   </testsuite>
+</testsuites>
