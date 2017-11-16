@@ -110,7 +110,7 @@ WebUI.click(findTestObject('Equipment/EquipmentSales/SplitPayment/Page_Infor LN 
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Equipment/EquipmentSales/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'), CVV2)
+WebUI.setText(findTestObject('Equipment/EquipmentSales/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'), CCNo2)
 
 WebUI.delay(2)
 

@@ -54,15 +54,15 @@ WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/C
 
 WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'))
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), CardType)
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), CardType1)
 
 WebUI.delay(3)
 
 WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'))
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'), '4012000033330020')
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'), CardNumber1)
 
-WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'), '555')
+WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'), CVV1)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'), '09')
 
@@ -97,7 +97,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/Spl
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'), 
-    '4012000033330026')
+    CardNumber1)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'), 
     FailureHandling.STOP_ON_FAILURE)
@@ -105,7 +105,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/Spl
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'), 
-    '586')
+    CVV1)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'))
 
@@ -128,7 +128,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/Spl
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'), 
-    '4111123400062020')
+    CardNumber2)
 
 WebUI.delay(2)
 
@@ -137,7 +137,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/Spl
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'), 
-    '586')
+    CVV2)
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2'))
 
@@ -146,7 +146,7 @@ WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/Spl
 WebUI.delay(2)
 
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'), 
-    'Robin')
+    'Test')
 
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'))
 

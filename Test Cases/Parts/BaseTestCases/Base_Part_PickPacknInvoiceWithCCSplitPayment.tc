@@ -19,27 +19,41 @@
       <description></description>
       <id>96217fe5-65ab-4509-bc15-408d4da2ed1d</id>
       <masked>false</masked>
-      <name>CardType</name>
+      <name>CardType1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>f3edc194-5ad4-4065-bc1b-09c09d3d2528</id>
       <masked>false</masked>
-      <name>CardNumber</name>
+      <name>CardNumber1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0732a856-1c0f-464b-ad1b-2ce769895a10</id>
+      <id>414ba31e-f595-4124-ae99-31ee76689c2f</id>
       <masked>false</masked>
-      <name>OrderTotal</name>
+      <name>CVV1</name>
    </variable>
    <variable>
-      <defaultValue>0</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
-      <id>4c8127d4-b592-4ba2-bb24-6a9b36199022</id>
+      <id>bcc39462-4558-4332-af1e-be374e284879</id>
       <masked>false</masked>
-      <name>OrderT</name>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d7f6d661-0649-4850-b001-3603ce7f80c2</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7b6486eb-defe-4317-9aec-c9a2c9aaf503</id>
+      <masked>false</masked>
+      <name>CardNumber2</name>
    </variable>
 </TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>CC_PartsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-10-30T14:55:48</lastRun>
+   <lastRun>2017-11-16T18:37:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -60,6 +60,81 @@
          <type>DATA_COLUMN</type>
          <value>CardNo</value>
          <variableId>1486215b-7464-4983-af35-1eaf066bf27e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>24ded3f7-4bef-4bb0-b495-4ec97d169237</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>a60336b6-83b0-4d12-996a-6841ee936f0b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/PartsData/TC002_PartsSplit</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>020a4438-e0f6-48d4-9dd4-711879ffdfe6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Part</value>
+         <variableId>6303d609-e657-415c-85e7-38f0f0ab94f3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qty1</value>
+         <variableId>2fff4828-4762-4f7f-8150-d9707e359166</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Gateway</value>
+         <variableId>ef977c08-ea3b-4b47-9ee1-dc7e3daae8ee</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Card Number1</value>
+         <variableId>32db847d-1c6c-46c3-9aea-9a12c4c771c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType1</value>
+         <variableId>b4816159-f25a-4682-8462-c093a699efd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV1</value>
+         <variableId>76a01392-f4dc-4fb5-a4fd-dbd5301b8451</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNumber2</value>
+         <variableId>c60337d6-473f-4406-b0b1-3dcbcff3636d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType2</value>
+         <variableId>b20f3caf-c494-41ee-8554-cd172f29c032</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV2</value>
+         <variableId>6c014a53-477e-4212-904e-27a8bf95b041</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

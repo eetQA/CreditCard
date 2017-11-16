@@ -4,7 +4,7 @@
    <name>CC_EquipmentTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-14T18:48:57</lastRun>
+   <lastRun>2017-11-15T16:58:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,7 +20,7 @@
          <combinationType>MANY</combinationType>
          <id>377d93c5-6ec9-492c-a101-eca1c5ea41ed</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/EquipmentData/TC001_EquipmentMultiCC</testDataId>

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Objective: Equipment Credit Card Split Tender Invoicing 
+
+Steps:
+1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.
+2. Add Unit
+3. Deliver the Unit
+4. Invoice the Order with Split tender:  two Credit Cards and one cash
+
+Expected Result:
+Three invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash
+</description>
    <name>TC002_EquipmentSalesAgreement_Split</name>
    <tag></tag>
    <comment></comment>

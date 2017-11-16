@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-CC_ServiceSplitTendetTestSuite,Firefox 56.0,,2017-11-08 18:13:39,2017-11-08 18:16:47,3m - 7.552s,INCOMPLETE
-,,,,,,
-Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1,Firefox 56.0,,2017-11-08 18:13:40,2017-11-08 18:16:47,3m - 6.957s,INCOMPLETE
-callTestCase,Firefox 56.0,,2017-11-08 18:13:41,2017-11-08 18:14:39,58.283s,PASSED
-callTestCase,Firefox 56.0,,2017-11-08 18:14:39,2017-11-08 18:15:04,24.784s,PASSED
-callTestCase,Firefox 56.0,,2017-11-08 18:15:04,2017-11-08 18:15:40,35.854s,PASSED
-callTestCase,Firefox 56.0,,2017-11-08 18:15:40,2017-11-08 18:16:47,1m - 7.095s,INCOMPLETE

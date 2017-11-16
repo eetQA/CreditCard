@@ -19,16 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : 'M00000182'], FailureHandling.CONTINUE_ON_FAILURE)
+'Create Part Sales Order header with cc'
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_CreateHeader_WithCC'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : 'KP3', ('Qty') : '2'], 
+'Add Line\r\n'
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_AddPartLinePos1'), [('PartName') : Part, ('Qty') : Qty], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment'), [('Gateway') : 'PUBL'
-        , ('CardType') : 'Visa Card', ('CardNumber') : 4012000033330020], FailureHandling.CONTINUE_ON_FAILURE)
+'Invoice through Split Payment two cc and one cash\r\n'
+WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment'), [('Gateway') : Gateway
+        , ('CardType1') : cctype1, ('CardNumber1') : cc1, ('CVV1') : cvv1, ('CardType2') : ctype2, ('CVV2') : cvv2, ('CardNumber2') : cc2], 
+    FailureHandling.STOP_ON_FAILURE)
 
+'Get Invoice Details\r\n'
 WebUI.callTestCase(findTestCase('Parts/BaseTestCases/Base_Part_GetInvoiceDetails'), [:], FailureHandling.STOP_ON_FAILURE)
 
+'Check invoices in Open Entries'
 WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCSplitPayments'), [('BP') : 'M00000182'], 
     FailureHandling.STOP_ON_FAILURE)
 

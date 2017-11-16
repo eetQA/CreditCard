@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-CC_PartsTestSuite1,Chrome 61.0.3163.100,,2017-10-27 11:57:38,2017-10-27 12:11:29,13m - 50.581s,FAILED
-,,,,,,
-Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard,Chrome 61.0.3163.100,,2017-10-27 11:57:39,2017-10-27 12:11:29,13m - 49.756s,FAILED
-callTestCase,Chrome 61.0.3163.100,,2017-10-27 11:57:41,2017-10-27 11:59:28,1m - 47.134s,PASSED
-callTestCase,Chrome 61.0.3163.100,,2017-10-27 11:59:28,2017-10-27 12:00:19,51.210s,PASSED
-callTestCase,Chrome 61.0.3163.100,,2017-10-27 12:00:19,2017-10-27 12:01:05,45.630s,PASSED
-callTestCase,Chrome 61.0.3163.100,,2017-10-27 12:01:05,2017-10-27 12:11:29,10m - 24.126s,FAILED
