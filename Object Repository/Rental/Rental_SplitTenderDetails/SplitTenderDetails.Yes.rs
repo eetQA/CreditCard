@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.MultiInsNO</name>
+   <name>SplitTenderDetails.Yes</name>
    <tag></tag>
-   <elementGuidId>a9176023-fceb-4b64-97f3-dce0d0834631</elementGuidId>
+   <elementGuidId>23115042-c799-45a9-bec3-2e3d915e2644</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item_1-label</value>
+      <value>item_0</value>
    </webElementProperties>
 </WebElementEntity>

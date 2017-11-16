@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.MultiInsNO</name>
+   <name>SplitTender.ApplyTax</name>
    <tag></tag>
-   <elementGuidId>a9176023-fceb-4b64-97f3-dce0d0834631</elementGuidId>
+   <elementGuidId>01578f80-bab4-45ac-ab16-548992bd0f9a</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item_1-label</value>
+      <value>xiext8105m000-12-menu-std:action-form-apply.tax</value>
    </webElementProperties>
 </WebElementEntity>

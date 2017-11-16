@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC004_RentalContractInvoice_SplitTender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da2b8e8b-78b6-4ecf-b73b-8552a5e26aa2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>481cf6bf-b4cb-48ad-84a1-376bcae531e1</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>791fbd97-0e56-4a64-805e-4320341c9c52</id>
+      <masked>false</masked>
+      <name>PaymentGatwayTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1cee4e77-a3e1-44bb-8877-fe4602760e76</id>
+      <masked>false</masked>
+      <name>CardTypeTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>40334abb-6c66-47b5-9f4f-1ff666fdbf30</id>
+      <masked>false</masked>
+      <name>CCNOTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0b09aa01-37d4-4b1f-b8ac-bcdf8131eabc</id>
+      <masked>false</masked>
+      <name>CVVTC</name>
+   </variable>
+</TestCaseEntity>

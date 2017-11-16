@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9c3f9bb-08d3-4275-99ba-0f912b5584c6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b4757107-db47-4404-b2c5-ae63b2213308</id>
+      <masked>false</masked>
+      <name>PaymentGatwayTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e0c80b2-fe05-4658-a230-64d7d1447c40</id>
+      <masked>false</masked>
+      <name>CardTypeTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>99f4e633-f2f4-41be-a1db-7a51aceaf8a6</id>
+      <masked>false</masked>
+      <name>CCNOTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ad063ff-8841-40c9-b1f6-92a78e1bad2f</id>
+      <masked>false</masked>
+      <name>CVVTC</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>577b525e-48b0-4240-bed2-75d2cab2d4ad</id>
+      <masked>false</masked>
+      <name>BP</name>
+   </variable>
+</TestCaseEntity>

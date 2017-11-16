@@ -79,6 +79,10 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultipleInsurence'))
 
+not_run: WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
+
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.MultiInsNO'))
 
 WebUI.delay(5)

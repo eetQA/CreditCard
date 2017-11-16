@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CC_RentalInvoice</name>
+   <name>CC_RentalInvoicewithSplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-15T10:57:26</lastRun>
+   <lastRun>2017-11-16T18:17:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>8fa4b46c-76cb-4312-96da-25aadff499c8</testSuiteGuid>
+   <testSuiteGuid>53c1fefd-051d-4e94-b5ef-28ff97b5c14d</testSuiteGuid>
    <testCaseLink>
-      <guid>c29ef767-bc6e-4d81-8218-1e67c6dd6536</guid>
+      <guid>bf8e0068-fe96-4305-a854-dc99ba35aa53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC</testCaseId>
+      <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
-         <id>95050bee-9671-4681-b824-436c988a5aa4</id>
+         <id>8039fa29-e127-47b5-802c-aa24d29d2009</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ServiceData/RentalCC1</testDataId>
+         <testDataId>Data Files/ServiceData/RentalCC1 -SplitTender</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BP</value>
-         <variableId>a46a7fc7-b68e-4cd2-8409-80e659b2dded</variableId>
+         <variableId>481cf6bf-b4cb-48ad-84a1-376bcae531e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Payment Gateway</value>
-         <variableId>725bd66c-36b9-4487-99ff-2deed969e4bc</variableId>
+         <variableId>791fbd97-0e56-4a64-805e-4320341c9c52</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CCType</value>
-         <variableId>ad7d63e1-4339-4730-a782-4670b3804c80</variableId>
+         <variableId>1cee4e77-a3e1-44bb-8877-fe4602760e76</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CCNo</value>
-         <variableId>d7e9845d-76e3-48f4-8412-8e0b64c640df</variableId>
+         <variableId>40334abb-6c66-47b5-9f4f-1ff666fdbf30</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CVV</value>
-         <variableId>ef94748f-3333-4258-96d9-879ded2aa3c6</variableId>
+         <variableId>0b09aa01-37d4-4b1f-b8ac-bcdf8131eabc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithSplitTenderTestSuite,Firefox 56.0,,2017-11-16 17:51:02,2017-11-16 18:13:29,22m - 26.717s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender - Iteration 1,Firefox 56.0,,2017-11-16 17:51:03,2017-11-16 17:59:50,8m - 47.693s,FAILED
+callTestCase,Firefox 56.0,,2017-11-16 17:51:03,2017-11-16 17:52:45,1m - 41.910s,PASSED
+callTestCase,Firefox 56.0,,2017-11-16 17:52:45,2017-11-16 17:59:32,6m - 46.323s,FAILED
+callTestCase,Firefox 56.0,,2017-11-16 17:59:32,2017-11-16 17:59:50,18.657s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender - Iteration 2,Firefox 56.0,,2017-11-16 17:59:50,2017-11-16 18:13:27,13m - 37.217s,FAILED
+callTestCase,Firefox 56.0,,2017-11-16 17:59:50,2017-11-16 18:08:39,8m - 48.623s,FAILED
+callTestCase,Firefox 56.0,,2017-11-16 18:08:39,2017-11-16 18:13:09,4m - 30.296s,FAILED
+callTestCase,Firefox 56.0,,2017-11-16 18:13:09,2017-11-16 18:13:27,18.278s,FAILED

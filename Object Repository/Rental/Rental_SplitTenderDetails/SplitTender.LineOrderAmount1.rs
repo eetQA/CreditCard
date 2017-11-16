@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.MultiInsNO</name>
+   <name>SplitTender.LineOrderAmount1</name>
    <tag></tag>
-   <elementGuidId>a9176023-fceb-4b64-97f3-dce0d0834631</elementGuidId>
+   <elementGuidId>06902602-1a1a-4a37-8269-a9bfe0ae4b69</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item_1-label</value>
+      <value>xiext8105m000-12-grid-1-xiext805.oamt.rq-28-0-widget</value>
    </webElementProperties>
 </WebElementEntity>

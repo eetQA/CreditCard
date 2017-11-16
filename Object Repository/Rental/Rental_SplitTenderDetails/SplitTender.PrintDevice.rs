@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>RentalContract.MultiInsNO</name>
+   <name>SplitTender.PrintDevice</name>
    <tag></tag>
-   <elementGuidId>a9176023-fceb-4b64-97f3-dce0d0834631</elementGuidId>
+   <elementGuidId>d6519ab9-4b6f-4c4b-8499-84dc177f9a60</elementGuidId>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>item_1-label</value>
+      <value>ttstpsplopen-6-button-form-exec.cont.process</value>
    </webElementProperties>
 </WebElementEntity>

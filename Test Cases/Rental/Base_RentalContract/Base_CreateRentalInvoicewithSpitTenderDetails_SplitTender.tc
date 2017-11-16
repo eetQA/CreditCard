@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender</name>
+   <tag></tag>
+   <comment>***********************Line1 started***********************
+***********************Line2 started***********************
+***********************Line3 started***********************</comment>
+   <testCaseGuid>590c0e62-9f19-4ab2-be0d-e8b8f09647f0</testCaseGuid>
+</TestCaseEntity>
