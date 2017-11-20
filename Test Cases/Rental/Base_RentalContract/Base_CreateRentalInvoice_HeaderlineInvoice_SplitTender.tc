@@ -15,28 +15,49 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7e0c80b2-fe05-4658-a230-64d7d1447c40</id>
+      <id>61f3042e-3c1e-4f89-a237-9c8d674ec653</id>
       <masked>false</masked>
-      <name>CardTypeTC</name>
+      <name>CardType1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>99f4e633-f2f4-41be-a1db-7a51aceaf8a6</id>
+      <id>c263fb07-e679-41a3-9cf9-ab49c9d3cfb2</id>
       <masked>false</masked>
-      <name>CCNOTC</name>
+      <name>CCNo1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>2ad063ff-8841-40c9-b1f6-92a78e1bad2f</id>
+      <id>6c3eff64-4615-41b6-98b5-7c0a2408acfc</id>
       <masked>false</masked>
-      <name>CVVTC</name>
+      <name>CVV1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>577b525e-48b0-4240-bed2-75d2cab2d4ad</id>
+      <id>3dc09382-cb59-493f-a185-d2bea5c8fbe6</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa2cb985-41da-42e8-a2a7-25fbc30bb496</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ec51e8b-ea35-4fa7-9663-8b80d540f09a</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>646b9ee5-069f-4cd8-81db-eb6f348b3fb8</id>
       <masked>false</masked>
       <name>BP</name>
    </variable>

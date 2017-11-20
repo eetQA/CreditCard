@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_RentalInvoicewithSplitTenderTestSuite" time="648" tests="0" failures="1" errors="0">
+   <testsuite name="CC_RentalInvoicewithSplitTenderTestSuite" tests="0" failures="1" errors="0" time="648" timestamp="2017-11-17 18:34:35" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/CC_RentalInvoicewithSplitTenderTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923900270.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923931490.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923983404.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924035442.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924068530.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924099662.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924130848.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924161943.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924195008.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924226180.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924259620.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924290616.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924321745.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924352779.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924385908.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924423316.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924454414.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924488396.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924521537.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="4d86efce-32fb-4d24-b892-7e1b4bfb675d"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element &lt;div tabindex=&quot;0&quot; class=&quot;Button MenuButton TextButton&quot; id=&quot;tdext8150s000-0-button-std:action&quot; draggable=&quot;true&quot;>&lt;/div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: &lt;div class=&quot;WindowManagerGlass&quot; style=&quot;z-index: 1;&quot;>&lt;/div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)"/>
+         <system-out><![CDATA[2017-11-17 18:34:36 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)
+
+2017-11-17 18:34:37 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-11-17 18:34:37 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)
+
+2017-11-17 18:34:37 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-11-17 18:34:37 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)
+
+2017-11-17 18:34:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-17 18:34:38 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-17 18:34:38 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-17 18:34:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-17 18:34:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-17 18:34:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-17 18:34:46 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-17 18:34:46 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-17 18:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-17 18:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-17 18:34:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-17 18:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-17 18:34:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-17 18:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-17 18:34:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-17 18:34:51 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-17 18:34:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-17 18:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-17 18:34:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-17 18:34:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-17 18:34:54 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-17 18:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-17 18:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-17 18:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-17 18:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-17 18:34:54 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-17 18:34:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-17 18:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-17 18:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-17 18:34:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-17 18:35:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-17 18:35:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)
+
+2017-11-17 18:35:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923900270.png]]
+
+2017-11-17 18:35:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+
+2017-11-17 18:35:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' located by 'By.xpath: //*[@id = 'tdext8150s000-0-menu-std:action-form-display.lines']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923931490.png]]
+
+2017-11-17 18:35:31 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-11-17 18:35:52 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is not present after 20 second(s)
+
+2017-11-17 18:35:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.new']' not found)
+
+2017-11-17 18:36:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.new']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510923983404.png]]
+
+2017-11-17 18:36:23 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is not present after 20 second(s)
+
+2017-11-17 18:36:44 - [MESSAGE][WARNING] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is not present after 20 second(s)
+
+2017-11-17 18:36:44 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+
+2017-11-17 18:37:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924035442.png]]
+
+2017-11-17 18:37:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-17 18:37:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-17 18:37:17 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+
+2017-11-17 18:37:48 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.mcod-11-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924068530.png]]
+
+2017-11-17 18:37:48 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' located by 'By.xpath: //*[@id = 'tdext8151s000-2-used.equipment-18-control-trigger-button']' not found)
+
+2017-11-17 18:38:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' located by 'By.xpath: //*[@id = 'tdext8151s000-2-used.equipment-18-control-trigger-button']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924099662.png]]
+
+2017-11-17 18:38:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+
+2017-11-17 18:38:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' located by 'By.xpath: //*[@id = 'item_1-label']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924130848.png]]
+
+2017-11-17 18:38:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pdat-28-widget']' not found)
+
+2017-11-17 18:39:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pdat-28-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924161943.png]]
+
+2017-11-17 18:39:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-17 18:39:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-17 18:39:24 - [TEST_STEP][FAILED] - setText: Unable to set text '+10' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pdat-28-widget']' not found)
+
+2017-11-17 18:39:55 - [MESSAGE][FAILED] - Unable to set text '+10' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pdat-28-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924195008.png]]
+
+2017-11-17 18:39:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pric-42-lookup-widget']' not found)
+
+2017-11-17 18:40:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pric-42-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924226180.png]]
+
+2017-11-17 18:40:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-17 18:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-17 18:40:28 - [TEST_STEP][FAILED] - setText: Unable to set text '100' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pric-42-lookup-widget']' not found)
+
+2017-11-17 18:40:59 - [MESSAGE][FAILED] - Unable to set text '100' of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' located by 'By.xpath: //*[@id = 'tdext8151s000-2-tdext851.pric-42-lookup-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924259620.png]]
+
+2017-11-17 18:40:59 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' located by 'By.xpath: //*[@id = 'tdext8151s000-2-button-std-file.save']' not found)
+
+2017-11-17 18:41:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' located by 'By.xpath: //*[@id = 'tdext8151s000-2-button-std-file.save']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924290616.png]]
+
+2017-11-17 18:41:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' located by 'By.xpath: //*[@id = 'dlg-tdext8151s000-2-input-button-1']' not found)
+
+2017-11-17 18:42:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' located by 'By.xpath: //*[@id = 'dlg-tdext8151s000-2-input-button-1']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924321745.png]]
+
+2017-11-17 18:42:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' located by 'By.xpath: //*[@id = 'tdext8151s000-2-button-std-file.save_and_close']' not found)
+
+2017-11-17 18:42:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' located by 'By.xpath: //*[@id = 'tdext8151s000-2-button-std-file.save_and_close']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924352779.png]]
+
+2017-11-17 18:42:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-17 18:42:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-17 18:42:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.save_and_close']' not found)
+
+2017-11-17 18:43:06 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' located by 'By.xpath: //*[@id = 'tdext8551m000-1-button-std-file.save_and_close']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924385908.png]]
+
+2017-11-17 18:43:06 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-11-17 18:43:06 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-11-17 18:43:06 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' failed because of error(s))
+
+2017-11-17 18:43:06 - [TEST_CASE][ERROR] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender FAILED because (of) Variable 'BP' is not defined for test case.
+
+2017-11-17 18:43:06 - [TEST_STEP][PASSED] - callTestCase: null
+
+2017-11-17 18:43:06 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' failed because of error(s))
+
+2017-11-17 18:43:06 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' failed)
+
+2017-11-17 18:43:06 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender FAILED because (of) Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' located by 'By.xpath: //*[@id = 'xiext6102m000-11-frm.split-26-control-widget']' not found)
+
+2017-11-17 18:43:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-17 18:43:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-17 18:43:12 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' located by 'By.xpath: //*[@id = 'xiext6102m000-11-frm.split-26-control-widget']' not found)
+
+2017-11-17 18:43:43 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' located by 'By.xpath: //*[@id = 'xiext6102m000-11-frm.split-26-control-widget']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924423316.png]]
+
+2017-11-17 18:43:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' located by 'By.xpath: //*[@id = 'item_0']' not found)
+
+2017-11-17 18:44:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' located by 'By.xpath: //*[@id = 'item_0']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924454414.png]]
+
+2017-11-17 18:44:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-17 18:44:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-17 18:44:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' located by 'By.xpath: //*[@id = 'xiext6102m000-11-split.tender.invoice']' not found)
+
+2017-11-17 18:44:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' located by 'By.xpath: //*[@id = 'xiext6102m000-11-split.tender.invoice']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924488396.png]]
+
+2017-11-17 18:44:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-17 18:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-17 18:44:50 - [TEST_STEP][FAILED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader), CONTINUE_ON_FAILURE): Unable to get text of object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' located by 'By.xpath: //*[@id = 'xiext8105m000-12-c.amount-4']' not found)
+
+2017-11-17 18:45:21 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' located by 'By.xpath: //*[@id = 'xiext8105m000-12-c.amount-4']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171117_183428\\1510924521537.png]]
+
+2017-11-17 18:45:21 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' failed)]]></system-out>
+         <system-err><![CDATA[2017-11-17 18:34:36 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-17 18:34:35 - [TEST_SUITE][FAILED] - CC_RentalInvoicewithSplitTenderTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)]]></system-out>
+      <system-err><![CDATA[2017-11-17 18:34:35 - [TEST_SUITE][FAILED] - CC_RentalInvoicewithSplitTenderTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' (Root cause: org.openqa.selenium.WebDriverException: Element <div tabindex="0" class="Button MenuButton TextButton" id="tdext8150s000-0-button-std:action" draggable="true"></div> is not clickable at point (795, 79.01666259765625). Other element would receive the click: <div class="WindowManagerGlass" style="z-index: 1;"></div>
+Command duration or timeout: 97 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4d86efce-32fb-4d24-b892-7e1b4bfb675d)]]></system-err>
+   </testsuite>
+</testsuites>

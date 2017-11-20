@@ -52,15 +52,17 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCCN
 WebUI.delay(2)
 
 'Pass CC No Variable'
-WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCCNo'), '4012000033330026')
+WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCCNo'), CCNo1)
 
 WebUI.delay(5)
 
 'Click on CVV '
-not_run: WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'))
+WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'))
 
 'Pass CVV variable'
-not_run: WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'), '865')
+WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'), CVV1)
+
+WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount1'), 4)
 
@@ -92,7 +94,7 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CC
 WebUI.delay(2)
 
 'Pass CC No Variable'
-WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CCNo'), '4111123400062020')
+WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CCNo'), CCNo2)
 
 WebUI.delay(2)
 
@@ -102,7 +104,7 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CV
 WebUI.delay(3)
 
 'Pass CVV variable'
-WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CVV'), '865')
+WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Line2CVV'), CVV2)
 
 WebUI.delay(3)
 
@@ -110,7 +112,7 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.CardTyp
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.CardTypeLine2'), 'Visa Card')
+WebUI.sendKeys(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.CardTypeLine2'), CardType2)
 
 WebUI.delay(5)
 
@@ -170,7 +172,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Save'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Action'))
 
@@ -189,17 +191,21 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.SaveClo
 WebUI.delay(2)
 
 'Click on Process button of CC Interface'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Process'))
+WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.CCProcess'))
 
 WebUI.delay(13)
 
-'Click Print Button'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintOK'))
+'Click OK of Print Device'
+WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.PrintDevice'))
 
 WebUI.delay(10)
 
-'Click OK of Print Device'
-WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PrintDevice'))
+'Click Print Button'
+WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.PrintOK'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.CloseRentalInvocieSession'))
 
 WebUI.delay(5)
 

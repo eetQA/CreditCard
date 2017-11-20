@@ -4,7 +4,7 @@
    <name>CC_RentalInvoicewithSplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-16T18:17:00</lastRun>
+   <lastRun>2017-11-20T17:22:05</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,48 +12,72 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>53c1fefd-051d-4e94-b5ef-28ff97b5c14d</testSuiteGuid>
    <testCaseLink>
-      <guid>bf8e0068-fe96-4305-a854-dc99ba35aa53</guid>
+      <guid>8952431c-fb2e-4ffa-880d-c5747568e7d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
-         <id>8039fa29-e127-47b5-802c-aa24d29d2009</id>
+         <id>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ServiceData/RentalCC1 -SplitTender</testDataId>
+         <testDataId>Data Files/ServiceData/RentalInvoice_SplitData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BP</value>
          <variableId>481cf6bf-b4cb-48ad-84a1-376bcae531e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Payment Gateway</value>
+         <value>Gateway</value>
          <variableId>791fbd97-0e56-4a64-805e-4320341c9c52</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CCType</value>
+         <value>CardType1</value>
          <variableId>1cee4e77-a3e1-44bb-8877-fe4602760e76</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CCNo</value>
+         <value>Card Number1</value>
          <variableId>40334abb-6c66-47b5-9f4f-1ff666fdbf30</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>8039fa29-e127-47b5-802c-aa24d29d2009</testDataLinkId>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CVV</value>
+         <value>CVV1</value>
          <variableId>0b09aa01-37d4-4b1f-b8ac-bcdf8131eabc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType2</value>
+         <variableId>f13d45d8-c1a7-4727-8381-8a86e7d9813b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNumber2</value>
+         <variableId>12526d89-1ffa-441d-824f-a418b54ef51d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV2</value>
+         <variableId>c9bc9d0d-acdc-4cce-a8dd-8bf5618a8ae6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Model</value>
+         <variableId>3c0962aa-cf6c-4eaf-81e1-881c388ff2c9</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

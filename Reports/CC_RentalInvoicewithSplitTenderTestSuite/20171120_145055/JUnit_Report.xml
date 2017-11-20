@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_RentalInvoicewithSplitTenderTestSuite" time="320" tests="0" failures="0" errors="0">
+   <testsuite name="CC_RentalInvoicewithSplitTenderTestSuite" tests="0" failures="0" errors="0" time="320" timestamp="2017-11-20 14:51:08" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/CC_RentalInvoicewithSplitTenderTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171120_145055"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_RentalInvoicewithSplitTenderTestSuite\\20171120_145055\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="21efba04-5f06-42b9-a853-3cbd26bc4db0"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" status="INCOMPLETE">
+         <system-out><![CDATA[2017-11-20 14:51:09 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: null
+
+2017-11-20 14:51:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' successfully
+
+2017-11-20 14:51:11 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve
+
+2017-11-20 14:51:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-11-20 14:51:11 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline
+
+2017-11-20 14:51:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-20 14:51:11 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-20 14:51:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-20 14:51:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-20 14:51:44 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-20 14:51:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-20 14:51:44 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-20 14:51:44 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-20 14:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-20 14:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-20 14:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-20 14:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-20 14:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-20 14:51:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-20 14:51:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-20 14:51:50 - [MESSAGE][PASSED] - Keys 'tdext8150s000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-20 14:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-20 14:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-20 14:51:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-20 14:51:53 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-20 14:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is present
+
+2017-11-20 14:51:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-20 14:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_New' is clicked on
+
+2017-11-20 14:51:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-20 14:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer' is clicked on
+
+2017-11-20 14:51:57 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-20 14:51:57 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Customer'
+
+2017-11-20 14:51:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-20 14:51:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Save' is clicked on
+
+2017-11-20 14:51:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:52:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:52:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-11-20 14:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_OrderLines' is clicked on
+
+2017-11-20 14:52:03 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-11-20 14:52:05 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is present
+
+2017-11-20 14:52:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-11-20 14:52:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_New' is clicked on
+
+2017-11-20 14:52:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-11-20 14:52:07 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is present
+
+2017-11-20 14:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is clicked on
+
+2017-11-20 14:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model' is clicked on
+
+2017-11-20 14:52:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:52:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:52:10 - [TEST_STEP][PASSED] - setText: Text '1032' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-11-20 14:52:10 - [MESSAGE][PASSED] - Text '1032' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Model'
+
+2017-11-20 14:52:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-11-20 14:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NeworUsed' is clicked on
+
+2017-11-20 14:52:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-11-20 14:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_NewEquipOption' is clicked on
+
+2017-11-20 14:52:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-11-20 14:52:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate' is clicked on
+
+2017-11-20 14:52:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:52:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:52:12 - [TEST_STEP][PASSED] - setText: Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-11-20 14:52:13 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_PlannedDate'
+
+2017-11-20 14:52:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is clicked on
+
+2017-11-20 14:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price' is clicked on
+
+2017-11-20 14:52:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:52:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:52:15 - [TEST_STEP][PASSED] - setText: Text '100' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-11-20 14:52:15 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Price'
+
+2017-11-20 14:52:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-11-20 14:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_Save' is clicked on
+
+2017-11-20 14:52:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' is clicked on
+
+2017-11-20 14:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_importNO' is clicked on
+
+2017-11-20 14:52:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-11-20 14:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_Line_SaveNclose' is clicked on
+
+2017-11-20 14:52:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:52:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:52:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-11-20 14:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Line/EPO_MultiLine_SavenClose' is clicked on
+
+2017-11-20 14:52:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' successfully
+
+2017-11-20 14:52:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' successfully
+
+2017-11-20 14:52:21 - [TEST_CASE][PASSED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept
+
+2017-11-20 14:52:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-11-20 14:52:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action_SendForApproval' is clicked on
+
+2017-11-20 14:52:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:52:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:52:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:52:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-11-20 14:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Apporve' is clicked on
+
+2017-11-20 14:52:27 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:52:32 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' is clicked on
+
+2017-11-20 14:52:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Print' is clicked on
+
+2017-11-20 14:52:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_FinalPrint' is clicked on
+
+2017-11-20 14:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_FinalPrint' is clicked on
+
+2017-11-20 14:52:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_PrintOption' is clicked on
+
+2017-11-20 14:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_PrintOption' is clicked on
+
+2017-11-20 14:52:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is clicked on
+
+2017-11-20 14:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device' is clicked on
+
+2017-11-20 14:52:58 - [TEST_STEP][PASSED] - setText: Text 'D' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'
+
+2017-11-20 14:52:58 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Device'
+
+2017-11-20 14:52:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Continue' is clicked on
+
+2017-11-20 14:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Continue' is clicked on
+
+2017-11-20 14:52:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:53:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:53:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_EPOtab' is clicked on
+
+2017-11-20 14:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_EPOtab' is clicked on
+
+2017-11-20 14:53:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Close' is clicked on
+
+2017-11-20 14:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Print_Close' is clicked on
+
+2017-11-20 14:53:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:53:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Header_Action' is clicked on
+
+2017-11-20 14:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' is clicked on
+
+2017-11-20 14:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Header/EPO_Action_Reciept' is clicked on
+
+2017-11-20 14:53:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is present
+
+2017-11-20 14:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is present
+
+2017-11-20 14:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is clicked on
+
+2017-11-20 14:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Save' is clicked on
+
+2017-11-20 14:53:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:53:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' is clicked on
+
+2017-11-20 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action' is clicked on
+
+2017-11-20 14:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' is clicked on
+
+2017-11-20 14:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Receipt_Action_ReceiptLine' is clicked on
+
+2017-11-20 14:53:13 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is present
+
+2017-11-20 14:53:15 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is present
+
+2017-11-20 14:53:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is clicked on
+
+2017-11-20 14:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_New' is clicked on
+
+2017-11-20 14:53:15 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is present
+
+2017-11-20 14:53:17 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is present
+
+2017-11-20 14:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is clicked on
+
+2017-11-20 14:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLine_Select' is clicked on
+
+2017-11-20 14:53:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:53:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' is clicked on
+
+2017-11-20 14:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_ReceiptLine_SavenClose' is clicked on
+
+2017-11-20 14:53:20 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLineAction' is present
+
+2017-11-20 14:53:21 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLineAction' is present
+
+2017-11-20 14:53:21 - [TEST_STEP][PASSED] - Statement - G_Unit = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Unit)): Text of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Unit' is: 'MD0018340'
+
+2017-11-20 14:54:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_Unit' is: 'MD0018340'
+
+2017-11-20 14:54:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLineAction' is clicked on
+
+2017-11-20 14:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt_Line/EPO_RecieptLineAction' is clicked on
+
+2017-11-20 14:54:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Action_Confirm' is clicked on
+
+2017-11-20 14:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Action_Confirm' is clicked on
+
+2017-11-20 14:54:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_MeterOK' is clicked on
+
+2017-11-20 14:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_Reciept_MeterOK' is clicked on
+
+2017-11-20 14:54:07 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device' is present
+
+2017-11-20 14:54:12 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device' is present
+
+2017-11-20 14:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device' is clicked on
+
+2017-11-20 14:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device' is clicked on
+
+2017-11-20 14:54:12 - [TEST_STEP][PASSED] - setText: Text 'D' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device'
+
+2017-11-20 14:54:13 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Device'
+
+2017-11-20 14:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Continue' is clicked on
+
+2017-11-20 14:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_Continue' is clicked on
+
+2017-11-20 14:54:13 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:54:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:54:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_ProcessCompleted' is clicked on
+
+2017-11-20 14:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentPurchase/EPO_Receipt/EPO_RecieptPrint_ProcessCompleted' is clicked on
+
+2017-11-20 14:54:22 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-20 14:54:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-20 14:54:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_Reciept' successfully
+
+2017-11-20 14:54:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' successfully
+
+2017-11-20 14:54:32 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-11-20 14:54:32 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender: null
+
+2017-11-20 14:54:33 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-11-20 14:54:33 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: null
+
+2017-11-20 14:54:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-20 14:54:33 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-20 14:54:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-20 14:54:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-20 14:55:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-20 14:55:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-20 14:55:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-20 14:55:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-20 14:55:13 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-20 14:55:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-20 14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-20 14:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-20 14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-20 14:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-20 14:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-20 14:55:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-20 14:55:15 - [MESSAGE][PASSED] - Keys 'erext4100s004' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-20 14:55:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-20 14:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-20 14:55:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-20 14:55:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-20 14:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Customer' is clicked on
+
+2017-11-20 14:55:19 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-20 14:55:19 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer'
+
+2017-11-20 14:55:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:55:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:55:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-20 14:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' is clicked on
+
+2017-11-20 14:55:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:55:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:55:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-20 14:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' is clicked on
+
+2017-11-20 14:55:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:55:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:55:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-20 14:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' is clicked on
+
+2017-11-20 14:55:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:55:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:55:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-20 14:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' is clicked on
+
+2017-11-20 14:55:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:55:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:55:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-20 14:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' is clicked on
+
+2017-11-20 14:55:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:55:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:55:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-20 14:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' is clicked on
+
+2017-11-20 14:55:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:55:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:55:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-20 14:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' is clicked on
+
+2017-11-20 14:55:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:55:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:55:51 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-20 14:55:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' successfully
+
+2017-11-20 14:55:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-20 14:55:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-20 14:55:55 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-11-20 14:55:55 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-11-20 14:55:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-20 14:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.Unit' is clicked on
+
+2017-11-20 14:55:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:00 - [TEST_STEP][PASSED] - setText: Text 'MD0018340' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-20 14:56:00 - [MESSAGE][PASSED] - Text 'MD0018340' is set on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit'
+
+2017-11-20 14:56:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:05 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-20 14:56:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' successfully
+
+2017-11-20 14:56:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:10 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-20 14:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is double clicked on
+
+2017-11-20 14:56:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-20 14:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' is clicked on
+
+2017-11-20 14:56:16 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-11-20 14:56:16 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-11-20 14:56:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-20 14:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' is clicked on
+
+2017-11-20 14:56:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-20 14:56:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-20 14:56:26 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-20 14:56:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' successfully
+
+2017-11-20 14:56:26 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-20 14:56:26 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-20 14:56:26 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-20 14:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is double clicked on
+
+2017-11-20 14:56:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-20 14:56:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-20 14:56:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-20 14:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' is clicked on
+
+2017-11-20 14:56:29 - [TEST_STEP][INCOMPLETE] - delay: Delaying browser in 2 second(s)]]></system-out>
+         <system-err><![CDATA[2017-11-20 14:51:09 - [TEST_CASE][INCOMPLETE] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-20 14:51:08 - [TEST_SUITE][INCOMPLETE] - CC_RentalInvoicewithSplitTenderTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-11-20 14:51:08 - [TEST_SUITE][INCOMPLETE] - CC_RentalInvoicewithSplitTenderTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

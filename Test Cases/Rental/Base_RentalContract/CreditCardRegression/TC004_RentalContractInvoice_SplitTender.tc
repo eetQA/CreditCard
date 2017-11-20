@@ -24,20 +24,48 @@
       <description></description>
       <id>1cee4e77-a3e1-44bb-8877-fe4602760e76</id>
       <masked>false</masked>
-      <name>CardTypeTC</name>
+      <name>CardType1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>40334abb-6c66-47b5-9f4f-1ff666fdbf30</id>
       <masked>false</masked>
-      <name>CCNOTC</name>
+      <name>CCNo1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>0b09aa01-37d4-4b1f-b8ac-bcdf8131eabc</id>
       <masked>false</masked>
-      <name>CVVTC</name>
+      <name>CVVNo1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f13d45d8-c1a7-4727-8381-8a86e7d9813b</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12526d89-1ffa-441d-824f-a418b54ef51d</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c9bc9d0d-acdc-4cce-a8dd-8bf5618a8ae6</id>
+      <masked>false</masked>
+      <name>CVVNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3c0962aa-cf6c-4eaf-81e1-881c388ff2c9</id>
+      <masked>false</masked>
+      <name>Model</name>
    </variable>
 </TestCaseEntity>

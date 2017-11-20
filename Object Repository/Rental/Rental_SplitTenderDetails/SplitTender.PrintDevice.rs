@@ -10,6 +10,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ttstpsplopen-6-button-form-exec.cont.process</value>
+      <value>ttstpsplopen-14-button-form-exec.cont.process-label</value>
    </webElementProperties>
 </WebElementEntity>

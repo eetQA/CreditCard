@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Common/Base_Common_OpenSession'), [('SessionID'
 
 WebUI.click(findTestObject('Rental/RentalHeader/RentalContract.Customer'))
 
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Customer'), 'M00000010')
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalContract.Customer'), BP)
 
 WebUI.delay(2)
 

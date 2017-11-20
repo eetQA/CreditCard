@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithSplitTenderTestSuite,Firefox 56.0,,2017-11-20 15:31:26,2017-11-20 15:39:33,8m - 7.101s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender,Firefox 56.0,,2017-11-20 15:31:26,2017-11-20 15:39:33,8m - 6.426s,FAILED
+callTestCase,Firefox 56.0,,2017-11-20 15:31:27,2017-11-20 15:33:01,1m - 33.524s,PASSED
+callTestCase,Firefox 56.0,,2017-11-20 15:33:01,2017-11-20 15:36:22,3m - 20.704s,PASSED
+callTestCase,Firefox 56.0,,2017-11-20 15:36:22,2017-11-20 15:39:33,3m - 11.001s,FAILED

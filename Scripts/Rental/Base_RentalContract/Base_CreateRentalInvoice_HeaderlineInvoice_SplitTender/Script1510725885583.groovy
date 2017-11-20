@@ -54,7 +54,7 @@ not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/Servic
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'))
 
 'Pass Card Type variable '
-WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardTypeTC)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType'), CardType1)
 
 WebUI.delay(2)
 
@@ -62,7 +62,7 @@ WebUI.delay(2)
 WebUI.doubleClick(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'))
 
 'Pass CC No Variable'
-WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNOTC)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), CCNo1)
 
 WebUI.delay(2)
 
@@ -70,7 +70,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'))
 
 'Pass CVV variable'
-WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVVTC)
+WebUI.setText(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2'), CVV1)
 
 not_run: WebUI.sendKeys(findTestObject('Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No'), Keys.chord(Keys.TAB))
 
