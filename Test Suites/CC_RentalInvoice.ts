@@ -4,7 +4,7 @@
    <name>CC_RentalInvoice</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-15T10:57:26</lastRun>
+   <lastRun>2017-11-22T00:00:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

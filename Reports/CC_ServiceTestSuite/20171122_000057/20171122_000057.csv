@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_ServiceTestSuite,Firefox 43.0,,2017-11-22 01:49:04,2017-11-22 02:17:49,28m - 45.373s,FAILED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 1,Firefox 43.0,"Objective:\nTo Test Credit Card Service Order with two different Gateways (PUBLIC AND GLOBAL)\n\nPre-requisites:\n\n\""Credit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.\nIn the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\""\n\nSteps_Service Credit Card Invoicing :\n\n\""Book a Service Order with Mode of Payment - 'Credit Card'.\nAdd Parts/Labor/Others lines.\nRelease the Service Order.\nBook Actual Cost.\nCost and Invoice the Order.\nEnter Credit Card details for GlobalOnePay card 5100270000000007 and CVV 214.\nClick 'Process' in the Credit Card Interface session.\""\n\nExpected Result:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\n\n",2017-11-22 01:49:04,2017-11-22 02:14:05,25m - 0.978s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 01:49:05,2017-11-22 01:51:39,2m - 34.044s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 01:51:39,2017-11-22 01:55:20,3m - 40.539s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 01:55:20,2017-11-22 02:00:49,5m - 28.756s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 02:00:49,2017-11-22 02:09:57,9m - 8.141s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 02:09:57,2017-11-22 02:11:43,1m - 46.347s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 02:11:43,2017-11-22 02:14:05,2m - 22.173s,FAILED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 2,Firefox 43.0,"Objective:\nTo Test Credit Card Service Order with two different Gateways (PUBLIC AND GLOBAL)\n\nPre-requisites:\n\n\""Credit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.\nIn the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\""\n\nSteps_Service Credit Card Invoicing :\n\n\""Book a Service Order with Mode of Payment - 'Credit Card'.\nAdd Parts/Labor/Others lines.\nRelease the Service Order.\nBook Actual Cost.\nCost and Invoice the Order.\nEnter Credit Card details for GlobalOnePay card 5100270000000007 and CVV 214.\nClick 'Process' in the Credit Card Interface session.\""\n\nExpected Result:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\n\n",2017-11-22 02:14:06,2017-11-22 02:17:48,3m - 42.527s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:14:06,2017-11-22 02:15:00,54.272s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:15:00,2017-11-22 02:15:25,25.116s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:15:25,2017-11-22 02:16:01,35.678s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:16:01,2017-11-22 02:17:05,1m - 4.784s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:17:05,2017-11-22 02:17:12,6.918s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 02:17:12,2017-11-22 02:17:48,35.711s,PASSED
