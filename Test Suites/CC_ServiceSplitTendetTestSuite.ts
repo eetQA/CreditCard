@@ -4,7 +4,11 @@
    <name>CC_ServiceSplitTendetTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
+<<<<<<< HEAD
    <lastRun>2017-11-26T00:00:19</lastRun>
+=======
+   <lastRun>2017-11-22T00:00:57</lastRun>
+>>>>>>> branch 'master' of https://github.com/eetQA/CreditCard.git
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

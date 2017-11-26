@@ -52,6 +52,8 @@ WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/C
 
 WebUI.doubleClick(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'), CardType)
 
 WebUI.delay(3)

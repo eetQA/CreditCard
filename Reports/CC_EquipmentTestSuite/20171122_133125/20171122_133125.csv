@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-11-22 13:49:16,2017-11-22 14:05:23,16m - 7.650s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1,Firefox 43.0,Objective: Equipment Credit Card Sales Invoicing with different gateways\n\nSteps:\n1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.\n2. Add a configuration \n3. Confirm the delivery.\n4. Invoice the Order with Credit card\n\nExpected:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.,2017-11-22 13:49:16,2017-11-22 13:54:28,5m - 11.347s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-22 13:49:17,2017-11-22 13:50:51,1m - 34.209s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-22 13:50:51,2017-11-22 13:51:40,48.750s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-22 13:51:40,2017-11-22 13:51:55,15.139s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-22 13:51:55,2017-11-22 13:52:47,51.355s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-11-22 13:52:47,2017-11-22 13:53:29,42.765s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-11-22 13:53:29,2017-11-22 13:53:54,24.690s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-11-22 13:53:54,2017-11-22 13:54:28,33.530s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 2,Firefox 43.0,Objective: Equipment Credit Card Sales Invoicing with different gateways\n\nSteps:\n1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.\n2. Add a configuration \n3. Confirm the delivery.\n4. Invoice the Order with Credit card\n\nExpected:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.,2017-11-22 13:54:28,2017-11-22 13:59:19,4m - 50.923s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-11-22 13:54:28,2017-11-22 13:55:53,1m - 25.330s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-11-22 13:55:53,2017-11-22 13:56:39,45.776s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-22 13:56:39,2017-11-22 13:56:53,13.763s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-11-22 13:56:53,2017-11-22 13:57:42,49.613s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-11-22 13:57:42,2017-11-22 13:58:23,41.133s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-11-22 13:58:23,2017-11-22 13:58:46,22.404s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-11-22 13:58:46,2017-11-22 13:59:19,32.861s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC002_EquipmentSalesAgreement_Split,Firefox 43.0,Objective: Equipment Credit Card Split Tender Invoicing \n\nSteps:\n1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.\n2. Add Unit\n3. Deliver the Unit\n4. Invoice the Order with Split tender:  two Credit Cards and one cash\n\nExpected Result:\nThree invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash\n,2017-11-22 13:59:19,2017-11-22 14:05:23,6m - 4.682s,PASSED
+callTestCase,Firefox 43.0,Create Unit through Purchase Order\r\n,2017-11-22 13:59:19,2017-11-22 14:00:49,1m - 30.331s,PASSED
+callTestCase,Firefox 43.0,Create Sales Agreement Header,2017-11-22 14:00:49,2017-11-22 14:01:35,45.411s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-11-22 14:01:35,2017-11-22 14:01:48,13.689s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit\r\n,2017-11-22 14:01:48,2017-11-22 14:02:40,51.584s,PASSED
+callTestCase,Firefox 43.0,Invoice th Agreement with Split Payment: 2 CC's and remaining Cash,2017-11-22 14:02:40,2017-11-22 14:04:27,1m - 46.944s,PASSED
+callTestCase,Firefox 43.0,Get The Invoice details\r\n,2017-11-22 14:04:27,2017-11-22 14:04:51,24.132s,PASSED
+callTestCase,Firefox 43.0,Check invoices in open Entries,2017-11-22 14:04:51,2017-11-22 14:05:23,32.243s,PASSED

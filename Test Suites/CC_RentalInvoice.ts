@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>CC_RentalInvoice</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2017-11-22T00:00:57</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8fa4b46c-76cb-4312-96da-25aadff499c8</testSuiteGuid>
+   <testCaseLink>
+      <guid>c29ef767-bc6e-4d81-8218-1e67c6dd6536</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>95050bee-9671-4681-b824-436c988a5aa4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ServiceData/RentalCC1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>BP</value>
+         <variableId>a46a7fc7-b68e-4cd2-8409-80e659b2dded</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Payment Gateway</value>
+         <variableId>725bd66c-36b9-4487-99ff-2deed969e4bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCType</value>
+         <variableId>ad7d63e1-4339-4730-a782-4670b3804c80</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CCNo</value>
+         <variableId>d7e9845d-76e3-48f4-8412-8e0b64c640df</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV</value>
+         <variableId>ef94748f-3333-4258-96d9-879ded2aa3c6</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

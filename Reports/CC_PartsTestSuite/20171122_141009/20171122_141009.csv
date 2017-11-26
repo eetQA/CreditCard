@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_PartsTestSuite,Firefox 43.0,,2017-11-22 14:10:19,2017-11-22 14:12:10,1m - 51.140s,INCOMPLETE
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard,Firefox 43.0,,2017-11-22 14:10:19,2017-11-22 14:12:10,1m - 50.698s,INCOMPLETE
+callTestCase,Firefox 43.0,Create Part Sales Order header with cc,2017-11-22 14:10:20,2017-11-22 14:11:07,47.051s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-11-22 14:11:07,2017-11-22 14:11:39,31.331s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-11-22 14:11:39,2017-11-22 14:12:10,31.395s,INCOMPLETE

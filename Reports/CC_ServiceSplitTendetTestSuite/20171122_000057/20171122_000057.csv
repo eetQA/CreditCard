@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_ServiceSplitTendetTestSuite,Firefox 43.0,,2017-11-22 00:18:04,2017-11-22 00:36:37,18m - 33.185s,FAILED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1,Firefox 43.0,,2017-11-22 00:18:04,2017-11-22 00:23:49,5m - 44.627s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:18:05,2017-11-22 00:19:06,1m - 0.578s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:19:06,2017-11-22 00:19:34,27.815s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:19:34,2017-11-22 00:20:10,36.083s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:20:10,2017-11-22 00:23:07,2m - 57.702s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:23:07,2017-11-22 00:23:18,10.161s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:23:18,2017-11-22 00:23:49,31.301s,PASSED
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 2,Firefox 43.0,,2017-11-22 00:23:49,2017-11-22 00:36:37,12m - 48.069s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 00:23:49,2017-11-22 00:24:41,52.225s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:24:41,2017-11-22 00:25:06,25.038s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:25:06,2017-11-22 00:25:42,35.677s,PASSED
+callTestCase,Firefox 43.0,,2017-11-22 00:25:42,2017-11-22 00:32:23,6m - 41.469s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 00:32:23,2017-11-22 00:34:13,1m - 49.434s,FAILED
+callTestCase,Firefox 43.0,,2017-11-22 00:34:13,2017-11-22 00:36:37,2m - 24.195s,FAILED

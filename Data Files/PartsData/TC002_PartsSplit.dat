@@ -9,7 +9,7 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>M00000182 KP3 2 PUBL Visa+Card 4012000033330026 456 Visa 4111123400062020 456</data>
-   <data>M00000182 KP3 2 GLOBAL Debit+MasterCard 5100270000000007 456 Maestro 5021230000000007 214</data>
+   <data>M00000182 KP3 2 GLOBAL DEBIT+MASTERCARD 5100270000000007 456 Maestro 5021230000000007 214</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>BP</name>

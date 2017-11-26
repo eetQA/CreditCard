@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_PartsTestSuite" time="7" tests="0" failures="0" errors="0">
+   <testsuite name="CC_PartsTestSuite" tests="0" failures="0" errors="0" time="7" timestamp="2017-11-17 11:25:19" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/CC_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\CC_PartsTestSuite\\20171117_112511"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\CC_PartsTestSuite\\20171117_112511\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1" classname="Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard" status="INCOMPLETE">
+         <system-out><![CDATA[2017-11-17 11:25:19 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1: null
+
+2017-11-17 11:25:21 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-11-17 11:25:21 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC: null
+
+2017-11-17 11:25:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-11-17 11:25:22 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases)
+
+2017-11-17 11:25:22 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases)
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'tdsls4500m002' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to send keys 'tdsls4500m002' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - waitForElementPresent: Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' to be present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to wait for object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' to be present (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - setText: Unable to set text 'M00000010' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to set text 'M00000010' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-17 11:25:26 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][FAILED] - dragAndDropByOffset: Unable to drag and drop by offset distance (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-11-17 11:25:26 - [MESSAGE][FAILED] - Unable to drag and drop by offset distance (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EET-RG', ip: '192.168.25.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-11-17 11:25:26 - [TEST_STEP][INCOMPLETE] - delay: Delaying browser in 5 second(s)]]></system-out>
+         <system-err><![CDATA[2017-11-17 11:25:19 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-17 11:25:19 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-11-17 11:25:19 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

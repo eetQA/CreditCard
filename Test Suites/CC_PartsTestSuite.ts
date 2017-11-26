@@ -4,7 +4,7 @@
    <name>CC_PartsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-16T18:37:00</lastRun>
+   <lastRun>2017-11-22T14:10:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,7 +21,7 @@
          <id>dd529ca9-804e-496b-b345-a6d1440a552d</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1</value>
+            <value>3-3</value>
          </iterationEntity>
          <testDataId>Data Files/PartsData/PartCCData</testDataId>
       </testDataLink>
@@ -72,7 +72,7 @@
          <id>a60336b6-83b0-4d12-996a-6841ee936f0b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2-2</value>
          </iterationEntity>
          <testDataId>Data Files/PartsData/TC002_PartsSplit</testDataId>
       </testDataLink>

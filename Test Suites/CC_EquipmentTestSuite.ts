@@ -4,7 +4,7 @@
    <name>CC_EquipmentTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-15T16:58:53</lastRun>
+   <lastRun>2017-11-22T13:31:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

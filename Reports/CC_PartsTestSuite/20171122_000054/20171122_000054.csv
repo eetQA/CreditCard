@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_PartsTestSuite,Firefox 43.0,,2017-11-22 00:01:07,2017-11-22 00:17:33,16m - 25.818s,FAILED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 1,Firefox 43.0,"Test Case Objective: To verify credit card invoices with different gateways for parts module.\n\nPrerequisite:\nCredit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.In the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\n\nSteps:\n1. 'Create a Parts Sales Order with Mode of Payment - 'Credit Card'.\n2. Add Parts lines.\n3. Pick, Pack and Invoice the Order.\n4. Enter Credit Card details from data file with different Gateways\n5. Click 'Process' in the Credit Card Interface session.\n6. Verify the invoices in 'Open Entries'\n\nExpected Output:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\nInputs Needed:\n1. BP\n2. Part\n4. Qty\n3. CC Gateway\n4. Card type\n5. CC no. \n6. CVV\n",2017-11-22 00:01:08,2017-11-22 00:04:52,3m - 44.385s,PASSED
+callTestCase,Firefox 43.0,Create header with Credit Card\r\n,2017-11-22 00:01:09,2017-11-22 00:02:18,1m - 8.950s,PASSED
+callTestCase,Firefox 43.0,Add a part line\r\n,2017-11-22 00:02:18,2017-11-22 00:02:47,28.985s,PASSED
+callTestCase,Firefox 43.0,"Ship line, Invoice the Order using Credit card\r\n",2017-11-22 00:02:47,2017-11-22 00:03:50,1m - 3.389s,PASSED
+callTestCase,Firefox 43.0,Get the invoice details like Invoice No. Invoice Amount,2017-11-22 00:03:50,2017-11-22 00:04:18,28.078s,PASSED
+callTestCase,Firefox 43.0,Check Invoices in Open Entries\r\n,2017-11-22 00:04:18,2017-11-22 00:04:52,33.545s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 2,Firefox 43.0,"Test Case Objective: To verify credit card invoices with different gateways for parts module.\n\nPrerequisite:\nCredit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.In the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\n\nSteps:\n1. 'Create a Parts Sales Order with Mode of Payment - 'Credit Card'.\n2. Add Parts lines.\n3. Pick, Pack and Invoice the Order.\n4. Enter Credit Card details from data file with different Gateways\n5. Click 'Process' in the Credit Card Interface session.\n6. Verify the invoices in 'Open Entries'\n\nExpected Output:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\nInputs Needed:\n1. BP\n2. Part\n4. Qty\n3. CC Gateway\n4. Card type\n5. CC no. \n6. CVV\n",2017-11-22 00:04:52,2017-11-22 00:07:41,2m - 49.122s,PASSED
+callTestCase,Firefox 43.0,Create header with Credit Card\r\n,2017-11-22 00:04:52,2017-11-22 00:05:24,32.256s,PASSED
+callTestCase,Firefox 43.0,Add a part line\r\n,2017-11-22 00:05:24,2017-11-22 00:05:51,26.738s,PASSED
+callTestCase,Firefox 43.0,"Ship line, Invoice the Order using Credit card\r\n",2017-11-22 00:05:51,2017-11-22 00:06:48,56.803s,PASSED
+callTestCase,Firefox 43.0,Get the invoice details like Invoice No. Invoice Amount,2017-11-22 00:06:48,2017-11-22 00:07:08,20.428s,PASSED
+callTestCase,Firefox 43.0,Check Invoices in Open Entries\r\n,2017-11-22 00:07:08,2017-11-22 00:07:41,32.849s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard - Iteration 3,Firefox 43.0,"Test Case Objective: To verify credit card invoices with different gateways for parts module.\n\nPrerequisite:\nCredit Card Payment Gateway related setup should be done in the test company for all three Payment Gateways - FreedomPay, GlobalOnePay and JDF.In the 'Payment Gateway Details' (xiext6100m000) session, Business Parameter field should contain B. P. code.\n\nSteps:\n1. 'Create a Parts Sales Order with Mode of Payment - 'Credit Card'.\n2. Add Parts lines.\n3. Pick, Pack and Invoice the Order.\n4. Enter Credit Card details from data file with different Gateways\n5. Click 'Process' in the Credit Card Interface session.\n6. Verify the invoices in 'Open Entries'\n\nExpected Output:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.\n\nInputs Needed:\n1. BP\n2. Part\n4. Qty\n3. CC Gateway\n4. Card type\n5. CC no. \n6. CVV\n",2017-11-22 00:07:41,2017-11-22 00:11:20,3m - 38.479s,FAILED
+callTestCase,Firefox 43.0,Create header with Credit Card\r\n,2017-11-22 00:07:41,2017-11-22 00:08:14,32.795s,PASSED
+callTestCase,Firefox 43.0,Add a part line\r\n,2017-11-22 00:08:14,2017-11-22 00:08:41,27.097s,PASSED
+callTestCase,Firefox 43.0,"Ship line, Invoice the Order using Credit card\r\n",2017-11-22 00:08:41,2017-11-22 00:11:20,2m - 38.571s,FAILED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 1,Firefox 43.0,,2017-11-22 00:11:20,2017-11-22 00:14:59,3m - 39.378s,PASSED
+callTestCase,Firefox 43.0,Create Part Sales Order header with cc,2017-11-22 00:11:20,2017-11-22 00:11:53,32.826s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-11-22 00:11:53,2017-11-22 00:12:20,26.801s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-11-22 00:12:20,2017-11-22 00:14:08,1m - 48.427s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details\r\n,2017-11-22 00:14:08,2017-11-22 00:14:28,19.998s,PASSED
+callTestCase,Firefox 43.0,Check invoices in Open Entries,2017-11-22 00:14:28,2017-11-22 00:14:59,31.074s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 2,Firefox 43.0,,2017-11-22 00:14:59,2017-11-22 00:17:32,2m - 33.109s,FAILED
+callTestCase,Firefox 43.0,Create Part Sales Order header with cc,2017-11-22 00:14:59,2017-11-22 00:15:31,32.049s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-11-22 00:15:31,2017-11-22 00:15:59,27.410s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-11-22 00:15:59,2017-11-22 00:17:32,1m - 33.633s,FAILED
