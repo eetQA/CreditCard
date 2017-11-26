@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171121_190444</name>
+   <tag></tag>
+   <displayName>20171121_190444</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender</testCaseId>
+      <testCaseName>TC004_RentalContractInvoice_SplitTender</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

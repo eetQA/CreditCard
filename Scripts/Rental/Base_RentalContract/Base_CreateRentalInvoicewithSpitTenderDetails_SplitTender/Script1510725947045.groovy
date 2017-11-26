@@ -57,7 +57,9 @@ WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineC
 WebUI.delay(5)
 
 'Click on CVV '
-WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'))
+WebUI.doubleClick(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'))
+
+WebUI.delay(2)
 
 'Pass CVV variable'
 WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCVV'), CVV1)
@@ -168,9 +170,9 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount3'), GlobalVariable.G_SplitOrderAmt2)
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Save'))
+not_run: WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Save'))
 
 WebUI.delay(5)
 

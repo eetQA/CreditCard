@@ -35,7 +35,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CC_RentalInvoice</testSuiteEntity>
+         <testSuiteEntity>Test Suites/CC_RentalInvoicewithDiffGatewayTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -43,7 +43,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CC_ServiceTestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/CC_ServiceTestSuitewithDiffGatewayTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

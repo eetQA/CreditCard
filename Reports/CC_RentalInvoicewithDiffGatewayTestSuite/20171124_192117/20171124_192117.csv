@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithDiffGatewayTestSuite,Firefox 56.0,,2017-11-24 19:48:56,2017-11-24 20:41:19,52m - 22.317s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 1,Firefox 56.0,,2017-11-24 19:48:57,2017-11-24 20:15:07,26m - 10.793s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 19:48:57,2017-11-24 19:57:29,8m - 31.816s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 19:57:29,2017-11-24 20:05:06,7m - 36.344s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 20:05:06,2017-11-24 20:15:07,10m - 1.951s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 2,Firefox 56.0,,2017-11-24 20:15:08,2017-11-24 20:41:18,26m - 10.253s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 20:15:08,2017-11-24 20:23:39,8m - 31.856s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 20:23:39,2017-11-24 20:31:15,7m - 35.519s,FAILED
+callTestCase,Firefox 56.0,,2017-11-24 20:31:15,2017-11-24 20:41:18,10m - 2.767s,FAILED

@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_ServiceTestSuitewithDiffGatewayTestSuite" time="443" tests="2" failures="0" errors="0">
+   <testsuite name="CC_ServiceTestSuitewithDiffGatewayTestSuite" tests="2" failures="0" errors="0" time="443" timestamp="2017-11-24 19:41:08" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/CC_ServiceTestSuitewithDiffGatewayTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_ServiceTestSuitewithDiffGatewayTestSuite\\20171124_192116"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\CC_ServiceTestSuitewithDiffGatewayTestSuite\\20171124_192116\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.1.1"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="2cd01b7c-b6c3-4244-ab9d-b1e5acca1def"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 1" classname="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" status="PASSED">
+         <system-out><![CDATA[2017-11-24 19:41:08 - [TEST_CASE][PASSED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 1: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard
+
+2017-11-24 19:41:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-24 19:41:09 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_CreateHeader: Test Cases/Service/BaseTestCases/Base_Service_CreateHeader
+
+2017-11-24 19:41:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:41:10 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-24 19:41:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:41:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:41:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-24 19:41:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-24 19:41:17 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 19:41:17 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 19:41:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:41:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:41:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:41:24 - [TEST_STEP][PASSED] - sendKeys: Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:41:24 - [MESSAGE][PASSED] - Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:41:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:41:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:41:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-24 19:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-24 19:41:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:41:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:41:30 - [TEST_STEP][PASSED] - setText: Text 'M00000182' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:41:30 - [MESSAGE][PASSED] - Text 'M00000182' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:41:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:41:30 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:41:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:41:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:41:33 - [TEST_STEP][PASSED] - setText: Text 'MD0007993' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-24 19:41:34 - [MESSAGE][PASSED] - Text 'MD0007993' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-24 19:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-24 19:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-24 19:41:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:41:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:41:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-24 19:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-24 19:41:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-24 19:41:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-24 19:41:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:41:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:41:49 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-24 19:41:49 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-24 19:41:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:41:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:41:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:41:54 - [TEST_STEP][PASSED] - Statement - SWOOrderNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo), "value"): Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119869'
+
+2017-11-24 19:41:54 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119869'
+
+2017-11-24 19:41:54 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'SWO119869' and expected object '' are not equal
+
+2017-11-24 19:41:54 - [MESSAGE][PASSED] - Actual object 'SWO119869' and expected object '' are not equal
+
+2017-11-24 19:41:54 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:41:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:41:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:42:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:42:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:42:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-24 19:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-24 19:42:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:42:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:42:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-24 19:42:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' successfully
+
+2017-11-24 19:42:06 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_AddSegment: Test Cases/Service/BaseTestCases/Base_Service_AddSegment
+
+2017-11-24 19:42:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-24 19:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-24 19:42:06 - [TEST_STEP][PASSED] - setText: Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-24 19:42:06 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-24 19:42:06 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:42:06 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:42:06 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:42:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:42:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-24 19:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-24 19:42:10 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:42:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:42:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:42:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:42:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:42:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' is clicked on
+
+2017-11-24 19:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' is clicked on
+
+2017-11-24 19:42:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:42:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:42:27 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:42:27 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:42:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:42:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:42:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:42:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' successfully
+
+2017-11-24 19:42:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' successfully
+
+2017-11-24 19:42:30 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_Add Others: Test Cases/Service/BaseTestCases/Base_Service_Add Others
+
+2017-11-24 19:42:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' is clicked on
+
+2017-11-24 19:42:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' is clicked on
+
+2017-11-24 19:42:31 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:42:41 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:42:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' is clicked on
+
+2017-11-24 19:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' is clicked on
+
+2017-11-24 19:42:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:42:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:42:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' is clicked on
+
+2017-11-24 19:42:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' is clicked on
+
+2017-11-24 19:42:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:42:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:42:48 - [TEST_STEP][PASSED] - setText: Text 'APP' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'
+
+2017-11-24 19:42:48 - [MESSAGE][PASSED] - Text 'APP' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'
+
+2017-11-24 19:42:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:42:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:42:53 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' successfully
+
+2017-11-24 19:42:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' successfully
+
+2017-11-24 19:42:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' is clicked on
+
+2017-11-24 19:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' is clicked on
+
+2017-11-24 19:42:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:42:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:42:56 - [TEST_STEP][PASSED] - sendKeys: Keys '2' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'
+
+2017-11-24 19:42:56 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'
+
+2017-11-24 19:42:56 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:43:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:43:01 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:43:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:43:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' is clicked on
+
+2017-11-24 19:43:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' is clicked on
+
+2017-11-24 19:43:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:43:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:43:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' is clicked on
+
+2017-11-24 19:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' is clicked on
+
+2017-11-24 19:43:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' successfully
+
+2017-11-24 19:43:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' successfully
+
+2017-11-24 19:43:06 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice: Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice
+
+2017-11-24 19:43:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:43:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:43:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:43:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:43:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:43:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' is clicked on
+
+2017-11-24 19:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' is clicked on
+
+2017-11-24 19:43:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:43:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:43:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' is clicked on
+
+2017-11-24 19:43:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' is clicked on
+
+2017-11-24 19:43:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:43:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:43:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' is clicked on
+
+2017-11-24 19:43:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' is clicked on
+
+2017-11-24 19:43:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:43:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:43:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' is clicked on
+
+2017-11-24 19:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' is clicked on
+
+2017-11-24 19:43:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:43:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:43:31 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-24 19:43:31 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-24 19:43:31 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-11-24 19:43:31 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-11-24 19:43:31 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:43:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:43:31 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:43:31 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:43:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:43:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:43:33 - [TEST_STEP][PASSED] - setText: Text 'PUBL' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway'
+
+2017-11-24 19:43:34 - [MESSAGE][PASSED] - Text 'PUBL' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway'
+
+2017-11-24 19:43:34 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:43:34 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:43:34 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-24 19:43:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-24 19:43:34 - [TEST_STEP][PASSED] - setText: Text 'Visa Card' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'
+
+2017-11-24 19:43:34 - [MESSAGE][PASSED] - Text 'Visa Card' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'
+
+2017-11-24 19:43:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:43:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:43:36 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-24 19:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-24 19:43:36 - [TEST_STEP][PASSED] - sendKeys: Keys '4012000033330026' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'
+
+2017-11-24 19:43:36 - [MESSAGE][PASSED] - Keys '4012000033330026' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'
+
+2017-11-24 19:43:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:43:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:43:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-24 19:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-24 19:43:38 - [TEST_STEP][PASSED] - sendKeys: Keys '865' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'
+
+2017-11-24 19:43:39 - [MESSAGE][PASSED] - Keys '865' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'
+
+2017-11-24 19:43:39 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:43:39 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:43:39 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:43:39 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:43:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:43:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:43:42 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'
+
+2017-11-24 19:43:42 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'
+
+2017-11-24 19:43:42 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'
+
+2017-11-24 19:43:42 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'
+
+2017-11-24 19:43:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process' is clicked on
+
+2017-11-24 19:43:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process' is clicked on
+
+2017-11-24 19:43:42 - [TEST_STEP][PASSED] - delay: Delayed 13 second(s)
+
+2017-11-24 19:43:55 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2017-11-24 19:43:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-24 19:43:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-24 19:43:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:44:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:44:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-24 19:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-24 19:44:05 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:44:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:44:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' successfully
+
+2017-11-24 19:44:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' successfully
+
+2017-11-24 19:44:10 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_GetInvoice: Test Cases/Service/BaseTestCases/Base_Service_GetInvoice
+
+2017-11-24 19:44:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:44:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:44:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-24 19:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-24 19:44:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' is clicked on
+
+2017-11-24 19:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' is clicked on
+
+2017-11-24 19:44:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:44:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - Statement - G_InvoiceTnxType = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1' is: 'SIS'
+
+2017-11-24 19:44:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1' is: 'SIS'
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - Statement - G_InvoiceTnxNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2' is: '10006795'
+
+2017-11-24 19:44:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2' is: '10006795'
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD' is: '14.00'
+
+2017-11-24 19:44:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD' is: '14.00'
+
+2017-11-24 19:44:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' successfully
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' successfully
+
+2017-11-24 19:44:17 - [TEST_CASE][PASSED] - Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1: Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:44:17 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-24 19:44:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:44:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-24 19:44:24 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:44:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-24 19:44:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-24 19:44:24 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 19:44:24 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 19:44:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:44:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:44:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:44:30 - [TEST_STEP][PASSED] - sendKeys: Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:44:30 - [MESSAGE][PASSED] - Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:44:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:44:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:44:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-24 19:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-24 19:44:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:44:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:44:34 - [TEST_STEP][PASSED] - setText: Text 'SIS' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:34 - [MESSAGE][PASSED] - Text 'SIS' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:34 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:44:34 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:44:34 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:44:34 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:44:34 - [TEST_STEP][PASSED] - setText: Text '10006795' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:35 - [MESSAGE][PASSED] - Text '10006795' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:35 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:44:35 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:44:35 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:44:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_Action' is clicked on
+
+2017-11-24 19:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_Action' is clicked on
+
+2017-11-24 19:44:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.FullyPaid' is clicked on
+
+2017-11-24 19:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.FullyPaid' is clicked on
+
+2017-11-24 19:44:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:44:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:44:41 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' successfully
+
+2017-11-24 19:44:41 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' successfully
+
+2017-11-24 19:44:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - Statement - BalanceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '0.00'
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '0.00'
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - verifyEqual: Actual object '0.00' and expected object '0.00' are equal
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0.00' are equal
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference' is clicked on
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference' is clicked on
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:46 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:44:46 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:47 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:44:47 - [TEST_STEP][PASSED] - sendKeys: Keys 'M00000182 (SIS/10006795)' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'
+
+2017-11-24 19:44:48 - [MESSAGE][PASSED] - Keys 'M00000182 (SIS/10006795)' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'
+
+2017-11-24 19:44:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:44:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' successfully
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' successfully
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - Statement - BalanceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '14.00'
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '14.00'
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - Statement - InvoiceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' is: '14.00'
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' is: '14.00'
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - verifyEqual: Actual object '14.00' and expected object '14.00' are equal
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Actual object '14.00' and expected object '14.00' are equal
+
+2017-11-24 19:44:51 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-11-24 19:44:51 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2017-11-24 19:44:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 2" classname="Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard" status="PASSED">
+         <system-out><![CDATA[2017-11-24 19:44:51 - [TEST_CASE][PASSED] - Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard - Iteration 2: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-24 19:44:51 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_CreateHeader: Test Cases/Service/BaseTestCases/Base_Service_CreateHeader
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:44:51 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-24 19:44:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:44:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-24 19:44:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:44:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-24 19:44:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-24 19:44:57 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 19:44:57 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 19:44:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:45:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:45:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:45:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:45:03 - [TEST_STEP][PASSED] - sendKeys: Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:45:04 - [MESSAGE][PASSED] - Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:45:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:45:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:45:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:45:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-24 19:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-11-24 19:45:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:10 - [TEST_STEP][PASSED] - setText: Text 'M00000182' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:45:10 - [MESSAGE][PASSED] - Text 'M00000182' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:45:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:45:10 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-11-24 19:45:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:13 - [TEST_STEP][PASSED] - setText: Text 'MD0007993' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-24 19:45:13 - [MESSAGE][PASSED] - Text 'MD0007993' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-11-24 19:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:45:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:45:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-24 19:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-11-24 19:45:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-24 19:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-11-24 19:45:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-24 19:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-11-24 19:45:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:45:29 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:45:29 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-24 19:45:29 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-24 19:45:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-11-24 19:45:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:45:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:45:35 - [TEST_STEP][PASSED] - Statement - SWOOrderNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo), "value"): Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119870'
+
+2017-11-24 19:45:35 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119870'
+
+2017-11-24 19:45:35 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'SWO119870' and expected object '' are not equal
+
+2017-11-24 19:45:35 - [MESSAGE][PASSED] - Actual object 'SWO119870' and expected object '' are not equal
+
+2017-11-24 19:45:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:45:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:45:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-24 19:45:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' is clicked on
+
+2017-11-24 19:45:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' successfully
+
+2017-11-24 19:45:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' successfully
+
+2017-11-24 19:45:46 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_AddSegment: Test Cases/Service/BaseTestCases/Base_Service_AddSegment
+
+2017-11-24 19:45:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-24 19:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' is clicked on
+
+2017-11-24 19:45:46 - [TEST_STEP][PASSED] - setText: Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-24 19:45:47 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType'
+
+2017-11-24 19:45:47 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:45:47 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:45:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:45:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:45:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-24 19:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' is clicked on
+
+2017-11-24 19:45:50 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:46:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:46:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:46:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:46:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:46:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' is clicked on
+
+2017-11-24 19:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' is clicked on
+
+2017-11-24 19:46:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:46:07 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:46:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:46:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:46:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' is clicked on
+
+2017-11-24 19:46:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:46:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:46:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' successfully
+
+2017-11-24 19:46:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' successfully
+
+2017-11-24 19:46:11 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_Add Others: Test Cases/Service/BaseTestCases/Base_Service_Add Others
+
+2017-11-24 19:46:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' is clicked on
+
+2017-11-24 19:46:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' is clicked on
+
+2017-11-24 19:46:11 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:46:21 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:46:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' is clicked on
+
+2017-11-24 19:46:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' is clicked on
+
+2017-11-24 19:46:21 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' is clicked on
+
+2017-11-24 19:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' is clicked on
+
+2017-11-24 19:46:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:46:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:46:28 - [TEST_STEP][PASSED] - setText: Text 'APP' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'
+
+2017-11-24 19:46:29 - [MESSAGE][PASSED] - Text 'APP' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp'
+
+2017-11-24 19:46:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:34 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' successfully
+
+2017-11-24 19:46:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' successfully
+
+2017-11-24 19:46:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' is clicked on
+
+2017-11-24 19:46:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' is clicked on
+
+2017-11-24 19:46:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:46:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:46:36 - [TEST_STEP][PASSED] - sendKeys: Keys '2' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'
+
+2017-11-24 19:46:36 - [MESSAGE][PASSED] - Keys '2' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty'
+
+2017-11-24 19:46:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:41 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:46:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:46:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' is clicked on
+
+2017-11-24 19:46:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' is clicked on
+
+2017-11-24 19:46:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' is clicked on
+
+2017-11-24 19:46:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' is clicked on
+
+2017-11-24 19:46:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' successfully
+
+2017-11-24 19:46:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' successfully
+
+2017-11-24 19:46:46 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice: Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice
+
+2017-11-24 19:46:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:46:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:46:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:46:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' is clicked on
+
+2017-11-24 19:46:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:46:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:46:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' is clicked on
+
+2017-11-24 19:46:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' is clicked on
+
+2017-11-24 19:46:55 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:47:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:47:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' is clicked on
+
+2017-11-24 19:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' is clicked on
+
+2017-11-24 19:47:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:47:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:47:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' is clicked on
+
+2017-11-24 19:47:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' is clicked on
+
+2017-11-24 19:47:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:47:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:47:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' is clicked on
+
+2017-11-24 19:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' is clicked on
+
+2017-11-24 19:47:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:47:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:47:11 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-11-24 19:47:11 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-11-24 19:47:11 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-11-24 19:47:11 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-11-24 19:47:11 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:47:11 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:47:11 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-11-24 19:47:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-11-24 19:47:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:47:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:47:13 - [TEST_STEP][PASSED] - setText: Text 'GLOBAL' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway'
+
+2017-11-24 19:47:14 - [MESSAGE][PASSED] - Text 'GLOBAL' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway'
+
+2017-11-24 19:47:14 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:47:14 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:47:14 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-24 19:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' is double clicked on
+
+2017-11-24 19:47:14 - [TEST_STEP][PASSED] - setText: Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'
+
+2017-11-24 19:47:14 - [MESSAGE][PASSED] - Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'
+
+2017-11-24 19:47:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:47:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:47:16 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-24 19:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' is double clicked on
+
+2017-11-24 19:47:16 - [TEST_STEP][PASSED] - sendKeys: Keys '5100270000000007' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'
+
+2017-11-24 19:47:16 - [MESSAGE][PASSED] - Keys '5100270000000007' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'
+
+2017-11-24 19:47:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-11-24 19:47:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-11-24 19:47:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-24 19:47:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' is clicked on
+
+2017-11-24 19:47:19 - [TEST_STEP][PASSED] - sendKeys: Keys '865' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'
+
+2017-11-24 19:47:19 - [MESSAGE][PASSED] - Keys '865' sent to object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'
+
+2017-11-24 19:47:19 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:47:19 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:47:19 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:47:19 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:47:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:47:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:47:22 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'
+
+2017-11-24 19:47:22 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth'
+
+2017-11-24 19:47:22 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'
+
+2017-11-24 19:47:22 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear'
+
+2017-11-24 19:47:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process' is clicked on
+
+2017-11-24 19:47:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Process' is clicked on
+
+2017-11-24 19:47:22 - [TEST_STEP][PASSED] - delay: Delayed 13 second(s)
+
+2017-11-24 19:47:35 - [MESSAGE][PASSED] - Delayed 13 second(s)
+
+2017-11-24 19:47:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-24 19:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintOK' is clicked on
+
+2017-11-24 19:47:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-24 19:47:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-24 19:47:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-24 19:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PrintDevice' is clicked on
+
+2017-11-24 19:47:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:47:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:47:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice' successfully
+
+2017-11-24 19:47:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' successfully
+
+2017-11-24 19:47:50 - [TEST_CASE][PASSED] - Test Cases/Service/BaseTestCases/Base_Service_GetInvoice: Test Cases/Service/BaseTestCases/Base_Service_GetInvoice
+
+2017-11-24 19:47:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:47:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-24 19:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceorderHeader.HeaderSession' is clicked on
+
+2017-11-24 19:47:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' is clicked on
+
+2017-11-24 19:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceButton' is clicked on
+
+2017-11-24 19:47:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:47:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - Statement - G_InvoiceTnxType = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1' is: 'SIS'
+
+2017-11-24 19:47:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice1' is: 'SIS'
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - Statement - G_InvoiceTnxNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2' is: '10006796'
+
+2017-11-24 19:47:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.Invoice2' is: '10006796'
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD)): Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD' is: '14.00'
+
+2017-11-24 19:47:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice/ServiceOrderHeader.InvoiceAmountHD' is: '14.00'
+
+2017-11-24 19:47:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice' successfully
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' successfully
+
+2017-11-24 19:47:57 - [TEST_CASE][PASSED] - Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1: Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:47:57 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-11-24 19:47:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:47:57 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-11-24 19:48:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-11-24 19:48:04 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-11-24 19:48:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-11-24 19:48:04 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-11-24 19:48:04 - [MESSAGE][PASSED] - Current window maximized
+
+2017-11-24 19:48:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-11-24 19:48:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-11-24 19:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-11-24 19:48:10 - [TEST_STEP][PASSED] - sendKeys: Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:48:10 - [MESSAGE][PASSED] - Keys 'tfacr2520m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-11-24 19:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-11-24 19:48:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-11-24 19:48:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-24 19:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType' is clicked on
+
+2017-11-24 19:48:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:48:13 - [TEST_STEP][PASSED] - setText: Text 'SIS' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:14 - [MESSAGE][PASSED] - Text 'SIS' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:14 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:48:14 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:48:14 - [TEST_STEP][PASSED] - setText: Text '10006796' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:14 - [MESSAGE][PASSED] - Text '10006796' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:14 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-11-24 19:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-11-24 19:48:14 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-11-24 19:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-11-24 19:48:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_Action' is clicked on
+
+2017-11-24 19:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_Action' is clicked on
+
+2017-11-24 19:48:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.FullyPaid' is clicked on
+
+2017-11-24 19:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.FullyPaid' is clicked on
+
+2017-11-24 19:48:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:48:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:48:20 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' successfully
+
+2017-11-24 19:48:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' successfully
+
+2017-11-24 19:48:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-24 19:48:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-24 19:48:25 - [TEST_STEP][PASSED] - Statement - BalanceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '0.00'
+
+2017-11-24 19:48:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '0.00'
+
+2017-11-24 19:48:25 - [TEST_STEP][PASSED] - verifyEqual: Actual object '0.00' and expected object '0.00' are equal
+
+2017-11-24 19:48:25 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0.00' are equal
+
+2017-11-24 19:48:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference' is clicked on
+
+2017-11-24 19:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference' is clicked on
+
+2017-11-24 19:48:25 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:26 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:26 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:26 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentType'
+
+2017-11-24 19:48:26 - [TEST_STEP][PASSED] - sendKeys: Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:27 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo'
+
+2017-11-24 19:48:27 - [TEST_STEP][PASSED] - sendKeys: Keys 'M00000182 (SIS/10006796)' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'
+
+2017-11-24 19:48:27 - [MESSAGE][PASSED] - Keys 'M00000182 (SIS/10006796)' sent to object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.Reference'
+
+2017-11-24 19:48:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries_DocumentNo' is clicked on
+
+2017-11-24 19:48:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-11-24 19:48:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-11-24 19:48:30 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' successfully
+
+2017-11-24 19:48:30 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' successfully
+
+2017-11-24 19:48:30 - [TEST_STEP][PASSED] - Statement - BalanceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '14.00'
+
+2017-11-24 19:48:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.BalanceAmt' is: '14.00'
+
+2017-11-24 19:48:31 - [TEST_STEP][PASSED] - Statement - InvoiceAmount = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt)): Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' is: '14.00'
+
+2017-11-24 19:48:31 - [MESSAGE][PASSED] - Text of object 'Object Repository/Finance/BaseTestCases_OpenEntries_Service/OpenEntries.InvoiceAmt' is: '14.00'
+
+2017-11-24 19:48:31 - [TEST_STEP][PASSED] - verifyEqual: Actual object '14.00' and expected object '14.00' are equal
+
+2017-11-24 19:48:31 - [MESSAGE][PASSED] - Actual object '14.00' and expected object '14.00' are equal
+
+2017-11-24 19:48:31 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-11-24 19:48:31 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2017-11-24 19:48:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-24 19:41:08 - [TEST_SUITE][PASSED] - CC_ServiceTestSuitewithDiffGatewayTestSuite: Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
