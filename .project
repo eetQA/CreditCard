@@ -125,18 +125,6 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1511523305941</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1511523305994</id>
-=======
 			<id>1510897338434</id>
 			<name></name>
 			<type>10</type>
@@ -147,7 +135,6 @@
 		</filter>
 		<filter>
 			<id>1510897338447</id>
->>>>>>> branch 'master' of https://github.com/eetQA/CreditCard.git
 			<name></name>
 			<type>6</type>
 			<matcher>
