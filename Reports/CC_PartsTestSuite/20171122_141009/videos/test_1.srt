@@ -1,8 +1,0 @@
-1
-00:00:00,897 --> 00:00:48,024
-1. Create Part Sales Order header with cc
-
-2
-00:00:48,028 --> 00:01:19,733
-2. Add Line\r\n
-
