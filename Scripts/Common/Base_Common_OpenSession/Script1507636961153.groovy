@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login')
+WebUI.openBrowser(findTestData('Credentials').getValue(2, 2))
 
 WebUI.waitForPageLoad(20)
 

@@ -19,13 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Purchase Unit using EPO'
 WebUI.callTestCase(findTestCase('Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve'), [('BP') : BP, ('Model') : Model], 
     FailureHandling.CONTINUE_ON_FAILURE)
 
+'Create a Rental Header using above Unit'
 WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender'), [('PaymentGatwayTC') : PaymentGatwayTC
         , ('CardType1') : CardType1, ('CCNo1') : CCNo1, ('CVV1') : CVVNo1, ('CardType2') : CardType2, ('CCNo2') : CCNo2, ('CVV2') : CVVNo2
         , ('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Create Rental Invoice using CC _Split Tender'
 WebUI.callTestCase(findTestCase('Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender'), 
     [('PaymentGatwayTC') : PaymentGatwayTC, ('CardType1') : CardType1, ('CCNo1') : CCNo1, ('CVV1') : CVVNo1, ('CardType2') : CardType2
         , ('CCNo2') : CCNo2, ('CVV2') : CVVNo2], FailureHandling.CONTINUE_ON_FAILURE)

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>CC_ServiceTestSuitewithDiffGatewayTestSuite</name>
+   <name>CC_ServiceOrderwithDiffGatewayTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-26T00:00:20</lastRun>
+   <lastRun>2017-11-27T11:55:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

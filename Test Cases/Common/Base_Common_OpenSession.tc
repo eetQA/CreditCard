@@ -20,4 +20,11 @@ Steps:
       <masked>false</masked>
       <name>SessionID</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6be408f7-6103-4547-ada1-05db4607b518</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
 </TestCaseEntity>

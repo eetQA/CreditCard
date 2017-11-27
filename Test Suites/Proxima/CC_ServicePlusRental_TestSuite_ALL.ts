@@ -19,7 +19,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CC_ServiceTestSuitewithDiffGatewayTestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Proxima/CC_ServiceOrderwithDiffGatewayTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -27,7 +27,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CC_RentalInvoicewithDiffGatewayTestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Proxima/CC_RentalInvoicewithDiffGatewayTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/CC_RentalInvoicewithSplitTenderTestSuite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Proxima/CC_RentalInvoicewithSplitTenderTestSuite</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

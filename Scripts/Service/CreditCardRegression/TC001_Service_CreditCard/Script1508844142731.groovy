@@ -19,16 +19,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Service Order>Add Header'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_CreateHeader'), [('BP') : BP, ('Unit') : Unit], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Service Order>Add Segment'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Service Order>Add actual for Others'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [('CostComp') : CostComp], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Service Order>CC Interface details'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice'), [('CCNo') : CCNo, ('CVV') : CVV, ('PaymentGate') : PaymentGate_TC1
         , ('CardType') : CardType_TC1], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Service Order>Header Invoice Details ie read invoice series and amount'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
+'Service Order>Check open entries for CC BP and Invoice BP'
 WebUI.callTestCase(findTestCase('Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCInvoice1'), [('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 
