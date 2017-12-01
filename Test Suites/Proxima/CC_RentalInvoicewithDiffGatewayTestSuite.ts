@@ -4,7 +4,7 @@
    <name>CC_RentalInvoicewithDiffGatewayTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-26T00:00:20</lastRun>
+   <lastRun>2017-12-01T16:20:00</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ServiceData/RentalCC1</testDataId>
+         <testDataId>Data Files/PROXIMA/RentalData/RentalCC1</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
@@ -54,6 +54,12 @@
          <type>DATA_COLUMN</type>
          <value>CVV</value>
          <variableId>ef94748f-3333-4258-96d9-879ded2aa3c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>95050bee-9671-4681-b824-436c988a5aa4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Model</value>
+         <variableId>b507a220-6604-4a18-af5a-cca71229459a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
