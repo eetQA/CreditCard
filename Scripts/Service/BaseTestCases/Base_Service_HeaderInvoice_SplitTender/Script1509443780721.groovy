@@ -70,7 +70,7 @@ not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/S
 WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'))
 
 'Pass Card Type variable '
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'), CardType)
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'), CardType1)
 
 WebUI.delay(2)
 
@@ -78,7 +78,7 @@ WebUI.delay(2)
 WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'))
 
 'Pass CC No Variable'
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), CCNo)
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), CCNo1)
 
 WebUI.delay(2)
 
@@ -86,7 +86,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'))
 
 'Pass CVV variable'
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'), CVV)
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2'), CVV1)
 
 not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No'), Keys.chord(
         Keys.TAB))
@@ -133,15 +133,15 @@ WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTend
 WebUI.delay(2)
 
 'Pass CC No Variable'
-WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCCNo'), '4012000033330026')
+WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCCNo'), CCNo1)
 
 WebUI.delay(5)
 
 'Click on CVV '
-not_run: WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'))
+WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'))
 
 'Pass CVV variable'
-not_run: WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'), '865')
+WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'), CVV1)
 
 WebUI.scrollToElement(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineOrderAmount1'), 4)
 
@@ -173,7 +173,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTend
 WebUI.delay(2)
 
 'Pass CC No Variable'
-WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.Line2CCNo'), '4111123400062020')
+WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.Line2CCNo'), CCNo2)
 
 WebUI.delay(2)
 
@@ -183,7 +183,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTend
 WebUI.delay(3)
 
 'Pass CVV variable'
-WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.Line2CVV'), '865')
+WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.Line2CVV'), CVV2)
 
 WebUI.delay(3)
 
@@ -191,7 +191,7 @@ WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTend
 
 WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.CardTypeLine2'), 'Visa Card')
+WebUI.sendKeys(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.CardTypeLine2'), CardType2)
 
 WebUI.delay(5)
 

@@ -28,9 +28,9 @@ WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_AddSegment')
 'Service Order>Add Others line'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_Add Others'), [('CostComp') : CostComp], FailureHandling.CONTINUE_ON_FAILURE)
 
-'Service Order>CCInterface and Split Tender details'
-WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender'), [('CCNo') : CCNo, ('CVV') : CVV
-        , ('PaymentGate') : PayGate, ('CardType') : CardType], FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender'), [('CCNo1') : CCNo1, ('CVV1') : CVV1
+        , ('PaymentGate') : PayGate, ('CardType1') : CardType1, ('CardType2') : CardType2, ('CCNo2') : CCNo2, ('CVV2') : CVV2
+        , ('BP') : BP], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Service Order>Read Header Invoice details ie InvoiceNo and InvAmt SSI 100006679'
 WebUI.callTestCase(findTestCase('Service/BaseTestCases/Base_Service_GetInvoice_SplitTender'), [:], FailureHandling.CONTINUE_ON_FAILURE)

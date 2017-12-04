@@ -17,7 +17,7 @@
       <description></description>
       <id>82495eae-d474-4619-9615-1a6ec85a9ab9</id>
       <masked>false</masked>
-      <name>CVV</name>
+      <name>CVV1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>

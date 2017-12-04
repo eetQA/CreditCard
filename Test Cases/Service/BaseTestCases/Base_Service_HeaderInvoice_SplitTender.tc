@@ -12,14 +12,14 @@
       <description></description>
       <id>e668cdc4-afd4-4ee7-968b-51a34038ac0f</id>
       <masked>false</masked>
-      <name>CCNo</name>
+      <name>CCNo1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>199ca871-ff33-4f4e-8123-4635a5a8730f</id>
       <masked>false</masked>
-      <name>CVV</name>
+      <name>CVV1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -33,6 +33,34 @@
       <description></description>
       <id>23e0b8c5-de94-4c16-b9a9-5d8c1f464ab0</id>
       <masked>false</masked>
-      <name>CardType</name>
+      <name>CardType1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6266077-ea16-49b1-9d06-63ea936a76b2</id>
+      <masked>false</masked>
+      <name>CardType2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f4cbc5e3-c457-4c4e-a0cc-8de39bdccdd2</id>
+      <masked>false</masked>
+      <name>CCNo2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e6c008c6-15cb-4579-8b81-a610b0e297fc</id>
+      <masked>false</masked>
+      <name>CVV2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5d1c31c-0e3e-478a-be95-7a6b3f3da6aa</id>
+      <masked>false</masked>
+      <name>BP</name>
    </variable>
 </TestCaseEntity>

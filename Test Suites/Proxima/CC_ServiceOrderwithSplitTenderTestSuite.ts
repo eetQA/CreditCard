@@ -4,7 +4,7 @@
    <name>CC_ServiceOrderwithSplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-27T12:47:32</lastRun>
+   <lastRun>2017-12-04T15:26:22</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,60 +12,78 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>af963302-b7d2-4706-a7cb-9156711fa658</testSuiteGuid>
    <testCaseLink>
-      <guid>c8d0219d-709e-4547-bb91-63f2dc2983f4</guid>
+      <guid>b6abef26-f79a-4c07-a896-cbd0e4e43369</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Service/CreditCardRegression/TC001_Service_CreditCard</testCaseId>
+      <testCaseId>Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
-         <id>dd6baa7e-9976-4d82-8b3b-53d5d1493322</id>
+         <id>19380206-2038-42b0-8550-de8c5649236c</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>2</value>
+            <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ServiceData/ServiceCC1</testDataId>
+         <testDataId>Data Files/PROXIMA/ServiceData/ServiceInvoice_SplitData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BP</value>
-         <variableId>6f8d7ce7-90c6-4ebe-bde7-b1b8f59b2c4a</variableId>
+         <variableId>c798a84c-5c2e-4090-a34e-9a9aaa6ff7de</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Unit</value>
-         <variableId>decd382a-d108-490e-9830-96381d249f1a</variableId>
+         <variableId>4bc82955-7d8e-4093-b1f9-470928d7f7d3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CostComp</value>
-         <variableId>3044ae49-f623-49cb-9db5-7e1d06ecb908</variableId>
+         <variableId>d9cda4cb-e7ac-44a0-8eb4-108a56cbbc5b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CCNo</value>
-         <variableId>d20d147d-7d78-435e-afbe-652b87c739eb</variableId>
+         <value>Gateway</value>
+         <variableId>58af6098-b139-430e-bc53-455bb207e023</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CVV</value>
-         <variableId>1e80f74d-b7ae-4819-8e00-3630ea539496</variableId>
+         <value>CardType1</value>
+         <variableId>a462280a-8d0c-474b-a329-6b76a7fc019f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>CCType</value>
-         <variableId>6cabeb7e-8be9-4288-bc1c-1ee6813062ec</variableId>
+         <value>Card Number1</value>
+         <variableId>180ea7e0-5ccd-457d-901e-e63979fe07a0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>dd6baa7e-9976-4d82-8b3b-53d5d1493322</testDataLinkId>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Payment Gateway</value>
-         <variableId>56010302-e404-4a0d-8e5e-d9d047c99665</variableId>
+         <value>CVV1</value>
+         <variableId>a10641e6-7369-41f9-84b9-3d6598c7082d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardType2</value>
+         <variableId>6c110dd4-ecfb-4954-b496-8dbc3a5758d2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CardNumber2</value>
+         <variableId>3017c20c-5308-4cfc-b894-9086996ae7a8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>19380206-2038-42b0-8550-de8c5649236c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>CVV2</value>
+         <variableId>b9855d32-1a90-4512-9ae6-c845850c30cc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
