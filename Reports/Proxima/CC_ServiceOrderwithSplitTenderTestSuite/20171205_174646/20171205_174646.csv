@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_ServiceOrderwithSplitTenderTestSuite,Firefox 56.0,,2017-12-05 17:46:54,2017-12-05 17:51:52,4m - 58.212s,INCOMPLETE
+,,,,,,
+Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1,Firefox 56.0,,2017-12-05 17:46:54,2017-12-05 17:51:52,4m - 57.809s,INCOMPLETE
+callTestCase,Firefox 56.0,Service Order>Header,2017-12-05 17:46:55,2017-12-05 17:47:54,58.813s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add Segment,2017-12-05 17:47:54,2017-12-05 17:48:18,24.818s,PASSED
+callTestCase,Firefox 56.0,Service Order>Add Others line,2017-12-05 17:48:18,2017-12-05 17:48:54,35.968s,PASSED
+callTestCase,Firefox 56.0,,2017-12-05 17:48:54,2017-12-05 17:51:52,2m - 57.335s,INCOMPLETE

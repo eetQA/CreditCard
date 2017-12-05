@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20171205_181942</name>
+   <tag></tag>
+   <displayName>20171205_181942</displayName>
+   <reportTestCases>
+      <testCaseId>Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender</testCaseId>
+      <testCaseName>TC002_Service_CreditCardSplitTender</testCaseName>
+      <videoLocation>videos/test_1.avi</videoLocation>
+   </reportTestCases>
+</ReportEntity>

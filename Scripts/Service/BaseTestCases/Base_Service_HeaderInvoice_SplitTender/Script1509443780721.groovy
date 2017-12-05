@@ -69,8 +69,10 @@ not_run: WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/S
 'Click on Card Type'
 WebUI.doubleClick(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'))
 
+WebUI.delay(2)
+
 'Pass Card Type variable '
-WebUI.sendKeys(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'), CardType1)
+WebUI.setText(findTestObject('Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType'), CardType1)
 
 WebUI.delay(2)
 
@@ -139,6 +141,8 @@ WebUI.delay(5)
 
 'Click on CVV '
 WebUI.click(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'))
+
+WebUI.delay(5)
 
 'Pass CVV variable'
 WebUI.setText(findTestObject('Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineCVV'), CVV1)

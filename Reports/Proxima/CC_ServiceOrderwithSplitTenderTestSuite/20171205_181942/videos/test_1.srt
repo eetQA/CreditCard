@@ -1,0 +1,24 @@
+1
+00:00:00,964 --> 00:01:03,796
+1. Service Order>Header
+
+2
+00:01:03,819 --> 00:01:29,232
+2. Service Order>Add Segment
+
+3
+00:01:29,241 --> 00:02:05,359
+3. Service Order>Add Others line
+
+4
+00:02:05,361 --> 00:06:06,895
+4. callTestCase
+
+5
+00:06:06,898 --> 00:07:50,471
+5. Service Order>Read Header Invoice details ie InvoiceNo and InvAmt SSI 100006679
+
+6
+00:07:50,474 --> 00:10:19,956
+6. Checked Open Entries for CC BP and Invoice BP
+

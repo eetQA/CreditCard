@@ -4,7 +4,7 @@
    <name>CC_ServiceOrderwithSplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-12-04T15:26:22</lastRun>
+   <lastRun>2017-12-05T18:19:42</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -20,8 +20,8 @@
          <combinationType>MANY</combinationType>
          <id>19380206-2038-42b0-8550-de8c5649236c</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
          </iterationEntity>
          <testDataId>Data Files/PROXIMA/ServiceData/ServiceInvoice_SplitData</testDataId>
       </testDataLink>

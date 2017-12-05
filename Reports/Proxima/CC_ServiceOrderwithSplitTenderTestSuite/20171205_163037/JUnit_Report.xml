@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_ServiceOrderwithSplitTenderTestSuite" time="295" tests="0" failures="0" errors="0">
+   <testsuite name="CC_ServiceOrderwithSplitTenderTestSuite" tests="0" failures="0" errors="0" time="295" timestamp="2017-12-05 16:31:06" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Proxima/CC_ServiceOrderwithSplitTenderTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471737687.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471773988.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471789373.png, C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471790841.png"/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+         <property name="browser" value="Firefox 56.0"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="sessionId" value="801de893-e61e-4270-a1ed-fd5f6b07b3b3"/>
+         <property name="seleniumVersion" value="unknown"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1" classname="Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-05 16:31:07 - [TEST_CASE][INCOMPLETE] - Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1: null
+
+2017-12-05 16:31:08 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' failed)
+
+2017-12-05 16:31:09 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_CreateHeader: Test Cases/Service/BaseTestCases/Base_Service_CreateHeader FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+
+2017-12-05 16:31:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 16:31:09 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-05 16:31:10 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 16:31:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 16:31:33 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-05 16:31:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-05 16:31:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 16:31:33 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 16:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 16:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 16:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 16:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 16:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 16:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 16:31:42 - [TEST_STEP][PASSED] - sendKeys: Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 16:31:42 - [MESSAGE][PASSED] - Keys 'tssoc2100m001' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 16:31:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 16:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 16:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 16:31:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-12-05 16:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Newbutton' is clicked on
+
+2017-12-05 16:31:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:31:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:31:48 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-12-05 16:31:48 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-12-05 16:31:48 - [TEST_STEP][PASSED] - sendKeys: Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-12-05 16:31:48 - [MESSAGE][PASSED] - Keys '' sent to object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Customer'
+
+2017-12-05 16:31:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:31:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:31:51 - [TEST_STEP][PASSED] - setText: Text 'MD0011957' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-12-05 16:31:52 - [MESSAGE][PASSED] - Text 'MD0011957' is set on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Unit'
+
+2017-12-05 16:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-12-05 16:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-12-05 16:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-12-05 16:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Warning' is clicked on
+
+2017-12-05 16:31:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:32:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:32:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-12-05 16:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.PaymentMode' is clicked on
+
+2017-12-05 16:32:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-12-05 16:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CreditCardoption' is clicked on
+
+2017-12-05 16:32:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:32:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:32:07 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-12-05 16:32:07 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-12-05 16:32:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-12-05 16:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Save' is clicked on
+
+2017-12-05 16:32:07 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:32:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:32:12 - [TEST_STEP][PASSED] - Statement - SWOOrderNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo), "value"): Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119895'
+
+2017-12-05 16:32:12 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.OrderNo' is: 'SWO119895'
+
+2017-12-05 16:32:12 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'SWO119895' and expected object '' are not equal
+
+2017-12-05 16:32:12 - [MESSAGE][PASSED] - Actual object 'SWO119895' and expected object '' are not equal
+
+2017-12-05 16:32:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:32:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:32:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+
+2017-12-05 16:32:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471737687.png]]
+
+2017-12-05 16:32:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:32:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:32:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' located by 'By.xpath: //*[@id = 'tssoc2100m001-0-menu-std:action-form-view.segments']' not found)
+
+2017-12-05 16:32:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Segments' located by 'By.xpath: //*[@id = 'tssoc2100m001-0-menu-std:action-form-view.segments']' not found)
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471773988.png]]
+
+2017-12-05 16:32:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:32:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:32:57 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_CreateHeader' failed)
+
+2017-12-05 16:32:57 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-12-05 16:32:57 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_AddSegment: Test Cases/Service/BaseTestCases/Base_Service_AddSegment FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+
+2017-12-05 16:32:58 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+
+2017-12-05 16:33:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471789373.png]]
+
+2017-12-05 16:33:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'ABC' of object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+
+2017-12-05 16:33:11 - [MESSAGE][FAILED] - Unable to set text 'ABC' of object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.ServiceType' (Root cause: org.openqa.selenium.UnhandledAlertException: Unexpected modal dialog (text: This page is asking you to confirm that you want to leave - data you have entered may not be saved.): This page is asking you to confirm that you want to leave - data you have entered may not be saved.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2110m002-1-tssoc210.cstp-38-lookup-widget']})
+[[ATTACHMENT|C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_ServiceOrderwithSplitTenderTestSuite\\20171205_163037\\1512471790841.png]]
+
+2017-12-05 16:33:11 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 16:33:11 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 16:33:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:33:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:33:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Save' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:16 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-05 16:33:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-05 16:33:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:33:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:33:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Release' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:32 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:33:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - setText: NOT_RUN: setText
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: setText
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 16:33:37 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-05 16:33:37 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-05 16:33:37 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:39 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Action' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:33:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:33:42 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_AddSegment' failed)
+
+2017-12-05 16:33:42 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-12-05 16:33:42 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_Add Others: Test Cases/Service/BaseTestCases/Base_Service_Add Others FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:43 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Others' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-05 16:33:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-05 16:33:55 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:57 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:33:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersNew' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:33:57 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:05 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:05 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:34:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:34:07 - [TEST_STEP][FAILED] - setText: Unable to set text 'APP' of object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:09 - [MESSAGE][FAILED] - Unable to set text 'APP' of object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.OthersCostComp' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:14 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:16 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:34:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:34:20 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '2' to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:22 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:22 - [MESSAGE][FAILED] - Unable to send keys '2' to object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.Actual Qty' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 16:34:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 16:34:27 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:29 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegmentOthers.SaveClose' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:29 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderSegment/ServiceOrderSegment.SaveClose' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:34:36 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_Add Others' failed)
+
+2017-12-05 16:34:36 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender' failed)
+
+2017-12-05 16:34:36 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender: Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 60 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+
+2017-12-05 16:34:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 60 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+
+2017-12-05 16:34:42 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:42 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Actions' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 60 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-button-std:action']})
+
+2017-12-05 16:34:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:34:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:34:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 873 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-menu-std:action-form-set.status.to.costed']})
+
+2017-12-05 16:34:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.Costing' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 873 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'tssoc2100m001-0-menu-std:action-form-set.status.to.costed']})
+
+2017-12-05 16:34:46 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:34:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:34:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 21 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:34:51 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:51 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.RepriceWarning' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 21 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:34:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:34:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:34:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 4.34 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:34:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:34:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.CostingProcessCont' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 4.34 seconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:34:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 73 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:35:02 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceOrderHeader/ServiceOrderHeader.InvoiceCont' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 73 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'dlg-tssoc2100m001-0-input-button-0']})
+
+2017-12-05 16:35:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 16:35:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 16:35:07 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-05 16:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-05 16:35:07 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-05 16:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-05 16:35:07 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-05 16:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-05 16:35:07 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 16:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 16:35:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'PUBL' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-pay.gateway-1-lookup-widget']})
+
+2017-12-05 16:35:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:09 - [MESSAGE][FAILED] - Unable to set text 'PUBL' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.PaymentGateway' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 15 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-pay.gateway-1-lookup-widget']})
+
+2017-12-05 16:35:09 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 16:35:09 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 16:35:09 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-card.type-3-lookup-widget']})
+
+2017-12-05 16:35:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:09 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-card.type-3-lookup-widget']})
+
+2017-12-05 16:35:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:11 - [TEST_STEP][FAILED] - setText: Unable to set text 'Visa Card' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 14 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-card.type-3-lookup-widget']})
+
+2017-12-05 16:35:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:11 - [MESSAGE][FAILED] - Unable to set text 'Visa Card' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CardType' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 14 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-card.type-3-lookup-widget']})
+
+2017-12-05 16:35:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:13 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 19 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cardno-7-lookup-widget']})
+
+2017-12-05 16:35:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:13 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 19 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cardno-7-lookup-widget']})
+
+2017-12-05 16:35:13 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '4012000033330026' to object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cardno-7-lookup-widget']})
+
+2017-12-05 16:35:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:13 - [MESSAGE][FAILED] - Unable to send keys '4012000033330026' to object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.Enter CC No' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cardno-7-lookup-widget']})
+
+2017-12-05 16:35:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cvv.no-8-decorator']})
+
+2017-12-05 16:35:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cvv.no-8-decorator']})
+
+2017-12-05 16:35:16 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys '456' to object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cvv.no-8-decorator']})
+
+2017-12-05 16:35:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:16 - [MESSAGE][FAILED] - Unable to send keys '456' to object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.CVV2' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-cvv.no-8-decorator']})
+
+2017-12-05 16:35:16 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 16:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 16:35:16 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-05 16:35:16 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-05 16:35:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:19 - [TEST_STEP][FAILED] - setText: Unable to set text '09' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-exp.month-10-decorator']})
+
+2017-12-05 16:35:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:19 - [MESSAGE][FAILED] - Unable to set text '09' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryMonth' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 17 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-exp.month-10-decorator']})
+
+2017-12-05 16:35:19 - [TEST_STEP][FAILED] - setText: Unable to set text '99' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-exp.year-11-decorator']})
+
+2017-12-05 16:35:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:19 - [MESSAGE][FAILED] - Unable to set text '99' of object 'Object Repository/Service/ServiceOrder/ServiceCreditCard/ServiceCreditCard.ExpiryYear' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 10 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-exp.year-11-decorator']})
+
+2017-12-05 16:35:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTenderDetails' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-frm.split-26-control-widget']})
+
+2017-12-05 16:35:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTenderDetails' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 8 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-frm.split-26-control-widget']})
+
+2017-12-05 16:35:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTenderDetails.Yes' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'item_0']})
+
+2017-12-05 16:35:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTenderDetails.Yes' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 12 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'item_0']})
+
+2017-12-05 16:35:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineSession' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-split.tender.invoice']})
+
+2017-12-05 16:35:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:24 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTender.LineSession' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 16 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext6102m000-3-split.tender.invoice']})
+
+2017-12-05 16:35:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 16:35:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 16:35:26 - [TEST_STEP][FAILED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/CreditCardSplitTender/SplitTender.OrderAmtHeader)): Unable to get text of object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTender.OrderAmtHeader' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 24 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext8105m000-4-c.amount-4']})
+
+2017-12-05 16:35:26 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:26 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Service/ServiceOrder/CreditCardSplitTender/SplitTender.OrderAmtHeader' (Root cause: org.openqa.selenium.WebDriverException: Session not found: d1d79718-2fb7-4664-b079-f492ef256db6
+Command duration or timeout: 24 milliseconds
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CFirefoxDriver47
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6
+*** Element info: {Using=xpath, value=//*[@id = 'xiext8105m000-4-c.amount-4']})
+
+2017-12-05 16:35:26 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_HeaderInvoice_SplitTender' failed)
+
+2017-12-05 16:35:26 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender' failed)
+
+2017-12-05 16:35:26 - [TEST_CASE][FAILED] - Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender: Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender FAILED because (of) Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceorderHeader.HeaderSession' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:29 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceorderHeader.HeaderSession' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceorderHeader.HeaderSession' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.InvoiceButton' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:34 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.InvoiceButton' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:37 - [TEST_STEP][FAILED] - Statement - G_InvoiceTnxType = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice1)): Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice1' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:39 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:39 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice1' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 16:35:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 16:35:42 - [TEST_STEP][FAILED] - Statement - G_InvoiceTnxNo = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice2)): Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice2' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:44 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.Invoice2' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:44 - [TEST_STEP][FAILED] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.InvoiceAmountHD)): Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.InvoiceAmountHD' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:46 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Service/ServiceOrder/VerifyServiceOrderInvoice_SplitTender/ServiceOrderHeader.InvoiceAmountHD' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d1d79718-2fb7-4664-b079-f492ef256db6)
+
+2017-12-05 16:35:46 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Service/BaseTestCases/Base_Service_GetInvoice_SplitTender' failed)
+
+2017-12-05 16:35:46 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-05 16:35:46 - [TEST_CASE][INCOMPLETE] - Test Cases/Finance/BaseTestCases/Base_Finance_CheckOpenEntriesForCCSplitPayments: null
+
+2017-12-05 16:35:46 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-05 16:35:46 - [TEST_CASE][INCOMPLETE] - Test Cases/Common/Base_Common_OpenSession: null
+
+2017-12-05 16:35:47 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:35:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-05 16:35:49 - [MESSAGE][WARNING] - Browser is not reachable. Browser may have been closed already.
+
+2017-12-05 16:35:57 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:35:57 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:35:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:35:59 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:35:59 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:36:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-05 16:36:01 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=56.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 801de893-e61e-4270-a1ed-fd5f6b07b3b3)
+
+2017-12-05 16:36:01 - [TEST_STEP][INCOMPLETE] - click: Finding web element with id: 'Object Repository/Common/HomePage/HomePage_more' located by 'By.xpath: //div[count(. | //*[@id = '-overflow']) = count(//*[@id = '-overflow'])]' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-05 16:31:07 - [TEST_CASE][INCOMPLETE] - Test Cases/Service/CreditCardRegression/TC002_Service_CreditCardSplitTender - Iteration 1: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 16:31:06 - [TEST_SUITE][INCOMPLETE] - CC_ServiceOrderwithSplitTenderTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-05 16:31:06 - [TEST_SUITE][INCOMPLETE] - CC_ServiceOrderwithSplitTenderTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>
