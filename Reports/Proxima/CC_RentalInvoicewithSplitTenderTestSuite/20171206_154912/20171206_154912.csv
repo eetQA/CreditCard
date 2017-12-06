@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithSplitTenderTestSuite,Firefox 56.0,,2017-12-06 15:49:22,2017-12-06 15:57:39,8m - 16.664s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender,Firefox 56.0,,2017-12-06 15:49:23,2017-12-06 15:57:39,8m - 15.940s,FAILED
+callTestCase,Firefox 56.0,Purchase Unit using EPO,2017-12-06 15:49:24,2017-12-06 15:51:03,1m - 38.942s,PASSED
+callTestCase,Firefox 56.0,Create a Rental Header using above Unit,2017-12-06 15:51:03,2017-12-06 15:54:35,3m - 31.965s,PASSED
+callTestCase,Firefox 56.0,Create Rental Invoice using CC _Split Tender,2017-12-06 15:54:35,2017-12-06 15:57:39,3m - 3.830s,FAILED
