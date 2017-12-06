@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithSplitTenderTestSuite,,,2017-12-06 14:25:46,2017-12-06 14:34:42,8m - 55.531s,FAILED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender,,,2017-12-06 14:25:47,2017-12-06 14:34:41,8m - 54.114s,FAILED
+callTestCase,,Purchase Unit using EPO,2017-12-06 14:25:49,2017-12-06 14:28:07,2m - 17.763s,FAILED
+callTestCase,,Create a Rental Header using above Unit,2017-12-06 14:28:07,2017-12-06 14:34:26,6m - 19.046s,FAILED
+callTestCase,,Create Rental Invoice using CC _Split Tender,2017-12-06 14:34:26,2017-12-06 14:34:41,14.618s,FAILED

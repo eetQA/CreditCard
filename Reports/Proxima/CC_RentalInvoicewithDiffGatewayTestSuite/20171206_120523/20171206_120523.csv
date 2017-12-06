@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_RentalInvoicewithDiffGatewayTestSuite,Firefox 56.0,,2017-12-06 12:05:33,2017-12-06 12:15:58,10m - 25.208s,PASSED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 1,Firefox 56.0,,2017-12-06 12:05:33,2017-12-06 12:10:49,5m - 16.390s,PASSED
+callTestCase,Firefox 56.0,,2017-12-06 12:05:34,2017-12-06 12:06:58,1m - 24.167s,PASSED
+callTestCase,Firefox 56.0,Create a Rental Header using above Unit,2017-12-06 12:06:58,2017-12-06 12:09:45,2m - 46.830s,PASSED
+callTestCase,Firefox 56.0,Create Rental Invoice using CC with diff Gateway,2017-12-06 12:09:45,2017-12-06 12:10:49,1m - 4.427s,PASSED
+,,,,,,
+Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC003_RentalContractInvoice_CC - Iteration 2,Firefox 56.0,,2017-12-06 12:10:49,2017-12-06 12:15:58,5m - 8.194s,PASSED
+callTestCase,Firefox 56.0,,2017-12-06 12:10:50,2017-12-06 12:12:12,1m - 22.365s,PASSED
+callTestCase,Firefox 56.0,Create a Rental Header using above Unit,2017-12-06 12:12:12,2017-12-06 12:14:57,2m - 45.347s,PASSED
+callTestCase,Firefox 56.0,Create Rental Invoice using CC with diff Gateway,2017-12-06 12:14:57,2017-12-06 12:15:58,1m - 0.461s,PASSED

@@ -4,7 +4,7 @@
    <name>CC_RentalInvoicewithSplitTenderTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-26T00:00:20</lastRun>
+   <lastRun>2017-12-06T16:06:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -17,64 +17,64 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender</testCaseId>
       <testDataLink>
-         <combinationType>MANY</combinationType>
-         <id>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</id>
+         <combinationType>ONE</combinationType>
+         <id>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/ServiceData/RentalInvoice_SplitData</testDataId>
+         <testDataId>Data Files/PROXIMA/RentalData/RentalInvoice_SplitData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>BP</value>
          <variableId>481cf6bf-b4cb-48ad-84a1-376bcae531e1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Gateway</value>
          <variableId>791fbd97-0e56-4a64-805e-4320341c9c52</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CardType1</value>
          <variableId>1cee4e77-a3e1-44bb-8877-fe4602760e76</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Card Number1</value>
          <variableId>40334abb-6c66-47b5-9f4f-1ff666fdbf30</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CVV1</value>
          <variableId>0b09aa01-37d4-4b1f-b8ac-bcdf8131eabc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CardType2</value>
          <variableId>f13d45d8-c1a7-4727-8381-8a86e7d9813b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CardNumber2</value>
          <variableId>12526d89-1ffa-441d-824f-a418b54ef51d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>CVV2</value>
          <variableId>c9bc9d0d-acdc-4cce-a8dd-8bf5618a8ae6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c48f79f2-5329-4edd-b1af-7c7c99bcdab6</testDataLinkId>
+         <testDataLinkId>6fe2dfc4-1976-4a8a-b745-d02a0dba6380</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Model</value>
          <variableId>3c0962aa-cf6c-4eaf-81e1-881c388ff2c9</variableId>

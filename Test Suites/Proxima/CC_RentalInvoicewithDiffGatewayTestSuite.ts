@@ -4,7 +4,7 @@
    <name>CC_RentalInvoicewithDiffGatewayTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-12-01T16:20:00</lastRun>
+   <lastRun>2017-12-06T12:05:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

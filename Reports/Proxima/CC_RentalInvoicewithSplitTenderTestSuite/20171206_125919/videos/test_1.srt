@@ -1,0 +1,12 @@
+1
+00:00:01,898 --> 00:03:06,965
+1. Purchase Unit using EPO
+
+2
+00:03:18,034 --> 00:08:04,072
+2. Create a Rental Header using above Unit
+
+3
+00:08:04,096 --> 00:24:25,430
+3. Create Rental Invoice using CC _Split Tender
+

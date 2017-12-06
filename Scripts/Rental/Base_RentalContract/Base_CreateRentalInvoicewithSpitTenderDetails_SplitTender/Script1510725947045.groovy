@@ -44,7 +44,11 @@ WebUI.delay(2)
 
 WebUI.doubleClick(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.ModeofPayment'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.ModeOfPaymentCreditCard1'))
+
+WebUI.delay(2)
 
 'Select CC No.'
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineCCNo'))
@@ -74,7 +78,7 @@ WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrd
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount1'), GlobalVariable.G_SplitOrderAmt1)
+WebUI.sendKeys(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount1'), GlobalVariable.G_SplitOrderAmt1)
 
 WebUI.delay(2)
 
@@ -134,17 +138,17 @@ WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.Expir
 
 WebUI.delay(3)
 
-WebUI.scrollToElement(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount2'), 2)
+WebUI.scrollToElement(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount2'), 5)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount2'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
-WebUI.setText(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount2'), GlobalVariable.G_SplitOrderAmt1)
+WebUI.sendKeys(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount2'), GlobalVariable.G_SplitOrderAmt1)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.comment('***********************Line3 started***********************')
 
@@ -160,9 +164,9 @@ not_run: WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTende
 
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.ModeOfPaymentCash'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
-not_run: WebUI.scrollToElement(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount3'), 0)
+WebUI.scrollToElement(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount3'), 5)
 
 WebUI.click(findTestObject('Rental/Rental_SplitTenderDetails/SplitTender.LineOrderAmount3'))
 

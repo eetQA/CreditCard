@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_RentalInvoicewithSplitTenderTestSuite" time="718" tests="0" failures="1" errors="0">
+   <testsuite name="CC_RentalInvoicewithSplitTenderTestSuite" tests="0" failures="1" errors="0" time="718" timestamp="2017-12-06 14:19:04" hostname="agawhande - ANIL110.e-emphasys.com" id="Test Suites/Proxima/CC_RentalInvoicewithSplitTenderTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_RentalInvoicewithSplitTenderTestSuite\\20171206_141851"/>
+         <property name="logFiles" value="C:\\Users\\agawhande\\git\\CreditCard\\Reports\\Proxima\\CC_RentalInvoicewithSplitTenderTestSuite\\20171206_141851\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="agawhande - ANIL110.e-emphasys.com"/>
+         <property name="hostAddress" value="192.168.25.228"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.8.0.2"/>
+      </properties>
+      <testcase name="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" classname="Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: &lt;unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for &lt;unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: &lt;unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)"/>
+         <system-out><![CDATA[2017-12-06 14:19:04 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:19:06 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-06 14:19:06 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve: Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:19:07 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-06 14:19:07 - [TEST_CASE][FAILED] - Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline: Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:19:08 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-06 14:19:08 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:19:08 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:25:13 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:25:13 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:13 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:13 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:13 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:13 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'tdext8150s000' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:14 - [MESSAGE][FAILED] - Unable to send keys 'tdext8150s000' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:14 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:25:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:25:16 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-06 14:25:16 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/Base_EPO_CreateHeaderNline' failed)
+
+2017-12-06 14:25:17 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' (Root cause: Call Test Case 'Test Cases/Equipment/Base_EquipmentPurchase/EPO_CreateNrecieve' failed)
+
+2017-12-06 14:25:17 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' failed)
+
+2017-12-06 14:25:17 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:25:18 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' failed)
+
+2017-12-06 14:25:18 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader: Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:25:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-06 14:25:19 - [TEST_CASE][FAILED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:25:19 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:27:16 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)
+
+2017-12-06 14:27:16 - [TEST_STEP][FAILED] - waitForPageLoad: Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:16 - [MESSAGE][FAILED] - Unable to wait for page load (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:16 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:16 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:17 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_more' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:17 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_Option' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_RunProgram_' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [TEST_STEP][FAILED] - sendKeys: Unable to send keys 'erext4100s004' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:18 - [MESSAGE][FAILED] - Unable to send keys 'erext4100s004' to object 'Object Repository/Common/HomePage/HomePage_Session_ID' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Common/HomePage/HomePage_OkButton' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:18 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Common/Base_Common_OpenSession' (Root cause: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' failed)
+
+2017-12-06 14:27:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:19 - [TEST_STEP][FAILED] - setText: Unable to set text 'M00000010' of object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:19 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:19 - [MESSAGE][FAILED] - Unable to set text 'M00000010' of object 'Object Repository/Rental/RentalHeader/RentalContract.Customer' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:27:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:27:21 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:21 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:21 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CustPO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 14:27:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 14:27:24 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:25 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:27:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:27:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/Rental Contract.ModeOfPayment' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:27:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:27:32 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:32 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.CreditCardoption' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 14:27:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 14:27:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GeneralTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:27:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:27:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:40 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:40 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Newbuttonline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:27:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:27:45 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:45 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:45 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SetLine' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:27:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:27:50 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:50 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 14:27:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 14:27:53 - [TEST_STEP][NOT_RUN] - getText: NOT_RUN: getText
+
+2017-12-06 14:27:53 - [MESSAGE][NOT_RUN] - NOT_RUN: getText
+
+2017-12-06 14:27:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:27:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:27:58 - [TEST_STEP][FAILED] - setText: Unable to set text '' of object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:59 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:27:59 - [MESSAGE][FAILED] - Unable to set text '' of object 'Object Repository/Rental/RentalHeader/RentalContract.Unit' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:27:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:04 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:04 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:04 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:10 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:10 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:10 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:10 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:15 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:15 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:15 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultipleInsurence' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:15 - [TEST_STEP][NOT_RUN] - doubleClick: NOT_RUN: doubleClick
+
+2017-12-06 14:28:15 - [MESSAGE][NOT_RUN] - NOT_RUN: doubleClick
+
+2017-12-06 14:28:15 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:20 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:20 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:20 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.MultiInsNO' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:25 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:25 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:25 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:28:25 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:28:25 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:25 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:25 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:28:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:28:28 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:28 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:28:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:28:30 - [TEST_STEP][FAILED] - setText: Unable to set text '100' of object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:30 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:30 - [MESSAGE][FAILED] - Unable to set text '100' of object 'Object Repository/Rental/RentalHeader/RentalContract.GrossRateline' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:30 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 14:28:34 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 14:28:34 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:35 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.SaveHeader' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:35 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:28:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:28:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:41 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-06 14:28:49 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-06 14:28:49 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:49 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:28:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.Release' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:28:49 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-12-06 14:29:01 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-12-06 14:29:01 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:01 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:01 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ActionDelivery' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:01 - [TEST_STEP][PASSED] - delay: Delayed 6 second(s)
+
+2017-12-06 14:29:07 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+2017-12-06 14:29:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.ConfirmDelivery' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:08 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-06 14:29:16 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-06 14:29:16 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-06 14:29:16 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-06 14:29:16 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:29:16 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:29:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.DeliveryProceed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:16 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-12-06 14:29:28 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-12-06 14:29:28 - [TEST_STEP][NOT_RUN] - waitForElementPresent: NOT_RUN: waitForElementPresent
+
+2017-12-06 14:29:28 - [MESSAGE][NOT_RUN] - NOT_RUN: waitForElementPresent
+
+2017-12-06 14:29:28 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:29:28 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:29:28 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 14:29:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 14:29:28 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-06 14:29:36 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-06 14:29:36 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:36 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspetionReportClose' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:29:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:29:41 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:41 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.BillofLaddingClosed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:41 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:29:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:29:46 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:47 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.EqipRentalMemoclosed' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:29:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:29:52 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:52 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalContract.InspectionOrdergnerated' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalHeader' failed)
+
+2017-12-06 14:29:52 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 14:29:56 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 14:29:56 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:56 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:29:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoicingscheduleTab' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:29:56 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 14:30:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 14:30:00 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:00 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:00 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.Action' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:00 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 14:30:04 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 14:30:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:04 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:04 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2017-12-06 14:30:08 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2017-12-06 14:30:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.ProcessInvoice2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:08 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-06 14:30:08 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-06 14:30:08 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:08 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/RentalInvoice.InvoiceProcessYES' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:08 - [TEST_STEP][PASSED] - delay: Delayed 0 second(s)
+
+2017-12-06 14:30:08 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2017-12-06 14:30:08 - [TEST_STEP][FAILED] - setText: Unable to set text 'PUBL' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:09 - [MESSAGE][FAILED] - Unable to set text 'PUBL' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.PaymentGateway' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-06 14:30:09 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-06 14:30:09 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:09 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [TEST_STEP][FAILED] - setText: Unable to set text 'Visa Card' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:09 - [MESSAGE][FAILED] - Unable to set text 'Visa Card' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CardType' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:30:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:30:11 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:11 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:11 - [TEST_STEP][FAILED] - setText: Unable to set text '4012000033330026' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:11 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:11 - [MESSAGE][FAILED] - Unable to set text '4012000033330026' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.Enter CC No' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:30:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:30:16 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:16 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:16 - [TEST_STEP][FAILED] - setText: Unable to set text '456' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:16 - [MESSAGE][FAILED] - Unable to set text '456' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.CVV2' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:16 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-06 14:30:16 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-06 14:30:16 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:30:16 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:30:16 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2017-12-06 14:30:24 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2017-12-06 14:30:24 - [TEST_STEP][FAILED] - setText: Unable to set text '09' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:24 - [MESSAGE][FAILED] - Unable to set text '09' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryMonth' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:24 - [TEST_STEP][FAILED] - setText: Unable to set text '99' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:24 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:24 - [MESSAGE][FAILED] - Unable to set text '99' of object 'Object Repository/Rental/RentalHeader/RentalInvoice/ServiceCreditCard.ExpiryYear' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2017-12-06 14:30:24 - [TEST_STEP][NOT_RUN] - closeBrowser: NOT_RUN: closeBrowser
+
+2017-12-06 14:30:24 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser
+
+2017-12-06 14:30:24 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoice_HeaderlineInvoice_SplitTender' failed)
+
+2017-12-06 14:30:24 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' failed)
+
+2017-12-06 14:30:24 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender: Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender FAILED because (of) Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:44 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-06 14:30:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-06 14:30:49 - [TEST_STEP][FAILED] - doubleClick: Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:50 - [MESSAGE][FAILED] - Unable to double click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:50 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTenderDetails.Yes' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-06 14:30:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-06 14:30:53 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:53 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:53 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.LineSession' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 14:30:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 14:30:55 - [TEST_STEP][FAILED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader), CONTINUE_ON_FAILURE): Unable to get text of object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:55 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2017-12-06 14:30:55 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Rental/Rental_SplitTenderDetails/SplitTender.OrderAmtHeader' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2017-12-06 14:30:56 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' (Root cause: Call Test Case 'Test Cases/Rental/Base_RentalContract/Base_CreateRentalInvoicewithSpitTenderDetails_SplitTender' failed)]]></system-out>
+         <system-err><![CDATA[2017-12-06 14:19:04 - [TEST_CASE][FAILED] - Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 14:19:04 - [TEST_SUITE][FAILED] - CC_RentalInvoicewithSplitTenderTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-out>
+      <system-err><![CDATA[2017-12-06 14:19:04 - [TEST_SUITE][FAILED] - CC_RentalInvoicewithSplitTenderTestSuite: Test Cases/Rental/Base_RentalContract/CreditCardRegression/TC004_RentalContractInvoice_SplitTender FAILED because (of) Unable to open browser with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login' (Root cause: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7058; process output follows: 
+efault/update.xml
+1512550337372	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1512550337373	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1512550337374	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1512550337377	addons.xpi	INFO	Mapping {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} to C:\Users\agawhande\AppData\Local\temp\anonymous1512550215445webdriver-profile\extensions\{5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208}.xpi
+1512550337379	addons.xpi	DEBUG	Existing add-on {5AB8F5AC-9644-11E6-89DF-D9D3C6AD2208} in app-profile
+1512550337381	addons.xpi	INFO	Mapping activity-stream@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\activity-stream@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping aushelper@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\aushelper@mozilla.org.xpi
+1512550337382	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\clicktoplay-rollout@mozilla.org.xpi
+1512550337383	addons.xpi	INFO	Mapping e10srollout@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\e10srollout@mozilla.org.xpi
+1512550337384	addons.xpi	INFO	Mapping firefox@getpocket.com to C:\Program Files\Mozilla Firefox\browser\features\firefox@getpocket.com.xpi
+1512550337386	addons.xpi	INFO	Mapping followonsearch@mozilla.com to C:\Program Files\Mozilla Firefox\browser\features\followonsearch@mozilla.com.xpi
+1512550337386	addons.xpi	INFO	Mapping formautofill@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\formautofill@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping onboarding@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\onboarding@mozilla.org.xpi
+1512550337387	addons.xpi	INFO	Mapping screenshots@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\screenshots@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\shield-recipe-client@mozilla.org.xpi
+1512550337388	addons.xpi	INFO	Mapping webcompat@mozilla.org to C:\Program Files\Mozilla Firefox\browser\features\webcompat@mozilla.org.xpi
+1512550337390	addons.xpi	DEBUG	Existing add-on activity-stream@mozilla.org in app-system-defaults
+1512550337390	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1512550337391	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1512550337392	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1512550337393	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on onboarding@mozilla.org in app-system-defaults
+1512550337394	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1512550337395	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1512550337396	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to C:\Program Files\Mozilla Firefox\browser\extensions\{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1512550337396	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1512550337397	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1512550348280	addons.productaddons	INFO	Completed downloading document
+1512550358654	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550359166	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-76cc35
+1512550364827	addons.productaddons	INFO	downloadXHR File download. status=200
+1512550364980	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\AGAWHA~1\AppData\Local\Temp\tmpaddon-d558eb
+
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'ANIL110', ip: '192.168.25.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: CFirefoxDriver)]]></system-err>
+   </testsuite>
+</testsuites>
