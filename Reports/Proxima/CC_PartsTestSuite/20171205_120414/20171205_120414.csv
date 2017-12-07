@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_PartsTestSuite,Firefox 43.0,,2017-12-05 12:04:22,2017-12-05 12:12:33,8m - 11.861s,FAILED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 1,Firefox 43.0,,2017-12-05 12:04:22,2017-12-05 12:08:29,4m - 6.929s,PASSED
+callTestCase,Firefox 43.0,Create Part Sales Order header with cc,2017-12-05 12:04:23,2017-12-05 12:05:04,40.773s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-12-05 12:05:04,2017-12-05 12:05:32,28.543s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-12-05 12:05:32,2017-12-05 12:07:23,1m - 50.666s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details\r\n,2017-12-05 12:07:23,2017-12-05 12:07:53,29.669s,PASSED
+callTestCase,Firefox 43.0,Check invoices in Open Entries,2017-12-05 12:07:53,2017-12-05 12:08:29,36.370s,PASSED
+,,,,,,
+Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 2,Firefox 43.0,,2017-12-05 12:08:29,2017-12-05 12:12:32,4m - 2.873s,FAILED
+callTestCase,Firefox 43.0,Create Part Sales Order header with cc,2017-12-05 12:08:29,2017-12-05 12:09:07,37.502s,PASSED
+callTestCase,Firefox 43.0,Add Line\r\n,2017-12-05 12:09:07,2017-12-05 12:09:35,28.423s,PASSED
+callTestCase,Firefox 43.0,Invoice through Split Payment two cc and one cash\r\n,2017-12-05 12:09:35,2017-12-05 12:12:32,2m - 56.900s,FAILED

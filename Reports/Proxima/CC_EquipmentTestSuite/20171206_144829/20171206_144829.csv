@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-12-06 14:48:40,2017-12-06 15:11:36,22m - 56.029s,FAILED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1,Firefox 43.0,Objective: Equipment Credit Card Sales Invoicing with different gateways\n\nSteps:\n1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.\n2. Add a configuration \n3. Confirm the delivery.\n4. Invoice the Order with Credit card\n\nExpected:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.,2017-12-06 14:48:40,2017-12-06 14:54:12,5m - 31.991s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-12-06 14:48:41,2017-12-06 14:50:35,1m - 53.601s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-12-06 14:50:35,2017-12-06 14:51:21,46.285s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-12-06 14:51:21,2017-12-06 14:51:36,14.451s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-12-06 14:51:36,2017-12-06 14:52:26,50.114s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-12-06 14:52:26,2017-12-06 14:53:09,43.133s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-12-06 14:53:09,2017-12-06 14:53:38,28.837s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-12-06 14:53:38,2017-12-06 14:54:12,34.649s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 2,Firefox 43.0,Objective: Equipment Credit Card Sales Invoicing with different gateways\n\nSteps:\n1. 'Book an Equipment Order with Mode of Payment - 'Credit Card'.\n2. Add a configuration \n3. Confirm the delivery.\n4. Invoice the Order with Credit card\n\nExpected:\nTwo invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and one against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Balance for Invoice against Order B.P. should be $0.,2017-12-06 14:54:13,2017-12-06 14:59:03,4m - 50.660s,PASSED
+callTestCase,Firefox 43.0,Create a Unit For Sale through Purchase Order,2017-12-06 14:54:13,2017-12-06 14:55:39,1m - 26.158s,PASSED
+callTestCase,Firefox 43.0,Create Equipment Agreement Header\r\n,2017-12-06 14:55:39,2017-12-06 14:56:21,41.856s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-12-06 14:56:21,2017-12-06 14:56:35,14.169s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit,2017-12-06 14:56:35,2017-12-06 14:57:24,49.710s,PASSED
+callTestCase,Firefox 43.0,Invoice the Agreement through CC Interface,2017-12-06 14:57:24,2017-12-06 14:58:05,40.858s,PASSED
+callTestCase,Firefox 43.0,Get Invoice Details,2017-12-06 14:58:05,2017-12-06 14:58:29,23.642s,PASSED
+callTestCase,Firefox 43.0,Check the invoices in Open Entries\r\n,2017-12-06 14:58:29,2017-12-06 14:59:03,34.220s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC002_EquipmentSalesAgreement_Split - Iteration 1,Firefox 43.0,Objective: Equipment Credit Card Split Tender Invoicing \n\nSteps:\n1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.\n2. Add Unit\n3. Deliver the Unit\n4. Invoice the Order with Split tender:  two Credit Cards and one cash\n\nExpected Result:\nThree invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash\n,2017-12-06 14:59:03,2017-12-06 15:04:50,5m - 47.168s,PASSED
+callTestCase,Firefox 43.0,Create Unit through Purchase Order\r\n,2017-12-06 14:59:04,2017-12-06 15:00:27,1m - 23.786s,PASSED
+callTestCase,Firefox 43.0,Create Sales Agreement Header,2017-12-06 15:00:27,2017-12-06 15:01:08,40.538s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-12-06 15:01:08,2017-12-06 15:01:22,13.743s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit\r\n,2017-12-06 15:01:22,2017-12-06 15:02:11,49.369s,PASSED
+callTestCase,Firefox 43.0,Invoice th Agreement with Split Payment: 2 CC's and remaining Cash,2017-12-06 15:02:11,2017-12-06 15:03:58,1m - 46.987s,PASSED
+callTestCase,Firefox 43.0,Get The Invoice details\r\n,2017-12-06 15:03:58,2017-12-06 15:04:19,20.811s,PASSED
+callTestCase,Firefox 43.0,Check invoices in open Entries,2017-12-06 15:04:19,2017-12-06 15:04:50,31.559s,PASSED
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC002_EquipmentSalesAgreement_Split - Iteration 2,Firefox 43.0,Objective: Equipment Credit Card Split Tender Invoicing \n\nSteps:\n1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.\n2. Add Unit\n3. Deliver the Unit\n4. Invoice the Order with Split tender:  two Credit Cards and one cash\n\nExpected Result:\nThree invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash\n,2017-12-06 15:04:50,2017-12-06 15:11:33,6m - 42.710s,FAILED
+callTestCase,Firefox 43.0,Create Unit through Purchase Order\r\n,2017-12-06 15:04:51,2017-12-06 15:06:13,1m - 22.294s,PASSED
+callTestCase,Firefox 43.0,Create Sales Agreement Header,2017-12-06 15:06:13,2017-12-06 15:06:52,39.161s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-12-06 15:06:52,2017-12-06 15:07:06,13.861s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit\r\n,2017-12-06 15:07:06,2017-12-06 15:07:55,49.544s,PASSED
+callTestCase,Firefox 43.0,Invoice th Agreement with Split Payment: 2 CC's and remaining Cash,2017-12-06 15:07:55,2017-12-06 15:11:33,3m - 37.803s,FAILED

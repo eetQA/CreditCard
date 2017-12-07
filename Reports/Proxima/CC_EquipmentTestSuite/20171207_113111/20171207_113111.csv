@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CC_EquipmentTestSuite,Firefox 43.0,,2017-12-07 11:31:20,2017-12-07 11:35:33,4m - 13.139s,INCOMPLETE
+,,,,,,
+Test Cases/Equipment/CreditCardRegression/TC002_EquipmentSalesAgreement_Split - Iteration 1,Firefox 43.0,Objective: Equipment Credit Card Split Tender Invoicing \n\nSteps:\n1. 'Book a Equipment Agreement with Mode of Payment - 'Credit Card'.\n2. Add Unit\n3. Deliver the Unit\n4. Invoice the Order with Split tender:  two Credit Cards and one cash\n\nExpected Result:\nThree invoices should get generated in the 'Open Entries' (tfacr2520m000) session - One against Order B.P. and two against Payment Gateway B.P. maintained in the 'Payment Gateway Details' (xiext6100m000) session. Invoice Amount of Invoice against Order B.P. should be invoice amt of order and Invoice Balance should be equal to cash\n,2017-12-07 11:31:21,2017-12-07 11:35:33,4m - 12.687s,INCOMPLETE
+callTestCase,Firefox 43.0,Create Unit through Purchase Order\r\n,2017-12-07 11:31:22,2017-12-07 11:33:15,1m - 53.199s,PASSED
+callTestCase,Firefox 43.0,Create Sales Agreement Header,2017-12-07 11:33:15,2017-12-07 11:34:01,46.349s,PASSED
+callTestCase,Firefox 43.0,Add Line to Agreement,2017-12-07 11:34:01,2017-12-07 11:34:16,15.111s,PASSED
+callTestCase,Firefox 43.0,Deliver the Unit\r\n,2017-12-07 11:34:16,2017-12-07 11:35:07,50.898s,PASSED
+callTestCase,Firefox 43.0,Invoice th Agreement with Split Payment: 2 CC's and remaining Cash,2017-12-07 11:35:07,2017-12-07 11:35:33,26.137s,INCOMPLETE

@@ -4,7 +4,7 @@
    <name>CC_EquipmentTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-22T13:31:25</lastRun>
+   <lastRun>2017-12-07T11:31:11</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>4164bfe6-1c11-4a95-82b6-8814fedcaa36</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value>1-1</value>
          </iterationEntity>
-         <testDataId>Data Files/EquipmentData/TC001_EquipmentMultiCC</testDataId>
+         <testDataId>Data Files/PROXIMA/EquipmentData/TC001_EquipmentMultiCC</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>377d93c5-6ec9-492c-a101-eca1c5ea41ed</testDataLinkId>
@@ -74,7 +74,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/EquipmentData/TC002_EquipmentSplit</testDataId>
+         <testDataId>Data Files/PROXIMA/EquipmentData/TC002_EquipmentSplit</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>e38819e1-f08e-4b78-939d-bf6776580f4c</testDataLinkId>

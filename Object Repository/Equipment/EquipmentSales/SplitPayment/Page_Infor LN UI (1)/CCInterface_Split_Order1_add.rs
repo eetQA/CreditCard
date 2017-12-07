@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'xiext8105m000-17-grid-1-xiext805.oamt.rq-28-0-widget']</value>
+         <value>//*[@id = 'xiext8105m000-17-grid-1-xiext805.oamt.rq-26-0-widget']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>xiext8105m000-17-grid-1-xiext805.oamt.rq-28-0-widget</value>
+      <value>xiext8105m000-17-grid-1-xiext805.oamt.rq-26-0-widget</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

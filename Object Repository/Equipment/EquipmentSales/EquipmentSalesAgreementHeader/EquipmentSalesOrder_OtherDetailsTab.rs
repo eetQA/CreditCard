@@ -4,10 +4,16 @@
    <name>EquipmentSalesOrder_OtherDetailsTab</name>
    <tag></tag>
    <elementGuidId>06b5431a-d8c0-40d7-9c18-144c916a7a92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'tdext8170s000-1-pages-bar-page-2-label'][count(. | //*[contains(.,'Other details')]) = count(//*[contains(.,'Other details')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

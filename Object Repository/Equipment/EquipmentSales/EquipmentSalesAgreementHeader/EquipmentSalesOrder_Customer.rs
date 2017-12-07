@@ -4,6 +4,16 @@
    <name>EquipmentSalesOrder_Customer</name>
    <tag></tag>
    <elementGuidId>c00df423-c468-46bf-9cdc-63368282dc5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[count(. | //*[@id = 'tdext8170s000-1-tdext870.stbp-1-lookup-widget']) = count(//*[@id = 'tdext8170s000-1-tdext870.stbp-1-lookup-widget'])][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

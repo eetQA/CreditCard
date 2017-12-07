@@ -109,6 +109,9 @@ WebUI.delay(2)
 WebUI.sendKeys(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'), 
     CVV1)
 
+not_run: WebUI.scrollToElement(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'), 
+    10)
+
 WebUI.click(findTestObject('Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'))
 
 WebUI.delay(2)

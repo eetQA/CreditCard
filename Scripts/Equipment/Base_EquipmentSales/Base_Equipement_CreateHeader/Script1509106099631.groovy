@@ -36,7 +36,11 @@ WebUI.setText(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHe
 
 WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax'))
 
-WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab'))
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EPO_Header_othertab'))
 
 WebUI.delay(3)
 

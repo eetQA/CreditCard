@@ -9,50 +9,51 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>M00000010 1032 PUBL Visa+Card 4012000033330026 456 Visa 4111123400062020 456</data>
+   <data>M00000010 1032 GLOBAL DEBIT+MASTERCARD 5100270000000007 456 MasterCard 5100040000000095 456</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>BP</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>Model</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>Gateway</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>CardType1</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>Card Number1</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>CVV1</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>6</columnIndex>
       <name>CardType2</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>7</columnIndex>
       <name>CardNumber2</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>8</columnIndex>
       <name>CVV2</name>
-      <size>1</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>

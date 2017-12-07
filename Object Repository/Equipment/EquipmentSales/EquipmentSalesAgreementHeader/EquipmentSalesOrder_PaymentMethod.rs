@@ -4,10 +4,16 @@
    <name>EquipmentSalesOrder_PaymentMethod</name>
    <tag></tag>
    <elementGuidId>2256d34a-224b-48ce-8a9f-7654371e0ff1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'tdext8170s000-1-tdext870.pmod-95-control-trigger-button']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tdext8170s000-1-tdext870.pmod-94-control-trigger-button&quot;)</value>
+      <value>id(&quot;tdext8170s000-1-tdext870.pmod-95-control-trigger-button&quot;)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>tdext8170s000-1-tdext870.pmod-94-control-trigger-button</value>
+      <value>tdext8170s000-1-tdext870.pmod-95-control-trigger-button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

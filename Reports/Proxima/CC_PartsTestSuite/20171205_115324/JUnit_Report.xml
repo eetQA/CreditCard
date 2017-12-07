@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_PartsTestSuite" time="504" tests="0" failures="1" errors="0">
+   <testsuite name="CC_PartsTestSuite" tests="0" failures="1" errors="0" time="504" timestamp="2017-12-05 11:53:31" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Proxima/CC_PartsTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455188694.png, C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455223091.png, C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455257266.png, C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455291552.png, C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455516054.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="d35aa254-9ea2-4a5b-8719-1deae5a311ed"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 1" classname="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)"/>
+         <system-out><![CDATA[2017-12-05 11:53:32 - [TEST_CASE][FAILED] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 1: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+
+2017-12-05 11:53:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' successfully
+
+2017-12-05 11:53:32 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC
+
+2017-12-05 11:53:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 11:53:33 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-05 11:53:33 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 11:53:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 11:53:41 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-05 11:53:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-05 11:53:41 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 11:53:41 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 11:53:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 11:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 11:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 11:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 11:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 11:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 11:53:50 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 11:53:51 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 11:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 11:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 11:53:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 11:53:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-12-05 11:53:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-12-05 11:53:54 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-12-05 11:53:56 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-12-05 11:53:56 - [TEST_STEP][PASSED] - setText: Text 'M00000182' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-12-05 11:53:57 - [MESSAGE][PASSED] - Text 'M00000182' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-12-05 11:53:57 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 11:53:57 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 11:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-12-05 11:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-12-05 11:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:53:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:53:57 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-12-05 11:54:06 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-12-05 11:54:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:54:11 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'TP0001351'
+
+2017-12-05 11:54:11 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'TP0001351'
+
+2017-12-05 11:54:11 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-12-05 11:54:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-12-05 11:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-12-05 11:54:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:54:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-12-05 11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-12-05 11:54:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-12-05 11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-12-05 11:54:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:54:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' successfully
+
+2017-12-05 11:54:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-12-05 11:54:14 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1
+
+2017-12-05 11:54:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-12-05 11:54:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-12-05 11:54:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:54:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:54:21 - [TEST_STEP][PASSED] - setText: Text 'KP3' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-12-05 11:54:22 - [MESSAGE][PASSED] - Text 'KP3' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-12-05 11:54:22 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-12-05 11:54:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-12-05 11:54:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-12-05 11:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-12-05 11:54:31 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-12-05 11:54:32 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-12-05 11:54:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:54:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:54:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-05 11:54:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-12-05 11:54:42 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-12-05 11:54:42 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-12-05 11:54:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-12-05 11:54:42 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed)
+
+2017-12-05 11:54:42 - [TEST_CASE][FAILED] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment: Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment FAILED because (of) Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+
+2017-12-05 11:54:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-12-05 11:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-12-05 11:54:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:54:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:54:46 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-12-05 11:54:47 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-12-05 11:54:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-12-05 11:54:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-12-05 11:54:47 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:54:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:54:52 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 11:54:52 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 11:54:52 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true): Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 11:54:52 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is visible
+
+2017-12-05 11:54:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 11:54:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 11:54:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:54:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:54:55 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-12-05 11:54:55 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-12-05 11:54:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-12-05 11:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-12-05 11:54:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:54:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:54:59 - [TEST_STEP][PASSED] - setText: Text 'PUBL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-12-05 11:54:59 - [MESSAGE][PASSED] - Text 'PUBL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-12-05 11:54:59 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-12-05 11:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-12-05 11:54:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:01 - [TEST_STEP][PASSED] - setText: Text 'Visa Card' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-12-05 11:55:02 - [MESSAGE][PASSED] - Text 'Visa Card' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-12-05 11:55:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:55:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:55:05 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo' is double clicked on
+
+2017-12-05 11:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo' is double clicked on
+
+2017-12-05 11:55:05 - [TEST_STEP][PASSED] - setText: Text '4012000033330026' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'
+
+2017-12-05 11:55:05 - [MESSAGE][PASSED] - Text '4012000033330026' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'
+
+2017-12-05 11:55:05 - [TEST_STEP][PASSED] - setText: Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'
+
+2017-12-05 11:55:05 - [MESSAGE][PASSED] - Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'
+
+2017-12-05 11:55:05 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'
+
+2017-12-05 11:55:06 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'
+
+2017-12-05 11:55:06 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'
+
+2017-12-05 11:55:06 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'
+
+2017-12-05 11:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-12-05 11:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-12-05 11:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-12-05 11:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-12-05 11:55:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-12-05 11:55:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-12-05 11:55:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:55:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:55:11 - [TEST_STEP][PASSED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal)): Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '20.66'
+
+2017-12-05 11:55:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '20.66'
+
+2017-12-05 11:55:11 - [TEST_STEP][PASSED] - Statement - G_SplitOrderAmt2 = G_OrderAmt - 2: null
+
+2017-12-05 11:55:11 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt1): null
+
+2017-12-05 11:55:11 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt2): null
+
+2017-12-05 11:55:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:14 - [TEST_STEP][PASSED] - comment: *********Line 1: Credit Card Started***********************
+
+2017-12-05 11:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add' is clicked on
+
+2017-12-05 11:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add' is clicked on
+
+2017-12-05 11:55:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:18 - [TEST_STEP][PASSED] - sendKeys: Keys '4012000033330026' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'
+
+2017-12-05 11:55:18 - [MESSAGE][PASSED] - Keys '4012000033330026' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'
+
+2017-12-05 11:55:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add' is clicked on
+
+2017-12-05 11:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add' is clicked on
+
+2017-12-05 11:55:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:21 - [TEST_STEP][PASSED] - sendKeys: Keys '456' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'
+
+2017-12-05 11:55:21 - [MESSAGE][PASSED] - Keys '456' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'
+
+2017-12-05 11:55:21 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-05 11:55:21 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-05 11:55:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add' is clicked on
+
+2017-12-05 11:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add' is clicked on
+
+2017-12-05 11:55:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:23 - [TEST_STEP][PASSED] - sendKeys: Keys '1.00' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'
+
+2017-12-05 11:55:23 - [MESSAGE][PASSED] - Keys '1.00' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'
+
+2017-12-05 11:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:23 - [TEST_STEP][PASSED] - comment: *********Line 2: Credit Card Started***********************
+
+2017-12-05 11:55:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add' is clicked on
+
+2017-12-05 11:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add' is clicked on
+
+2017-12-05 11:55:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:28 - [TEST_STEP][PASSED] - setText: Text '4111123400062020' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'
+
+2017-12-05 11:55:28 - [MESSAGE][PASSED] - Text '4111123400062020' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'
+
+2017-12-05 11:55:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add' is clicked on
+
+2017-12-05 11:55:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add' is clicked on
+
+2017-12-05 11:55:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:32 - [TEST_STEP][PASSED] - setText: Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'
+
+2017-12-05 11:55:33 - [MESSAGE][PASSED] - Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'
+
+2017-12-05 11:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2' is clicked on
+
+2017-12-05 11:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2' is clicked on
+
+2017-12-05 11:55:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2' is clicked on
+
+2017-12-05 11:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2' is clicked on
+
+2017-12-05 11:55:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:35 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'
+
+2017-12-05 11:55:35 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'
+
+2017-12-05 11:55:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2' is clicked on
+
+2017-12-05 11:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2' is clicked on
+
+2017-12-05 11:55:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:38 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'
+
+2017-12-05 11:55:38 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'
+
+2017-12-05 11:55:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2' is clicked on
+
+2017-12-05 11:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2' is clicked on
+
+2017-12-05 11:55:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:40 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'
+
+2017-12-05 11:55:40 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'
+
+2017-12-05 11:55:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add' is clicked on
+
+2017-12-05 11:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add' is clicked on
+
+2017-12-05 11:55:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:42 - [TEST_STEP][PASSED] - setText: Text '1.00' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'
+
+2017-12-05 11:55:43 - [MESSAGE][PASSED] - Text '1.00' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'
+
+2017-12-05 11:55:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:43 - [TEST_STEP][PASSED] - comment: *********Line 3: Cash Started***********************
+
+2017-12-05 11:55:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 11:55:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment' is clicked on
+
+2017-12-05 11:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment' is clicked on
+
+2017-12-05 11:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption' is clicked on
+
+2017-12-05 11:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption' is clicked on
+
+2017-12-05 11:55:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt' is clicked on
+
+2017-12-05 11:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt' is clicked on
+
+2017-12-05 11:55:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:55:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:55:48 - [TEST_STEP][PASSED] - setText: Text '18.66' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'
+
+2017-12-05 11:55:48 - [MESSAGE][PASSED] - Text '18.66' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'
+
+2017-12-05 11:55:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 11:55:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action' is clicked on
+
+2017-12-05 11:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action' is clicked on
+
+2017-12-05 11:55:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax' is clicked on
+
+2017-12-05 11:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax' is clicked on
+
+2017-12-05 11:55:49 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:55:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup' is clicked on
+
+2017-12-05 11:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup' is clicked on
+
+2017-12-05 11:55:54 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+
+2017-12-05 11:56:29 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455188694.png]]
+
+2017-12-05 11:56:29 - [TEST_STEP][FAILED] - Statement - G_SplitInvoiceAmt1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1)): Unable to get text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+
+2017-12-05 11:57:03 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455223091.png]]
+
+2017-12-05 11:57:03 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-2']' not found)
+
+2017-12-05 11:57:37 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-2']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455257266.png]]
+
+2017-12-05 11:57:37 - [TEST_STEP][FAILED] - Statement - G_SplitInvoiceAmt2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2)): Unable to get text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-2']' not found)
+
+2017-12-05 11:58:11 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt2' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-2']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455291552.png]]
+
+2017-12-05 11:58:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:58:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:58:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_SaveNclose' is clicked on
+
+2017-12-05 11:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_SaveNclose' is clicked on
+
+2017-12-05 11:58:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_Process' is clicked on
+
+2017-12-05 11:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_Process' is clicked on
+
+2017-12-05 11:58:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit' is not present after 20 second(s)
+
+2017-12-05 11:58:39 - [MESSAGE][WARNING] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit' is not present after 20 second(s)
+
+2017-12-05 11:58:39 - [TEST_STEP][PASSED] - setText: Text 'D' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit'
+
+2017-12-05 11:58:41 - [MESSAGE][PASSED] - Text 'D' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptDeviceSplit'
+
+2017-12-05 11:58:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinueSplit' is clicked on
+
+2017-12-05 11:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_InvoiceRptContinueSplit' is clicked on
+
+2017-12-05 11:58:41 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-05 11:58:51 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-05 11:58:51 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' (Root cause: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment' failed)]]></system-out>
+         <system-err><![CDATA[2017-12-05 11:53:32 - [TEST_CASE][FAILED] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 1: Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard FAILED because (of) Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 2" classname="Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-05 11:58:51 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 2: null
+
+2017-12-05 11:58:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' successfully
+
+2017-12-05 11:58:51 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC: Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC
+
+2017-12-05 11:58:51 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 11:58:51 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-05 11:58:51 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 11:58:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2017-12-05 11:59:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-05 11:59:05 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-05 11:59:05 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-05 11:59:05 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-05 11:59:05 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-05 11:59:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 11:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-05 11:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 11:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-05 11:59:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 11:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-05 11:59:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 11:59:15 - [MESSAGE][PASSED] - Keys 'tdsls4500m002' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-05 11:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 11:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-05 11:59:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-05 11:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-12-05 11:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_NewButton' is clicked on
+
+2017-12-05 11:59:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-12-05 11:59:21 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer' is present
+
+2017-12-05 11:59:21 - [TEST_STEP][PASSED] - setText: Text 'M00000182' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-12-05 11:59:21 - [MESSAGE][PASSED] - Text 'M00000182' is set on object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/Partsalesorder_customer'
+
+2017-12-05 11:59:21 - [TEST_STEP][NOT_RUN] - sendKeys: NOT_RUN: sendKeys
+
+2017-12-05 11:59:21 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys
+
+2017-12-05 11:59:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-12-05 11:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Tax' is clicked on
+
+2017-12-05 11:59:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:59:21 - [TEST_STEP][PASSED] - dragAndDropByOffset: Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-12-05 11:59:31 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_scroller' by offset distance x = 0 and y = -100 successfully
+
+2017-12-05 11:59:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 11:59:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 11:59:36 - [TEST_STEP][PASSED] - Statement - G_Part_PSO = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo), "value"): Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'TP0001363'
+
+2017-12-05 11:59:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_OrderNo' is: 'TP0001363'
+
+2017-12-05 11:59:36 - [TEST_STEP][PASSED] - Statement - println("sale order number" + G_Part_PSO): null
+
+2017-12-05 11:59:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-12-05 11:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_OtherDetailsTab' is clicked on
+
+2017-12-05 11:59:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 11:59:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 11:59:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-12-05 11:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ModeOfPayment' is clicked on
+
+2017-12-05 11:59:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-12-05 11:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_CreditCardOption' is clicked on
+
+2017-12-05 11:59:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 11:59:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_CreateHeader_WithCC' successfully
+
+2017-12-05 11:59:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-12-05 11:59:40 - [TEST_CASE][PASSED] - Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1: Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1
+
+2017-12-05 11:59:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-12-05 11:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_newpart' is clicked on
+
+2017-12-05 11:59:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 11:59:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 11:59:49 - [TEST_STEP][PASSED] - setText: Text 'KP3' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-12-05 11:59:49 - [MESSAGE][PASSED] - Text 'KP3' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_PartNumber'
+
+2017-12-05 11:59:49 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-12-05 11:59:54 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' successfully
+
+2017-12-05 11:59:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-12-05 11:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1_Quantity' is clicked on
+
+2017-12-05 11:59:58 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-12-05 12:00:00 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrderLine1/PartSaleOrderLine1-Qty1'
+
+2017-12-05 12:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 12:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesorder_Save' is clicked on
+
+2017-12-05 12:00:00 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-12-05 12:00:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice)): NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_InvoiceAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/firmPrice))
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty)): NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - Qty1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(tdtre4101m002/Line1/input_tdtre4101s002-Qty))
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - Statement - G_OrderLineAmt = G_FirmPrice * Qty1: NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - G_OrderLineAmt = G_FirmPrice * Qty1
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice): NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_FirmPrice" + G_FirmPrice)
+
+2017-12-05 12:00:10 - [TEST_STEP][NOT_RUN] - Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt): NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-12-05 12:00:10 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - println("GlobalVariable.G_OrderLineAmt" + G_OrderLineAmt)
+
+2017-12-05 12:00:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Parts/BaseTestCases/Base_Part_AddPartLinePos1' successfully
+
+2017-12-05 12:00:10 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-05 12:00:10 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/BaseTestCases/Base_Part_PickPacknInvoiceWithCCSplitPayment: null
+
+2017-12-05 12:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-12-05 12:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_Action' is clicked on
+
+2017-12-05 12:00:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 12:00:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 12:00:13 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-12-05 12:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clickable
+
+2017-12-05 12:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-12-05 12:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_PickPacknInvoice' is clicked on
+
+2017-12-05 12:00:14 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 12:00:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 12:00:19 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2017-12-05 12:00:19 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2017-12-05 12:00:19 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption)) == true): Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 12:00:19 - [MESSAGE][PASSED] - Object 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is visible
+
+2017-12-05 12:00:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 12:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_LocationOption' is clicked on
+
+2017-12-05 12:00:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 12:00:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 12:00:22 - [TEST_STEP][NOT_RUN] - Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true): NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-12-05 12:00:22 - [MESSAGE][NOT_RUN] - NOT_RUN: Statement - If (com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSaleOrder_PackingSlipClose)) == true)
+
+2017-12-05 12:00:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-12-05 12:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartsSaleOrderHeader/PartSalesOrder_ContinueInvoiceOption' is clicked on
+
+2017-12-05 12:00:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 12:00:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 12:00:26 - [TEST_STEP][PASSED] - setText: Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-12-05 12:00:27 - [MESSAGE][PASSED] - Text 'GLOBAL' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_PaymentGateway'
+
+2017-12-05 12:00:27 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-12-05 12:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType' is double clicked on
+
+2017-12-05 12:00:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:29 - [TEST_STEP][PASSED] - setText: Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-12-05 12:00:29 - [MESSAGE][PASSED] - Text 'DEBIT MASTERCARD' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardType'
+
+2017-12-05 12:00:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2017-12-05 12:00:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2017-12-05 12:00:32 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo' is double clicked on
+
+2017-12-05 12:00:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo' is double clicked on
+
+2017-12-05 12:00:32 - [TEST_STEP][PASSED] - setText: Text '5100270000000007' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'
+
+2017-12-05 12:00:33 - [MESSAGE][PASSED] - Text '5100270000000007' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CardNo'
+
+2017-12-05 12:00:33 - [TEST_STEP][PASSED] - setText: Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'
+
+2017-12-05 12:00:33 - [MESSAGE][PASSED] - Text '456' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_CVV'
+
+2017-12-05 12:00:33 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'
+
+2017-12-05 12:00:33 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_MM'
+
+2017-12-05 12:00:33 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'
+
+2017-12-05 12:00:33 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_YY'
+
+2017-12-05 12:00:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-12-05 12:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPayment' is clicked on
+
+2017-12-05 12:00:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-12-05 12:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitTenderYes' is clicked on
+
+2017-12-05 12:00:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-12-05 12:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_SplitPaymentPlus' is clicked on
+
+2017-12-05 12:00:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 12:00:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 12:00:39 - [TEST_STEP][PASSED] - Statement - G_OrderAmt = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal)): Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '20.66'
+
+2017-12-05 12:00:39 - [MESSAGE][PASSED] - Text of object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/CCInterface_OrderTotal' is: '20.66'
+
+2017-12-05 12:00:39 - [TEST_STEP][PASSED] - Statement - G_SplitOrderAmt2 = G_OrderAmt - 2: null
+
+2017-12-05 12:00:39 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt1): null
+
+2017-12-05 12:00:39 - [TEST_STEP][PASSED] - Statement - println(G_SplitOrderAmt2): null
+
+2017-12-05 12:00:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:41 - [TEST_STEP][PASSED] - comment: *********Line 1: Credit Card Started***********************
+
+2017-12-05 12:00:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:00:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add' is clicked on
+
+2017-12-05 12:00:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add' is clicked on
+
+2017-12-05 12:00:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:45 - [TEST_STEP][PASSED] - sendKeys: Keys '5100270000000007' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'
+
+2017-12-05 12:00:46 - [MESSAGE][PASSED] - Keys '5100270000000007' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CC_Interface_Split_CC1_add'
+
+2017-12-05 12:00:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add' is clicked on
+
+2017-12-05 12:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add' is clicked on
+
+2017-12-05 12:00:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:48 - [TEST_STEP][PASSED] - sendKeys: Keys '456' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'
+
+2017-12-05 12:00:48 - [MESSAGE][PASSED] - Keys '456' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV1_add'
+
+2017-12-05 12:00:48 - [TEST_STEP][NOT_RUN] - scrollToElement: NOT_RUN: scrollToElement
+
+2017-12-05 12:00:48 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToElement
+
+2017-12-05 12:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add' is clicked on
+
+2017-12-05 12:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add' is clicked on
+
+2017-12-05 12:00:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:50 - [TEST_STEP][PASSED] - sendKeys: Keys '1.00' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'
+
+2017-12-05 12:00:50 - [MESSAGE][PASSED] - Keys '1.00' sent to object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order1_add'
+
+2017-12-05 12:00:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:00:51 - [TEST_STEP][PASSED] - comment: *********Line 2: Credit Card Started***********************
+
+2017-12-05 12:00:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:00:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add' is clicked on
+
+2017-12-05 12:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add' is clicked on
+
+2017-12-05 12:00:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:55 - [TEST_STEP][PASSED] - setText: Text '5021230000000007' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'
+
+2017-12-05 12:00:56 - [MESSAGE][PASSED] - Text '5021230000000007' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CC2add'
+
+2017-12-05 12:00:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:00:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:00:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add' is clicked on
+
+2017-12-05 12:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add' is clicked on
+
+2017-12-05 12:00:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:00 - [TEST_STEP][PASSED] - setText: Text '214' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'
+
+2017-12-05 12:01:00 - [MESSAGE][PASSED] - Text '214' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CVV2add'
+
+2017-12-05 12:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2' is clicked on
+
+2017-12-05 12:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_CardType2' is clicked on
+
+2017-12-05 12:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2' is clicked on
+
+2017-12-05 12:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2' is clicked on
+
+2017-12-05 12:01:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:03 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'
+
+2017-12-05 12:01:03 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Name2'
+
+2017-12-05 12:01:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2' is clicked on
+
+2017-12-05 12:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2' is clicked on
+
+2017-12-05 12:01:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:05 - [TEST_STEP][PASSED] - setText: Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'
+
+2017-12-05 12:01:05 - [MESSAGE][PASSED] - Text '09' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Month2'
+
+2017-12-05 12:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2' is clicked on
+
+2017-12-05 12:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2' is clicked on
+
+2017-12-05 12:01:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:07 - [TEST_STEP][PASSED] - setText: Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'
+
+2017-12-05 12:01:08 - [MESSAGE][PASSED] - Text '99' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Year2'
+
+2017-12-05 12:01:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add' is clicked on
+
+2017-12-05 12:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add' is clicked on
+
+2017-12-05 12:01:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:10 - [TEST_STEP][PASSED] - setText: Text '1.00' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'
+
+2017-12-05 12:01:10 - [MESSAGE][PASSED] - Text '1.00' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Order2add'
+
+2017-12-05 12:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:01:10 - [TEST_STEP][PASSED] - comment: *********Line 3: Cash Started***********************
+
+2017-12-05 12:01:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_New' is clicked on
+
+2017-12-05 12:01:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment' is clicked on
+
+2017-12-05 12:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_ModeOfPayment' is clicked on
+
+2017-12-05 12:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption' is clicked on
+
+2017-12-05 12:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_Cashoption' is clicked on
+
+2017-12-05 12:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt' is clicked on
+
+2017-12-05 12:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt' is clicked on
+
+2017-12-05 12:01:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-05 12:01:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-05 12:01:15 - [TEST_STEP][PASSED] - setText: Text '18.66' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'
+
+2017-12-05 12:01:16 - [MESSAGE][PASSED] - Text '18.66' is set on object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Line3_Cash/Split_3_OrderAmt'
+
+2017-12-05 12:01:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/CCInterface_Split_Save' is clicked on
+
+2017-12-05 12:01:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action' is clicked on
+
+2017-12-05 12:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Spilt_Action' is clicked on
+
+2017-12-05 12:01:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax' is clicked on
+
+2017-12-05 12:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Split_ApplyTax' is clicked on
+
+2017-12-05 12:01:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-12-05 12:01:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-12-05 12:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup' is clicked on
+
+2017-12-05 12:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_Scrollup' is clicked on
+
+2017-12-05 12:01:22 - [TEST_STEP][FAILED] - scrollToElement: Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+
+2017-12-05 12:01:56 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_PartsTestSuite\\20171205_115324\\1512455516054.png]]
+
+2017-12-05 12:01:56 - [TEST_STEP][INCOMPLETE] - Statement - G_SplitInvoiceAmt1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1)): Finding web element with id: 'Object Repository/Parts/PartsSalesOrder/PartSalesOrder_CCInterface/SplitPayment/Page_Infor LN UI (1)/Split_InvoiceAmt1' located by 'By.xpath: //*[@id = 'xiext8105m000-6-grid-1-xiext805.iamt.rq-30-0']' in '30' second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-05 11:58:51 - [TEST_CASE][INCOMPLETE] - Test Cases/Parts/CreditCardRegression/TC002_Parts_CreditCard - Iteration 2: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-05 11:53:31 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-05 11:53:31 - [TEST_SUITE][INCOMPLETE] - CC_PartsTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

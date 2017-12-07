@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CC_EquipmentTestSuite" time="76" tests="0" failures="0" errors="0">
+   <testsuite name="CC_EquipmentTestSuite" tests="0" failures="0" errors="0" time="76" timestamp="2017-12-06 12:35:35" hostname="rgajbhiye - EET-RG.e-emphasys.com" id="Test Suites/Proxima/CC_EquipmentTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_EquipmentTestSuite\\20171206_123528"/>
+         <property name="logFiles" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_EquipmentTestSuite\\20171206_123528\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_EquipmentTestSuite\\20171206_123528\\1512544012092.png"/>
+         <property name="hostName" value="rgajbhiye - EET-RG.e-emphasys.com"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.0.0.1"/>
+         <property name="browser" value="Firefox 43.0"/>
+         <property name="hostAddress" value="192.168.25.107"/>
+         <property name="sessionId" value="6a5ccc7e-a529-4f82-b8d4-a4fc5311537e"/>
+         <property name="seleniumVersion" value="2.53.0"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1" classname="Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway" status="INCOMPLETE">
+         <system-out><![CDATA[2017-12-06 12:35:36 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1: null
+
+2017-12-06 12:35:38 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2017-12-06 12:35:38 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2017-12-06 12:35:38 - [TEST_STEP][INCOMPLETE] - callTestCase: null
+
+2017-12-06 12:35:38 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/Base_EquipmentSales/Base_Equipement_CreateHeader: null
+
+2017-12-06 12:35:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 12:35:39 - [TEST_CASE][PASSED] - Test Cases/Common/Base_Common_OpenSession: Test Cases/Common/Base_Common_OpenSession
+
+2017-12-06 12:35:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-06 12:35:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://rgajbhiye:Robin$123@proxima-ln4.e-emphasys.com:8441/webui/servlet/login'
+
+2017-12-06 12:35:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2017-12-06 12:35:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2017-12-06 12:35:56 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2017-12-06 12:35:56 - [MESSAGE][PASSED] - Current window maximized
+
+2017-12-06 12:35:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_more' is clicked on
+
+2017-12-06 12:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 12:35:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_Option' is clicked on
+
+2017-12-06 12:35:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 12:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_RunProgram_' is clicked on
+
+2017-12-06 12:35:59 - [TEST_STEP][PASSED] - sendKeys: Keys 'tdext8570m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 12:35:59 - [MESSAGE][PASSED] - Keys 'tdext8570m000' sent to object: 'Object Repository/Common/HomePage/HomePage_Session_ID'
+
+2017-12-06 12:35:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 12:36:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/HomePage/HomePage_OkButton' is clicked on
+
+2017-12-06 12:36:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Common/Base_Common_OpenSession' successfully
+
+2017-12-06 12:36:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is present
+
+2017-12-06 12:36:06 - [MESSAGE][PASSED] - Object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is present
+
+2017-12-06 12:36:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is clicked on
+
+2017-12-06 12:36:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_MMT_New' is clicked on
+
+2017-12-06 12:36:08 - [TEST_STEP][PASSED] - setText: Text 'M00000010' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'
+
+2017-12-06 12:36:11 - [MESSAGE][PASSED] - Text 'M00000010' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_Customer'
+
+2017-12-06 12:36:11 - [TEST_STEP][PASSED] - doubleClick: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate' is double clicked on
+
+2017-12-06 12:36:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate' is double clicked on
+
+2017-12-06 12:36:12 - [TEST_STEP][PASSED] - setText: Text '+10' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'
+
+2017-12-06 12:36:12 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_DeliveryDate'
+
+2017-12-06 12:36:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax' is clicked on
+
+2017-12-06 12:36:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/ESO_Header_Tax' is clicked on
+
+2017-12-06 12:36:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save' is clicked on
+
+2017-12-06 12:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSaleOrder_Save' is clicked on
+
+2017-12-06 12:36:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2017-12-06 12:36:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2017-12-06 12:36:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' located by 'By.xpath: //*[@id = 'tdext8170s000-1-pages-bar-page-2-label'][count(. | //*[contains(.,'Other details')]) = count(//*[contains(.,'Other details')])]' not found)
+
+2017-12-06 12:36:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Equipment/EquipmentSales/EquipmentSalesAgreementHeader/EquipmentSalesOrder_OtherDetailsTab' located by 'By.xpath: //*[@id = 'tdext8170s000-1-pages-bar-page-2-label'][count(. | //*[contains(.,'Other details')]) = count(//*[contains(.,'Other details')])]' not found)
+[[ATTACHMENT|C:\\Users\\rgajbhiye\\git\\CreditCard\\Reports\\Proxima\\CC_EquipmentTestSuite\\20171206_123528\\1512544012092.png]]
+
+2017-12-06 12:36:52 - [TEST_STEP][INCOMPLETE] - delay: Delaying browser in 3 second(s)]]></system-out>
+         <system-err><![CDATA[2017-12-06 12:35:36 - [TEST_CASE][INCOMPLETE] - Test Cases/Equipment/CreditCardRegression/TC001_EquipmentSalesAgreement_DiffGateway - Iteration 1: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-12-06 12:35:35 - [TEST_SUITE][INCOMPLETE] - CC_EquipmentTestSuite: null]]></system-out>
+      <system-err><![CDATA[2017-12-06 12:35:35 - [TEST_SUITE][INCOMPLETE] - CC_EquipmentTestSuite: null]]></system-err>
+   </testsuite>
+</testsuites>

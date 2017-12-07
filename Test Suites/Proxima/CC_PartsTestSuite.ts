@@ -4,7 +4,7 @@
    <name>CC_PartsTestSuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2017-11-22T14:10:09</lastRun>
+   <lastRun>2017-12-05T16:48:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>63b80575-d5bf-46c9-b102-9eaff1de48ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Parts/CreditCardRegression/TC001_Parts_CreditCard</testCaseId>
       <testDataLink>
          <combinationType>MANY</combinationType>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value>3-3</value>
          </iterationEntity>
-         <testDataId>Data Files/PartsData/PartCCData</testDataId>
+         <testDataId>Data Files/PROXIMA/PartsData/PartCCData</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>dd529ca9-804e-496b-b345-a6d1440a552d</testDataLinkId>
@@ -74,7 +74,7 @@
             <iterationType>ALL</iterationType>
             <value>2-2</value>
          </iterationEntity>
-         <testDataId>Data Files/PartsData/TC002_PartsSplit</testDataId>
+         <testDataId>Data Files/PROXIMA/PartsData/TC002_PartsSplit</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>a60336b6-83b0-4d12-996a-6841ee936f0b</testDataLinkId>

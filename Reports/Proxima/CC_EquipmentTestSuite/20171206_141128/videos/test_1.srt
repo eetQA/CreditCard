@@ -1,0 +1,16 @@
+1
+00:00:01,332 --> 00:01:45,422
+1. Create Unit through Purchase Order\r\n
+
+2
+00:01:45,430 --> 00:03:06,464
+2. Create Sales Agreement Header
+
+3
+00:03:06,468 --> 00:03:27,541
+3. Add Line to Agreement
+
+4
+00:03:27,599 --> 00:06:31,845
+4. Deliver the Unit\r\n
+

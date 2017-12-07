@@ -1,0 +1,12 @@
+1
+00:00:01,025 --> 00:00:47,755
+1. Create header with Credit Card\r\n
+
+2
+00:00:47,761 --> 00:02:18,939
+2. Add a part line\r\n
+
+3
+00:02:18,941 --> 00:05:07,807
+3. Ship line, Invoice the Order using Credit card\r\n
+
